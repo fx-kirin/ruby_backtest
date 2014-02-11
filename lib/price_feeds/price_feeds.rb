@@ -1,4 +1,5 @@
 require "csv"
+require "time"
 require_relative "price_pair"
 
 class PriceFeeds
@@ -52,6 +53,13 @@ class PriceFeeds
   private
   def read_csv_data(csv)
     pair = PricePair.new
-    
+    CSV.open(csv){|row|
+      pair.time << Time.parse("%d %d"%[row[0], row[1]])
+      pair.open << row[2]
+      pair.close << row[3]
+      pair.high << row[4]
+      pair.low << row[5]
+      pair.volume << row[6]
+    }
   end
 end
