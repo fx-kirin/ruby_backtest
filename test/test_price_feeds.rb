@@ -4,7 +4,7 @@ require "price_feeds/price_feeds"
 
 # PriceFeeds class has these methods, symbol, close, open, high and low to get market data.
 # symbol is used to choose data.
-class TestPriceFeeds < Test::Unit::TestCase
+class TestPriceFeeds < TestMaster
   def setup
     @feeds = PriceFeeds.new
   end
@@ -42,6 +42,7 @@ class TestPriceFeeds < Test::Unit::TestCase
   end
   
   def test_go_forward
+    base_date = Time.parse("2007.01.02 07:00")
     date = Time.parse("2007.01.02 07:03")
     
     @feeds.set_data(:USDJPY, File::dirname(__FILE__) + "/sample_data/USDJPY60.csv")
@@ -49,11 +50,16 @@ class TestPriceFeeds < Test::Unit::TestCase
     assert_raise(RuntimeError, "Must raise an error when call go_foward before set base_symbol"){
       @feeds.go_forward
     }
-    @feeds.set_base_symbol(:USDJPY)
+    @feeds.set_base_symbol(:USDJPY, base_date)
     3.times{
       @feeds.go_forward
     }
     assert_equal(@feeds.instance_eval{@bar[:USDJPY]}, 3, "Bar of base symbol is wrong. go_forward didn't work well.")
     assert_equal(@feeds.instance_eval{@bar[:EURJPY]}, 2, "Bar of other symbol is wrong. go_forward didn't work well.")
+    assert_raise(PriceFeeds::OutOfRangeException, "Nothing raised even read data more than scv file has."){
+      100000.times{
+        @feeds.go_forward
+      }
+    }
   end
 end

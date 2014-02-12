@@ -2,6 +2,7 @@ require "csv"
 require "time"
 
 class PriceFeeds
+  class OutOfRangeException < RuntimeError; end
   PricePair = Struct.new(:time, :open, :close, :high, :low, :volume)
   
   # - date : Start time.
@@ -24,13 +25,18 @@ class PriceFeeds
   end
   
   # Backtest will proceed on base pair basis.
-  def set_base_symbol(symbol)
+  def set_base_symbol(symbol, date)
     @base_symbol = symbol
+    set_bar_from_date(symbol, date)
   end
   
   # Go forward to next bar.
   def go_forward
     raise "Must set base_symbol first before call go forward" unless @base_symbol
+    
+    if @bar[@base_symbol] + 1 >= @pair[@base_symbol].length
+      raise(OutOfRangeException, "Out of range.") 
+    end
     
     @bar[@base_symbol] += 1
     
@@ -107,7 +113,7 @@ class PriceFeeds
       return @bar[symbol]
     end
     
-    while(@pair[symbol][@bar[symbol] + 1].time <= date)
+    while(@bar[symbol] + 1 < @pair[symbol].length && @pair[symbol][@bar[symbol] + 1].time <= date)
       @bar[symbol] += 1
     end
     @bar[symbol]
