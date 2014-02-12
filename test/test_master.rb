@@ -1,5 +1,6 @@
 require 'test/unit'
-$: << "../lib"
+require "pry"
+$: << File::dirname(__FILE__) +"/../lib"
 
 class TestMaster < Test::Unit::TestCase
   
