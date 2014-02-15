@@ -47,7 +47,7 @@ class BacktestOrderList
       ques += "?,"
       case(mem)
       when :open_time, :close_time
-        arg << order.send(mem).strftime('%H:%M:%S.%6N') if order.send(mem) != nil && order.send(mem) != ""
+        arg << order.send(mem).strftime('%Y-%m-%d %H:%M:%S.%6N') if order.send(mem) != nil && order.send(mem) != ""
       else
         arg << order.send(mem).to_s
       end
@@ -72,7 +72,12 @@ class BacktestOrderList
     arg = []
     order.members.each{|mem|
       param += mem.to_s + "=?,"
-      arg << order.send(mem).to_s
+      case(mem)
+      when :open_time, :close_time
+        arg << order.send(mem).strftime('%Y-%m-%d %H:%M:%S.%6N') if order.send(mem) != nil && order.send(mem) != ""
+      else
+        arg << order.send(mem).to_s
+      end
     }
     param.slice!(param.length-1, 1)
     arg << order.order_number

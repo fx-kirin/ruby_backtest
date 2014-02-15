@@ -52,6 +52,42 @@ class Trader
     @feeds.set_base_symbol(symbol, base_date)
   end
   
+  def get_open_positions(magic_number=0)
+    @manager.get_open_positions(magic_number)
+  end
+  
+  def open_order(symbol, order_type, lots, take_profit, stop_loss, magic_number)
+    case order_type
+    when OrderLong
+      open_price = ask
+    when OrderShort
+      open_price = bid
+    end
+    open_time = @feeds.time(symbol, 0)
+    @manager.open_order(symbol, order_type, open_price, lots, take_profit, stop_loss, magic_number, open_time)
+  end
+  
+  def close_order(order)
+    case order.order_type
+    when OrderShort
+      close_price = ask
+    when OrderLong
+      close_price = bid
+    end
+    close_time = @feeds.time(order.symbol, 0)
+    @manager.close_order(order.order_number, close_price, close_time)
+  end
+  
+  def order_exists?(magic_number=0)
+    @manager.get_open_positions(magic_number).length > 0 ? true : false
+  end
+  
+  def get_order(magic_number)
+    pos = @manager.get_open_positions(magic_number)
+    raise "Position does not exist." if pos.length == 0
+    pos[0]
+  end
+  
   private
   def load(symbol)
     csv = "%s/../../data/%s.csv"%[File::dirname(__FILE__), symbol.to_s]
@@ -108,38 +144,6 @@ class Trader
   
   def base_symbol
     @base_symbol
-  end
-  
-  def open_order(symbol, order_type, lots, take_profit, stop_loss, magic_number)
-    case order_type
-    when OrderLong
-      open_price = ask
-    when OrderShort
-      open_price = bid
-    end
-    open_time = @feeds.time(symbol, 0)
-    @manager.open_order(symbol, order_type, open_price, lots, take_profit, stop_loss, magic_number, open_time)
-  end
-  
-  def close_order(order)
-    case order.order_type
-    when OrderShort
-      close_price = ask
-    when OrderLong
-      close_price = bid
-    end
-    close_time = @feeds.time(order.symbol, 0)
-    @manager.close_order(order.order_number, close_price, close_time)
-  end
-  
-  def order_exists?(magic_number=0)
-    @manager.get_open_positions(magic_number).length > 0 ? true : false
-  end
-  
-  def get_order(magic_number)
-    pos = @manager.get_open_positions(magic_number)
-    raise "Position does not exist." if pos.length == 0
-    pos[0]
   end
 end
 

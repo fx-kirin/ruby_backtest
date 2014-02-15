@@ -26,5 +26,12 @@ class TestTrader < TestMaster
       @trader.run
       @feeds.go_forward
     }
+    pos = @manager.get_all_positions
+    assert_equal(pos[0].order_type, 1, "OrderType is wrong.")
+    assert_equal(pos[0].open_price, 119.363, "OpenPrice is wrong.")
+    assert_equal(pos[0].close_price, 119.36, "ClosePrice is wrong.")
+    assert_equal(pos[1].order_type, 2, "OrderType is wrong.")
+    assert_equal(pos[1].open_price, 119.34, "OpenPrice is wrong.")
+    assert_equal(pos[1].close_price, 119.353, "ClosePrice is wrong.")
   end
 end

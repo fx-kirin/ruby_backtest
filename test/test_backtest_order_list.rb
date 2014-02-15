@@ -100,7 +100,7 @@ class TestBacktestOrderList < TestMaster
     order.open_price = 100.10
     order.stop_loss = 99.00
     order.take_profit = 101.90
-    order.open_time = Time.now
+    order.open_time = Time.parse("2007.01.02 07:00")
     order.magic_number = 1234
     order
   end
@@ -108,7 +108,7 @@ class TestBacktestOrderList < TestMaster
   def set_close_data(order)
     order.status = 2
     order.close_price = 100.00
-    order.close_time = Time.now
+    order.close_time = Time.parse("2007.01.02 07:00")
     order
   end
 end
