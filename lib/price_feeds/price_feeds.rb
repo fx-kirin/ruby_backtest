@@ -29,7 +29,11 @@ class PriceFeeds
     @base_symbol = symbol
     set_bar_from_date(symbol, date)
   end
-  
+
+  def get_base_symbol
+    @base_symbol
+  end  
+
   # Go forward to next bar.
   def go_forward
     raise "Must set base_symbol first before call go forward" unless @base_symbol
