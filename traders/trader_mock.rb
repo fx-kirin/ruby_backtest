@@ -4,7 +4,7 @@ class TraderMock < Trader
   end
   
   def run
-    case time(0).min % 60
+    case time(0).to_i % (60*60*24)
     when 0
       unless order_exists?(1234)
         open_order(base_symbol, OrderLong, 10, 0, 0, 1234)

@@ -10,7 +10,7 @@ ECHO = $(ECHO1:0=@echo)
 
 #### Start of system configuration section. ####
 
-srcdir = /C/Users/Zenbook/SkyDrive/AptanaStudio/workspace/ruby-trade/clibrary/history_center
+srcdir = .
 topdir = /C/Ruby200/include/ruby-2.0.0
 hdrdir = $(topdir)
 arch_hdrdir = C:/Ruby200/include/ruby-2.0.0/i386-mingw32

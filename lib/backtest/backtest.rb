@@ -16,13 +16,14 @@ class Backtest
       @trader.set_spread(sym, spread)
     }
     month = 0
-    while(@feeds.time(symbol, 0) <= end_date)
-      print(@feeds.time(symbol, 0).to_s + "\r") unless month == @feeds.time(symbol, 0).month
-      month = @feeds.time(symbol, 0).month
+    while(true)
+      #print(@feeds.time(symbol, 0).to_s + "\r") unless month == @feeds.time(symbol, 0).month
+      #month = @feeds.time(symbol, 0).month
       @trader.run
       begin
         @feeds.go_forward
       rescue PriceFeeds::OutOfRangeException
+        break
       end
     end
     close_all_positions

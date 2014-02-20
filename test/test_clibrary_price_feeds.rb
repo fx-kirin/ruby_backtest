@@ -1,5 +1,6 @@
 # Test PriceFeeds
 require "time"
+require "benchmark"
 require_relative "test_master"
 require "price_feeds/clibrary/price_feeds"
 
@@ -53,6 +54,18 @@ class TestClibraryPriceFeeds < TestMaster
     assert_equal(@feeds.instance_eval{@bar[:EURJPY60]}, 3, "Bar of other symbol is wrong. go_forward didn't work well.")
     assert_raise(PriceFeeds::OutOfRangeException, "Nothing raised even read data more than scv file has."){
       2600000.times{
+        @feeds.go_forward
+      }
+    }
+  end
+  
+  def test_benchmark
+    base_date = Time.parse("2007.01.02 07:00")
+    @feeds.set_data(:USDJPY60)
+    @feeds.set_base_symbol(:USDJPY60, base_date)
+    puts Benchmark::CAPTION
+    puts Benchmark.measure {
+      2500000.times{
         @feeds.go_forward
       }
     }

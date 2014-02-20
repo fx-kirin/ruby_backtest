@@ -3,7 +3,7 @@ require "benchmark"
 require_relative "history_data"
 
 h = HistoryData.new
-path = "C:\\Users\\Zenbook\\SkyDrive\\AptanaStudio\\workspace\\ruby-trade\\data\\hst\\USDJPY60.hst"
+path = "C:\\Users\\Zenbook\\SkyDrive\\AptanaStudio\\workspace\\ruby_trade\\data\\hst\\USDJPY60.hst"
 h.load(path)
 
 #binding.pry

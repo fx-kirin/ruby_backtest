@@ -124,6 +124,41 @@ VALUE wrap_HistoryData_get(VALUE self, VALUE v_type, VALUE v_index, VALUE v_pos,
   return value;
 }
 
+// type :: DataType 0:year, 1:month, 2:day, 3:hour ,4:minute, 5:second, 6: Day of week, 7: day of year
+VALUE time_to_type(VALUE self, VALUE v_type, VALUE v_time){
+  int type = FIX2INT(v_type);
+  time_t time = FIX2LONG(v_type);
+  tm const *time_out = gmtime(&time);
+  VALUE value;
+  switch(type){
+  case 0:
+    value = INT2FIX(time_out->tm_year);
+    break;
+  case 1:
+    value = INT2FIX(time_out->tm_mon);
+    break;
+  case 2:
+    value = INT2FIX(time_out->tm_mday);
+    break;
+  case 3:
+    value = INT2FIX(time_out->tm_hour);
+    break;
+  case 4:
+    value = INT2FIX(time_out->tm_min);
+    break;
+  case 5:
+    value = INT2FIX(time_out->tm_sec);
+    break;
+  case 6:
+    value = INT2FIX(time_out->tm_wday);
+    break;
+  case 7:
+    value = INT2FIX(time_out->tm_yday);
+    break;
+  }
+  return value;
+}
+
 extern "C" {
   void Init_history_data()
   {
@@ -135,5 +170,6 @@ extern "C" {
 
     rb_define_method (c, "load", (VALUE(*)(...))wrap_HistoryData_load, 1);
     rb_define_method (c, "get", (VALUE(*)(...))wrap_HistoryData_get, 4);
+    rb_define_global_function ("rb_time_to_type", (VALUE(*)(...))time_to_type, 2);
   }
 }

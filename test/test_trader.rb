@@ -27,7 +27,7 @@ class TestTrader < TestMaster
       @trader.run
       @feeds.go_forward
     }
-    pos = @manager.get_all_positions
+    #pos = @manager.get_all_positions
     #assert_equal(pos[0].order_type, 1, "OrderType is wrong.")
     #assert_equal(pos[0].open_price, 119.363, "OpenPrice is wrong.")
     #assert_equal(pos[0].close_price, 119.36, "ClosePrice is wrong.")
@@ -36,16 +36,23 @@ class TestTrader < TestMaster
     #assert_equal(pos[1].close_price, 119.353, "ClosePrice is wrong.")
   end
   
-  def test_benchmark_order_time
+  def test_benchmark
     base_date = Time.parse("2007.01.10 07:00")
     @trader.setup
     @trader.set_base_symbol(:USDJPY60, base_date)
     @trader.set_spread(:USDJPY60, 0.003)
     puts Benchmark::CAPTION
-    puts Benchmark.measure{
-      500.times{
-        @trader.open_order(:USDJPY60, 1, 10, 0, 0, 1234)
+    puts Benchmark.measure {
+      month = 0
+      symbol = :USDJPY60
+      2500000.times{
+        #now_month = @feeds.time(symbol, 0).month
+        #print(@feeds.time(symbol, 0).to_s + "\r") unless month == now_month
+        #month = now_month
+        @trader.run
+        @feeds.go_forward
       }
     }
+    puts @feeds.time(:USDJPY60, 0)
   end
 end
