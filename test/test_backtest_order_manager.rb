@@ -1,3 +1,4 @@
+require 'benchmark'
 require_relative "test_master"
 require_relative "../lib/backtest_order_manager/backtest_order_manager"
 
@@ -5,7 +6,7 @@ class TestBacktestOrderManager < TestMaster
   def setup
     @manager = BacktestOrderManager.new
   end
-
+  
   def test_open_order
     @manager.open_order(:USDJPY, 1, 100.00, 10, 101, 99, 1234, Time.now)
     pos = @manager.get_open_positions(1235)
@@ -21,5 +22,14 @@ class TestBacktestOrderManager < TestMaster
     
     data = pos[0]
     assert_equal(data.profit, 5, "profit is wrong")
+  end
+  
+  def test_open_order_time
+    puts Benchmark::CAPTION
+    puts Benchmark.measure{
+      500.times{
+        @manager.open_order(:USDJPY, 1, 100.00, 10, 101, 99, 1234, Time.now)
+      }
+    }
   end
 end

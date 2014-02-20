@@ -7,7 +7,7 @@ class BacktestOrderManager
   
   def initialize
     @list = BacktestOrderList.new
-    @list.delete_all_positions
+    @open_orders = Array.new
   end
   
   def open_order(symbol, order_type, open_price, lots, take_profit, stop_loss, magic_number, open_time)
@@ -21,11 +21,11 @@ class BacktestOrderManager
     order.magic_number = magic_number
     order.open_time = open_time
     order.status = 1
-    @list.insert_order(order)
+    order = @list.insert_order(order)
   end
   
   def close_order(order_number, close_price, close_time)
-    order = @list.get_position(order_number)
+    order = get_positions_by_order_number(order_number)[0]
     order.close_price = close_price
     order.close_time = close_time
     order.status = 2
@@ -47,27 +47,23 @@ class BacktestOrderManager
     @list.save(order)
   end
   
-  def get_all_positions(magic_number=0)
-    if magic_number == 0
-      @list.get_all_positions
-    else
-      @list.get_positions_by_magic_number(magic_number)
-    end
+  def get_positions(magic_number)
+    get_positions_by_magic_number(magic_number)
   end
   
-  def get_open_positions(magic_number=0)
-    if magic_number == 0
-      @list.get_open_positions
-    else
-      @list.get_open_positions_by_magic_number(magic_number)
-    end
+  def get_open_positions(magic_number)
+    get_positions_by_magic_number(magic_number)
   end
   
-  def get_close_positions(magic_number=0)
-    if magic_number == 0
-      @list.get_close_positions
-    else
-      @list.get_close_positions_by_magic_number(magic_number)
-    end
+  def get_all_positions
+    @list.get_all_positions
+  end
+  
+  def get_positions_by_magic_number(magic_number)
+    @list.get_positions_by_magic_number(magic_number)
+  end
+  
+  def get_positions_by_order_number(order_number)
+    @list.get_positions_by_order_number(order_number)
   end
 end

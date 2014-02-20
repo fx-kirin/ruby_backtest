@@ -1,4 +1,5 @@
 require "csv"
+require "sqlite3"
 require "time"
 
 class PriceFeeds
@@ -13,15 +14,16 @@ class PriceFeeds
     @date = date
     @base_symbol = nil
     @bar = Hash.new
-    @pair = Hash.new
+    @max_bars = Hash.new
+    @db = SQLite3::Database.new(":memory:")
   end
   
   # Set price data to the class.
   # - symbol : The symbol of data to be managed.
   # - csv : Data list.
   def set_data(symbol, csv)
-    @pair[symbol] = read_csv_data(csv)
-    @bar[symbol] = 0
+    @max_bars[symbol] = read_csv_data(symbol, csv)
+    @bar[symbol] = 1
   end
   
   # Backtest will proceed on base pair basis.
@@ -38,15 +40,15 @@ class PriceFeeds
   def go_forward
     raise "Must set base_symbol first before call go forward" unless @base_symbol
     
-    if @bar[@base_symbol] + 1 >= @pair[@base_symbol].length
+    if @bar[@base_symbol] + 1 >= @max_bars[@base_symbol]
       raise(OutOfRangeException, "Out of range.") 
     end
     
     @bar[@base_symbol] += 1
     
-    @pair.keys.each{|symbol|
+    @bar.keys.each{|symbol|
       next if symbol == @base_symbol
-      set_bar_from_date(symbol, @pair[@base_symbol][@bar[@base_symbol]].time)
+      set_bar_from_date(symbol, get_ex_chart_data(@base_symbol, :time, @bar[@base_symbol]))
     }
   end
   
@@ -78,26 +80,54 @@ class PriceFeeds
   end
   
   private
-  def read_csv_data(csv)
-    feed = Array.new
-    CSV.foreach(csv){|row|
-      pair = PricePair.new
-      pair.time = Time.parse("%s %s"%[row[0], row[1]])
-      pair.open = row[2].to_f
-      pair.close = row[3].to_f
-      pair.high = row[4].to_f
-      pair.low = row[5].to_f
-      pair.volume = row[6].to_i
-      feed << pair
-    }
-    feed
+  def read_csv_data(symbol, csv)
+    @db.execute <<-SQL
+      CREATE TABLE IF NOT EXISTS #{symbol.to_s} (
+        id INTEGER PRIMARY KEY AUTOINCREMENT,
+        time text,
+        open double,
+        close double,
+        high double,
+        low double,
+        volume int
+      );
+    SQL
+    
+    i=0
+    IO.foreach(csv) do |line|
+      i+=1
+      res = line.split(",")
+      insert_data(i, symbol, "%s %s"%[res[0], res[1]], res[2], res[3], res[4], res[5], res[6])
+    end
+    i
+  end
+  
+  def insert_data(bar, symbol, time, open, close, high, low, volume)
+    sql = "INSERT INTO #{symbol.to_s}(id, time, open, close, high, low, volume) VALUES(?, ?, ?, ?, ?, ?, ?)"
+    @db.execute(sql, bar, time, open, close, high, low, volume)
   end
   
   def get_chart_data(symbol, data_type, bar)
-    unless @pair.has_key?(symbol)
+    get_ex_chart_data(symbol, data_type, get_actual_bar(symbol, bar))
+  end
+  
+  def get_ex_chart_data(symbol, data_type, bar)
+    unless @bar.has_key?(symbol)
       raise "Symbol does not exists."
     end
-    @pair[symbol][get_actual_bar(symbol, bar)].send(data_type)  
+    sql = "SELECT #{data_type.to_s} FROM #{symbol.to_s} WHERE id = ? LIMIT 1"
+    result = @db.execute(sql, bar)
+    raise "Out of range error" unless result.length > 0
+    txt = result[0][0]
+    case data_type
+    when :time
+      data = Time.parse(txt)
+    when :volume
+      data = txt.to_i
+    else
+      data = txt.to_f
+    end
+    data
   end
   
   def get_actual_bar(symbol, bar)
@@ -113,11 +143,11 @@ class PriceFeeds
   
   # Search current bar which is not base symbol.
   def set_bar_from_date(symbol, date)
-    if(@pair[symbol].length <= @bar[symbol] + 1)
+    if(@max_bars[symbol] <= @bar[symbol] + 1)
       return @bar[symbol]
     end
     
-    while(@bar[symbol] + 1 < @pair[symbol].length && @pair[symbol][@bar[symbol] + 1].time <= date)
+    while(@bar[symbol] + 1 < @max_bars[symbol] && get_ex_chart_data(symbol, :time, @bar[symbol] + 1) <= date)
       @bar[symbol] += 1
     end
     @bar[symbol]

@@ -1,6 +1,6 @@
 require_relative "../trader/trader"
 require_relative "../backtest_order_manager/backtest_order_manager"
-require_relative "../price_feeds/price_feeds"
+require_relative "../price_feeds/clibrary/price_feeds"
 class Backtest
   def initialize(trader)
     @feeds = PriceFeeds.new
@@ -15,8 +15,10 @@ class Backtest
     spread_list.each{|sym, spread|
       @trader.set_spread(sym, spread)
     }
+    month = 0
     while(@feeds.time(symbol, 0) <= end_date)
-      print(@feeds.time(symbol, 0).to_s + "\r")
+      print(@feeds.time(symbol, 0).to_s + "\r") unless month == @feeds.time(symbol, 0).month
+      month = @feeds.time(symbol, 0).month
       @trader.run
       begin
         @feeds.go_forward
@@ -29,7 +31,7 @@ class Backtest
   
   private
   def close_all_positions
-    @trader.get_open_positions{|pos|
+    @trader.get_open_positions.each{|pos|
       @trader.close_order(pos)
     }
   end

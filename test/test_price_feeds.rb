@@ -11,7 +11,7 @@ class TestPriceFeeds < TestMaster
   
   def test_read_csv_data
     assert_nothing_raised("read_csv_data failed."){
-      @feeds.send(:read_csv_data, File::dirname(__FILE__) + "/sample_data/USDJPY60.csv")
+      @feeds.send(:read_csv_data, :USDJPY60, File::dirname(__FILE__) + "/sample_data/USDJPY60.csv")
     }
   end
   
@@ -30,15 +30,15 @@ class TestPriceFeeds < TestMaster
   
   # set_data
   def test_set_data
-    @feeds.set_data(:USDJPY, File::dirname(__FILE__) + "/sample_data/USDJPY60.csv")
-    assert_equal(@feeds.close(:USDJPY, 0), 119.01, "close value is wrong.")
+    @feeds.set_data(:USDJPY60, File::dirname(__FILE__) + "/sample_data/USDJPY60.csv")
+    assert_equal(@feeds.close(:USDJPY60, 0), 119.01, "close value is wrong.")
   end
   
   def test_set_bar_from_date
-    @feeds.set_data(:USDJPY, File::dirname(__FILE__) + "/sample_data/USDJPY60.csv")
+    @feeds.set_data(:USDJPY60, File::dirname(__FILE__) + "/sample_data/USDJPY60.csv")
     date = Time.parse("2007.01.02 08:40")
-    assert_equal(@feeds.send(:set_bar_from_date, :USDJPY, date), 100, "Couldn't pick up the right bar.")
-    assert_equal(@feeds.time(:USDJPY, 0), date, "Time is wrong.")
+    assert_equal(@feeds.send(:set_bar_from_date, :USDJPY60, date), 101, "Couldn't pick up the right bar.")
+    assert_equal(@feeds.time(:USDJPY60, 0), date, "Time is wrong.")
   end
   
   def test_go_forward
@@ -54,8 +54,8 @@ class TestPriceFeeds < TestMaster
     3.times{
       @feeds.go_forward
     }
-    assert_equal(@feeds.instance_eval{@bar[:USDJPY]}, 3, "Bar of base symbol is wrong. go_forward didn't work well.")
-    assert_equal(@feeds.instance_eval{@bar[:EURJPY]}, 2, "Bar of other symbol is wrong. go_forward didn't work well.")
+    assert_equal(@feeds.instance_eval{@bar[:USDJPY]}, 4, "Bar of base symbol is wrong. go_forward didn't work well.")
+    assert_equal(@feeds.instance_eval{@bar[:EURJPY]}, 3, "Bar of other symbol is wrong. go_forward didn't work well.")
     assert_raise(PriceFeeds::OutOfRangeException, "Nothing raised even read data more than scv file has."){
       100000.times{
         @feeds.go_forward

@@ -1,4 +1,4 @@
-require_relative "../price_feeds/price_feeds"
+require_relative "../price_feeds/clibrary/price_feeds"
 
 class Trader
   # Trader class will be called from Backtest
@@ -90,8 +90,7 @@ class Trader
   
   private
   def load(symbol)
-    csv = "%s/../../data/%s.csv"%[File::dirname(__FILE__), symbol.to_s]
-    @feeds.set_data(symbol, csv)
+    @feeds.set_data(symbol)
   end
   
   def open(bar)
