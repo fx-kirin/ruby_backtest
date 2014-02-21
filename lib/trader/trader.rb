@@ -133,6 +133,10 @@ class Trader
     @feeds.time(symbol, bar)
   end
   
+  def moving_average(symbol, type, period, bar)
+    @feeds.moving_average(symbol, type, period, bar)
+  end
+  
   def bid
     close(0)
   end

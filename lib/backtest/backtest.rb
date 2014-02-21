@@ -16,9 +16,10 @@ class Backtest
       @trader.set_spread(sym, spread)
     }
     month = 0
-    while(true)
-      #print(@feeds.time(symbol, 0).to_s + "\r") unless month == @feeds.time(symbol, 0).month
-      #month = @feeds.time(symbol, 0).month
+    while(@feeds.time(symbol, 0) < end_date)
+      now_month = @feeds.time(symbol, 0).month
+      print("backtest is working " + @feeds.time(symbol, 0).to_s + "\r") unless month == now_month
+      month = now_month
       @trader.run
       begin
         @feeds.go_forward

@@ -48,4 +48,10 @@ class TestHistoryCenter < TestMaster
       @center.get_data(symbol, 2553658, HistoryCenter::PriceTime)     
     }
   end
+  
+  def test_moving_average
+    symbol = :USDJPY60test
+    @center.load(symbol)
+    @center.moving_average(symbol, :open, 100, 1000)
+  end
 end

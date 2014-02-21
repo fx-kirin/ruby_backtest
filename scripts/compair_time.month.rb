@@ -6,7 +6,8 @@ require_relative "../clibrary/history_data/history_data"
 Benchmark.bm(15) do |x|
   x.report("Time.month : ") { 2500000.times{Time.now.month} }
   x.report("tm_mon : ") { 2500000.times{rb_time_to_type(1, Time.now.to_i)}}
-  x.report("Time.to_i  : ") { 2500000.times{rb_time_to_type(1, Time.now.to_i)}}
+  x.report("Time.to_i  : ") { 2500000.times{Time.now.to_i}}
+  x.report("Time.now  : ") { 2500000.times{Time.now.to_i}}
 end
 
 Benchmark.bm(20) do |x|

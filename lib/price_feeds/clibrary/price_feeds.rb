@@ -1,4 +1,38 @@
 require_relative "history_center"
+class Time
+  def year
+    rb_time_to_type(0, to_i)
+  end
+  
+  def month
+    rb_time_to_type(1, to_i)
+  end
+  
+  def day
+    rb_time_to_type(2, to_i)
+  end
+  
+  def hour
+    rb_time_to_type(3, to_i)
+  end
+  
+  def minute
+    rb_time_to_type(4, to_i)
+  end
+  
+  def sec
+    rb_time_to_type(5, to_i)
+  end
+  
+  def wday
+    rb_time_to_type(6, to_i)
+  end
+  
+  def yday
+    rb_time_to_type(7, to_i)
+  end
+end
+
 
 class PriceFeeds
   class OutOfRangeException < RuntimeError; end
@@ -75,6 +109,10 @@ class PriceFeeds
   
   def volume(symbol, bar)
     get_chart_data(symbol, :volume, bar)
+  end
+  
+  def moving_average(symbol, type, period, bar)
+    @history.moving_average(symbol, type, period, get_actual_bar(symbol, bar))
   end
   
   private

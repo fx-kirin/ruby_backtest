@@ -46,9 +46,9 @@ class TestTrader < TestMaster
       month = 0
       symbol = :USDJPY60
       2500000.times{
-        #now_month = @feeds.time(symbol, 0).month
-        #print(@feeds.time(symbol, 0).to_s + "\r") unless month == now_month
-        #month = now_month
+        now_month = @feeds.time(symbol, 0).month
+        print(@feeds.time(symbol, 0).to_s + "\r") unless month == now_month
+        month = now_month
         @trader.run
         @feeds.go_forward
       }

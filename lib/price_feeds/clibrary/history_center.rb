@@ -48,6 +48,22 @@ class HistoryCenter
     end
   end
   
+  def moving_average(symbol, type, period, bar)
+    pos = 268 + bar * 44
+    result = nil
+    case(type)
+    when :open
+      result = @history.moving_average(@indexes[symbol], pos+8, period)
+    when :close
+      result = @history.moving_average(@indexes[symbol], pos+16, period)
+    when :low
+      result = @history.moving_average(@indexes[symbol], pos+24, period)
+    when :high
+      result = @history.moving_average(@indexes[symbol], pos+32, period)
+    end
+    result
+  end
+  
   def max_bars
     @max_bars
   end
