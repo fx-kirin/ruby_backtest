@@ -1,3 +1,4 @@
+require "csv"
 require_relative "../price_feeds/clibrary/price_feeds"
 
 class Trader
@@ -23,6 +24,13 @@ class Trader
     @manager = manager
     @base_symbol = nil
     @spread = {}
+    
+    @total_trades = 0
+    @win_trades = 0
+    @lose_trades = 0
+    @maximum_profit = 0
+    @profit = 0
+    @drawdown = 0
   end
   
   def set_spread(symbol, spread)
@@ -57,6 +65,7 @@ class Trader
   end
   
   def open_order(symbol, order_type, lots, take_profit, stop_loss, magic_number)
+    @total_trades += 1
     case order_type
     when OrderLong
       open_price = ask
@@ -75,7 +84,16 @@ class Trader
       close_price = bid
     end
     close_time = @feeds.time(order.symbol, 0)
-    @manager.close_order(order.order_number, close_price, close_time)
+    order = @manager.close_order(order.order_number, close_price, close_time)
+    
+    if order.profit > 0
+      @win_trades += 1
+    elsif order.profit < 0
+      @lose_trades += 1
+    end
+    @profit += order.profit
+    @maximum_profit = @profit if(@maximum_profit < @profit)
+    @drawdown = @maximum_profit - @profit if @drawdown < @maximum_profit - @profit
   end
   
   def order_exists?(magic_number=0)
@@ -86,6 +104,21 @@ class Trader
     pos = @manager.get_open_positions(magic_number)
     raise "Position does not exist." if pos.length == 0
     pos[0]
+  end
+  
+  def output
+    path = File.expand_path("../../../result/opt_result.csv", __FILE__)
+    file_exists = File.exists?(path)
+    csv = CSV.open(path, "a")
+    title = []
+    array = []
+    ["total_trades", "win_trades", "lose_trades", "maximum_profit", "drawdown", "profit"].each{|i|
+      title << i
+      array << instance_variable_get("@#{i}")
+    }
+    csv << title unless file_exists
+    csv << array
+    csv.close
   end
   
   private
@@ -138,11 +171,11 @@ class Trader
   end
   
   def bid
-    close(0)
+    open(0)
   end
   
   def ask
-    @spread.has_key?(base_symbol) ? close(0) + @spread[base_symbol] : close(0)
+    @spread.has_key?(base_symbol) ? open(0) + @spread[base_symbol] : open(0)
   end
   
   def base_symbol

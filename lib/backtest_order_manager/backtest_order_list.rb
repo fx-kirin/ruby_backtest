@@ -41,9 +41,13 @@ class BacktestOrderList
   end
   
   def get_positions_by_magic_number(magic_number)
-    @open_orders.select{|row|
-      row.magic_number == magic_number
-    }
+    if(magic_number == 0)
+      @open_orders
+    else
+      @open_orders.select{|row|
+        row.magic_number == magic_number
+      }
+    end    
   end
   
   def get_positions_by_order_number(order_number)

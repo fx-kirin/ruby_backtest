@@ -37,11 +37,11 @@ class HistoryCenter
       @history.get(DataTime, @indexes[symbol], pos, 8)
     when :open
       @history.get(DataFloat, @indexes[symbol], pos+8, 8)
-    when :close
+    when :high
       @history.get(DataFloat, @indexes[symbol], pos+16, 8)
     when :low
       @history.get(DataFloat, @indexes[symbol], pos+24, 8)
-    when :high
+    when :close
       @history.get(DataFloat, @indexes[symbol], pos+32, 8)
     when :volume
       @history.get(DataFixnum, @indexes[symbol], pos+40, 4)
@@ -54,11 +54,11 @@ class HistoryCenter
     case(type)
     when :open
       result = @history.moving_average(@indexes[symbol], pos+8, period)
-    when :close
+    when :high
       result = @history.moving_average(@indexes[symbol], pos+16, period)
     when :low
       result = @history.moving_average(@indexes[symbol], pos+24, period)
-    when :high
+    when :close
       result = @history.moving_average(@indexes[symbol], pos+32, period)
     end
     result

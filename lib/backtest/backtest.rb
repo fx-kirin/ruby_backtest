@@ -29,6 +29,7 @@ class Backtest
     end
     close_all_positions
     @trader.finalize
+    @trader.output
   end
   
   private

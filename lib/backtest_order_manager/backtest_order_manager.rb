@@ -37,6 +37,7 @@ class BacktestOrderManager
     order.profit *= order.lots
     order.profit = order.profit.round(8)
     @list.save(order)
+    order
   end
   
   # Unused.
