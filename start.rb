@@ -1,7 +1,7 @@
 require "benchmark"
 require_relative "lib/backtest/backtest"
 
-@backtest = Backtest.new(MyTrader)
+@backtest = Backtest.new(DesertFox)
 start_date = Time.parse("2007.01.10 00:00")
 end_date = Time.parse("2013.01.30 00:00")
 puts Benchmark::CAPTION

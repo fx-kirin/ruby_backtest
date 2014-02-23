@@ -107,12 +107,13 @@ class Trader
   end
   
   def output
+    @drawdown != 0 ? @ratio = @profit / @drawdown : @ratio = 0
     path = File.expand_path("../../../result/opt_result.csv", __FILE__)
     file_exists = File.exists?(path)
     csv = CSV.open(path, "a")
     title = []
     array = []
-    ["total_trades", "win_trades", "lose_trades", "maximum_profit", "drawdown", "profit"].each{|i|
+    ["total_trades", "win_trades", "lose_trades", "maximum_profit", "drawdown", "profit", "ratio"].each{|i|
       title << i
       array << instance_variable_get("@#{i}")
     }
