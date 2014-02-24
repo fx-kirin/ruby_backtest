@@ -4,7 +4,7 @@ using namespace std;
 
 
 HistoryData::HistoryData(){
-  symbol_amount = -1;
+  symbol_amount = 0;
 }
 
 HistoryData::~HistoryData(){
@@ -21,13 +21,13 @@ int HistoryData::load(char *csv){
   streampos filesize = file.tellg();
   file.seekg(0, ios::beg);
 
-  symbol_amount++;
   bar_data[symbol_amount] = (char *) malloc(filesize);
   file.read((char *)bar_data[symbol_amount], filesize);
 
   file.close();
+  symbol_amount++;
 
-  return symbol_amount;
+  return (symbol_amount - 1);
 }
 
 void HistoryData::get(int index, unsigned long pos, int size, void* arg){

@@ -1,6 +1,9 @@
 class TraderMock < Trader
   def setup
-    
+    @param1 = 1
+    @param2 = 2
+    @param3 = 3
+    @param4 = 4
   end
   
   def run

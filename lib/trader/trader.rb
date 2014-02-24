@@ -24,6 +24,7 @@ class Trader
     @manager = manager
     @base_symbol = nil
     @spread = {}
+    @opt_param = []
     
     @total_trades = 0
     @win_trades = 0
@@ -108,18 +109,25 @@ class Trader
   
   def output
     @drawdown != 0 ? @ratio = @profit / @drawdown : @ratio = 0
-    path = File.expand_path("../../../result/opt_result.csv", __FILE__)
+    path = File.expand_path("../../../result/opt_#{self.class.to_s}.csv", __FILE__)
     file_exists = File.exists?(path)
     csv = CSV.open(path, "a")
     title = []
     array = []
-    ["total_trades", "win_trades", "lose_trades", "maximum_profit", "drawdown", "profit", "ratio"].each{|i|
+    data = ["total_trades", "win_trades", "lose_trades", "maximum_profit", "drawdown", "profit", "ratio"]
+    data.concat(@opt_param)
+    data.each{|i|
       title << i
       array << instance_variable_get("@#{i}")
     }
     csv << title unless file_exists
     csv << array
     csv.close
+  end
+  
+  def set_param(param, value)
+    @opt_param << param
+    instance_variable_set("@#{param}", value)
   end
   
   private

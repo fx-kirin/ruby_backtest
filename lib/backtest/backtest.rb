@@ -2,15 +2,19 @@ require_relative "../trader/trader"
 require_relative "../backtest_order_manager/backtest_order_manager"
 require_relative "../price_feeds/clibrary/price_feeds"
 class Backtest
-  def initialize(trader)
+  def initialize(trader, set_params = nil)
     @feeds = PriceFeeds.new
     @manager = BacktestOrderManager.new
     @trader = trader.new(@feeds, @manager)
+    @set_params = set_params
   end
   
   # Start Backtesting
   def run(symbol, start_date, end_date, spread_list = {})
     @trader.setup
+    @set_params.each{|key, value|
+      @trader.set_param(key.to_s, value)
+    }
     @trader.set_base_symbol(symbol, start_date)
     spread_list.each{|sym, spread|
       @trader.set_spread(sym, spread)
