@@ -19,7 +19,7 @@ class Optimization
     
     length = params.length
     params.each_with_index{|param, i|
-      puts "Working with %d / %d                "%[i+1, length]
+      print "Working with %d / %d                \r"%[i+1, length]
       backtest = Backtest.new(@trader, param)
       backtest.run(@symbol, @start_date, @end_date, @spread_list)
     }

@@ -1,0 +1,3283 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ja" xml:lang="ja">
+<head>
+<meta name="verify-v1" content="UQ8MK9fBNn7xR9/P5A5MIBWObHh4ArTP4QjG2nHpfVk=" />
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+<meta http-equiv="content-style-type" content="text/css" />
+<meta http-equiv="content-script-type" content="text/javascript" />
+<link rel="stylesheet" type="text/css" href="/_common/css/baseStyle/basic.css?20120601" />
+<link rel="stylesheet" type="text/css" href="/_common/css/baseStyle/common.css?20120601" />
+<link rel="stylesheet" type="text/css" href="/_common/css/structure.css?20120601" />
+<link rel="stylesheet" type="text/css" href="/_common/css/parts.css?20120601" />
+<link rel="stylesheet" type="text/css" href="/_common/css/page.css?20120601" />
+<link rel="stylesheet" type="text/css" href="/_common/css/adingo.css?20120601" /><meta name="keywords" content="FX,為替,ニュース,経済指標,ファンダメンタル,初心者,チャート,くりっく365,為替チャート,外国為替,為替レート,外国為替証拠金取引,比較,klug,クルーク" />
+<meta name="description" content="「Klugクルーク」は、FX（外国為替証拠金取引）で収益を上げるための個人投資家向け為替ニュースサイトです。一日180本以上のニュースを配信するほか、FX投資に役立つコラム、為替チャート、経済指標カレンダーなどを無料で提供しています。" />
+    <link rel="alternate" type="application/rss+xml" title="RSS" href="http://www.gci-klug.jp/rss2.xml" /> 
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3/jquery.min.js"></script>
+<script type="text/javascript" src="/_common/js/myplugin.js"></script>
+<script type="text/javascript" src="/_common/js/common.js"></script>
+<script type="text/javascript">
+$j(function(){
+  loadCalendar("");
+});
+</script>
+<script type='text/javascript' src='http://partner.googleadservices.com/gampad/google_service.js'>
+</script>
+<script type='text/javascript'>
+GS_googleAddAdSenseService("ca-pub-2631490453976509");
+GS_googleEnableAllServices();
+</script>
+<script type='text/javascript'>
+GA_googleAddSlot("ca-pub-2631490453976509", "00_200x145yudo_PM");
+GA_googleAddSlot("ca-pub-2631490453976509", "01_300x250_Top");
+GA_googleAddSlot("ca-pub-2631490453976509", "01_300x250_Top2");
+GA_googleAddSlot("ca-pub-2631490453976509", "01_300x250_Top3");
+GA_googleAddSlot("ca-pub-2631490453976509", "02_300x250_NewsTop");
+GA_googleAddSlot("ca-pub-2631490453976509", "02_728x90_NewsTop");
+GA_googleAddSlot("ca-pub-2631490453976509", "02_txt_NewsTop");
+GA_googleAddSlot("ca-pub-2631490453976509", "03_250x250_NewsDetail");
+GA_googleAddSlot("ca-pub-2631490453976509", "03_300x250_NewsDetail");
+GA_googleAddSlot("ca-pub-2631490453976509", "03_728x90_NewsDetail");
+GA_googleAddSlot("ca-pub-2631490453976509", "03_txt_NewsDetail");
+</script>
+<script type='text/javascript'>
+GA_googleFetchAds();
+</script>
+<script type="text/javascript">
+var nend_params = {"media":6389,"site":24175,"spot":38690,"type":2,"oriented":4};
+</script>
+<script type="text/javascript" src="http://js1.nend.net/js/nendAdLoader.js"></script>        
+
+<link rel="shortcut icon" href="http://www.gci-klug.jp/favicon.ico" type="image/vnd.microsoft.icon" />
+<link rel="icon" href="http://www.gci-klug.jp/favicon.ico" type="image/vnd.microsoft.icon" />
+<title>経済指標カレンダー(2007年01月) | Klugクルーク - FX投資家向けの為替ニュース・相場コラム・経済指標カレンダー</title>
+</head>
+<body class="indexcal noSidebar">
+<div class="wrapper">
+  
+  
+<div class="header" id="header">
+    <div class="hdr_txt">FX 外国為替情報ならKlug クルーク</div>
+    <div class="siteTab">
+      <ul class="float">
+        <li class="active"><a href="http://www.gci-klug.jp/"><img src="/_common/img/siteTab_01.gif" alt="FX 外国為替情報ならKlug クルーク"/></a></li>
+        <li><a href="http://zai.diamond.jp/zaiklug"><img src="/_common/img/siteTab_02.gif" alt="ZaiKlug! ザイクル！"/></a></li>
+        <li><a href="http://www.hf-klug.jp/"><img src="/_common/img/siteTab_03.gif" alt="HFクルーク"/></a></li>
+        <li><a href="http://systreklug.jp/"><img src="/_common/img/siteTab_04.gif" alt="シストレクルーク"/></a></li>
+      </ul>
+    </div><!--/class="siteTab"-->
+    <!-- ●検索窓設置用タグ start -->
+    <script type="text/javascript">
+    <!--
+    var bg_popin = 'http://cdn.popin.cc/custom/powered_by_popin.gif';
+    var bg_yahoo = 'http://img.yahoo-search.jp/img/logo_wm.gif';
+
+    function pushRadioOfSearchBox() {
+      for(i = 0; i < document.site_search.type.length; i++) {
+        if(document.site_search.type[i].selected) {
+          if('fxnews' == document.site_search.type[i].value) {
+            document.site_search.ch.value = '為替ニュース';
+          }
+          else {
+            document.site_search.ch.value = '';
+          }
+
+          if('web' == document.site_search.type[i].value) {
+            if(document.getElementById('site_search_text').value=='') {
+              document.getElementById('site_search_text').style.background = 'url(' + bg_yahoo + ') no-repeat scroll center center rgb(255, 255, 255)';
+            }
+            document.getElementById('site_search_text').onblur = function(){if(document.getElementById('site_search_text').value=='')document.getElementById('site_search_text').style.background='#fff url(' + bg_yahoo + ') center center no-repeat'};
+          }
+          else {
+            if(document.getElementById('site_search_text').value=='') {
+              document.getElementById('site_search_text').style.background = 'url(' + bg_popin + ') no-repeat scroll center center rgb(255, 255, 255)';
+            }
+            document.getElementById('site_search_text').onblur = function(){if(document.getElementById('site_search_text').value=='')document.getElementById('site_search_text').style.background='#fff url(' + bg_popin + ') center center no-repeat'};
+          }
+        }
+      }
+      return true;
+    }
+    //-->
+    </script>
+
+    <div class="siteSearch">
+      <form method="get" action="http://search.gci-klug.jp/" name="site_search">
+        <select name="type" onchange="pushRadioOfSearchBox()">
+          <option selected="selected" value="fxnews">為替ニュースから検索</option>
+          <option value="site">サイト内から検索</option>
+          <option value="web">ウェブから検索</option>
+        </select>
+        <input type="text" class="text" id="site_search_text" style="padding: 2px; border: 1px solid rgb(127, 157, 185); background: url(&quot;http://cdn.popin.cc/custom/powered_by_popin.gif&quot;) no-repeat scroll center center rgb(255, 255, 255);" onblur="if(this.value=='')this.style.background='#fff url(http://cdn.popin.cc/custom/powered_by_popin.gif) center center no-repeat'" onfocus="this.style.background='#fff';" value="" name="q" />
+        <input type="image" alt="サイト検索" src="http://www.gci-klug.jp/_common/img/btn_site_search.gif" />
+        <input type="hidden" name="ord" value="s" />
+        <input type="hidden" name="cs" value="utf8" />
+        <input type="hidden" name="ch" value="為替ニュース" />
+        <input type="hidden" name="type" value="site" />
+      </form>
+    </div>  
+</div><!--/class="header"-->
+
+<!--*GlobalNav*-->
+  <div class="gNav" id="gNav">
+    <ul class="float" id="gNavList">
+      <li id="gNav01"><a href="/"><img src="/_common/img/gNav_01.gif" width="108" height="41" alt="トップ" /></a></li>
+      <li id="gNav02"><a href="javascript:;"><img src="/_common/img/gNav_02.gif" width="108" height="41" alt="ニュース" /></a><div><ul>
+        <li><a href="/fxnews/">為替ニュース</a></li>
+        <li><a href="/yucasee/">Klug Prestige</a></li>
+        <li><a href="/fxnews/ranking.php">為替ニュース<span>ランキング</span></a></li>
+        <li><a href="/press/">Klug Press</a></li>
+        <li class="last"><a href="/news/">Klugクルークから<span>のお知らせ</span></a></li>
+      </ul></div></li>
+      <li id="gNav03"><a href="javascript:;"><img src="/_common/img/gNav_03.gif" width="108" height="41" alt="レポート" /></a><div><ul>
+        <li><a href="/fxreview/">為替市場レビュー</a></li>
+        <li><a href="/fxreport/">山岡和雅の視点</a></li>
+        <li><a href="/commodity/">平山順の<span class="c">コモディティ</span><span>レポート</span></a></li>
+        <li class="last"><a href="/au/">ABN Newswire<span class="c">オーストラリア</span><span>市場レポート</span></a></li>
+      </ul></div></li>
+      <li id="gNav04" class="navi_top"><a href="javascript:;"><!--為替ブログ--></a><div><ul>
+        <li><a href="/yamaoka/">山岡和雅の<span class="c">ダックビル</span><span>為替研究所</span></a></li>
+        <li><a href="/matsuki/">松木秀明の<span class="c">ニュースに</span><span class="c">書けない</span><span>FXのハナシ</span></a></li>
+        <li><a href="/kanai/">金井京子の<span class="c">FXで優雅な</span><span>ニート生活</span></a></li>
+        <li><a href="/takano/">高野やすのりの<span>のりのりFX</span></a></li>
+        <li><a href="/president/">THE <span>PRESIDENTS</span></a></li>
+        <li><a href="/wolf/">ホワイトウルフの<span>FX取引実況ブログ</span></a></li>
+        <li class="last"><a href="/forecast/">今週の<span>為替見通し紹介</span></a></li>
+<!--
+        <li><a href="/forecast/">今週の<span>為替見通し紹介</span></a></li>
+        <li class="last"><a href="/goodway/">グッドウェイの志「金融・IT業界の潮流」 ～ Keep Moving Forward ～</a></li>
+-->
+      </ul></div></li>
+      <li id="gNav05" class="navi_top"><a href="javascript:;"><!--経済ブログ--></a><div><ul>
+        <li><a href="/mitsuhashi/">三橋貴明の<span class="c">「経済記事には</span><span>もうだまされない!」</span></a></li>
+        <li><a href="/ogasawara/">小笠原誠治の<span class="c">経済ニュースに</span><span>異議あり!</span></a></li>
+<!--
+        <li><a href="/tomita/">富田秀夫の<span class="c">素朴な疑問から</span><span class="c">読み解く</span><span>グローバル・</span><span>マーケッツ</span></a></li>
+-->
+        <li class="last"><a href="/goodway/">グッドウェイの志「金融・IT業界の潮流」 ～ Keep Moving Forward ～</a></li>
+      </ul></div></li>
+      <li id="gNav06" class="navi_top"><a href="javascript:;"><!--チャート・カレンダー--></a><div><ul>
+        <li><a href="/chart/fx.php">FX株マップ.com<span>チャート</span></a></li>
+        <li><a href="/chart/fx2.php">為替チャート<span>クロス円</span></a></li>
+        <li><a href="/chart/sc.php">株・商品チャート</a></li>
+        <li><a href="/indexcal/">経済指標<span>カレンダー</span></a></li>
+        <li class="last"><a href="/holiday/">金融市場<span>休日カレンダー</span></a></li>
+      </ul></div></li>
+      <li id="gNav07" class="navi_top"><a href="javascript:;"><!--投資ツール・セミナー--></a><div><ul>
+        <li><a href="/seminar/">Klugセミナー<span>インフォメーション</span></a></li>
+        <li><a href="/guide/">Klugクルークの<span>使い方ガイド</span></a></li>
+        <li class="last"><a href="/video/">Klugビデオ</a></li>
+      </ul></div></li>
+      <li id="gNav08" class="navi_top"><a href="javascript:;"><!--データ集--></a><div><ul>
+        <li><a href="/interestrate/">政策金利一覧表</a></li>
+        <li><a href="/member/">中央銀行<span>ボードメンバー</span></a></li>
+        <li><a href="/member/detail.php?country_id=1&year=2012">金融政策の変遷</a></li>
+        <li><a href="/book/">書籍紹介</a></li>
+        <li><a href="/glossary/">用語集</a></li>
+        <li class="last"><a href="/enquete/">クルクる<span>アンケート</span></a></li>
+      </ul></div></li>
+      <li id="gNav09" class="navi_top"><a href="javascript:;"><!--比較コンテンツ--></a><div><ul>
+        <li><a href="/otc/">FX会社ランキングBEST5！（Klug調べ）</a></li>
+        <li><a href="/fxcompany/">企業力で選ぶ!<span>FX会社比較</span></a></li>
+        <li class="last"><a href="/swappoint/">スワップポイント<span>比較表</span></a></li>
+      </ul></div></li>
+    </ul>
+  </div><!--/class="gNav"-->
+
+  <div class="hdr_fxnewsArea floatClear">
+    <div class="leftBox">
+      <div class="siteTitle"><a href="/"><img src="/_common/img/siteTitle.jpg" width="205" height="125" alt="為替、海外投資でハイリターンを得るためのニュース、レポート、コラムを掲載" /></a></div>
+      <div class="containerBox hdr_fxnewsBox" id="hdr_fxnewsBox">
+        
+				<h2 class="boxTitle">
+					<img src="http://www.gci-klug.jp/_common/img/hdr_fxnewsBox_title.jpg" width="560" height="54" alt="最新の為替ニュース" />
+					<a href="http://www.gci-klug.jp/fxnews/rss5.xml" class="icon_rss"><img src="http://www.gci-klug.jp/_common/img/icon_rss.gif" width="16" height="16" alt="RSS" /></a>
+					<span class="latest_date">08時26分 更新</span>
+					<a href="http://www.gci-klug.jp/fxnews/" class="viewMore"><img src="http://www.gci-klug.jp/_common/img/btn_viewMore.gif" width="55" height="17" alt="もっと見る" /></a>
+				</h2>
+				<div class="contentsBox">
+
+					<ol class="listStyle01 index_entryList">
+							<li><a href="http://www.gci-klug.jp/fxnews/detail.php?id=206877">外国証券経由の注文状況　860万株の買い越し観測</a><span class="entryDate">(08:26)</span></li>
+					</ol>
+
+					<ol class="listStyle01 index_entryList">
+							<li><a href="http://www.gci-klug.jp/fxnews/detail.php?id=206876">東京株式　日経先物気配値16010円（100円安）　売り先行か</a><span class="entryDate">(08:21)</span></li>
+					</ol>
+
+					<ol class="listStyle01 index_entryList">
+							<li><a href="http://www.gci-klug.jp/fxnews/detail.php?id=206849">東京市場　ピボット分析（新興国通貨）</a><span class="entryDate">(08:15)</span></li>
+					</ol>
+
+					<ol class="listStyle01 index_entryList">
+							<li><a href="http://www.gci-klug.jp/fxnews/detail.php?id=206850">東京市場　ピボット分析（クロス円）</a><span class="entryDate">(08:14)</span></li>
+					</ol>
+
+					<ol class="listStyle01 index_entryList">
+							<li><a href="http://www.gci-klug.jp/fxnews/detail.php?id=206851">東京市場　ピボット分析（資源国通貨）</a><span class="entryDate">(08:13)</span></li>
+					</ol>
+
+				</div><!--/class="contentsBox"-->
+      </div><!--/class="containerBox"-->
+    </div><!--/class="leftBox"-->
+    <div class="rightBox">
+      <!--/* OpenX Javascript Tag v2.8.7 */-->
+<script type='text/javascript'>
+GA_googleFillSlot("00_200x145yudo_PM");
+</script>
+
+
+    </div><!--/class="rightBox"-->
+  </div><!--/class="hdr_fxnewsArea"-->
+  
+  
+  <!--*Container*-->
+  <div class="container floatClear">
+    
+    
+    <div class="mainContents floatClear" id="mainContents">
+      
+      
+      <h1 class="categoryTitle"><img src="/indexcal/img/categoryTitle.jpg" width="980" height="60" alt="経済指標カレンダー" /></h1>
+      
+      
+      <div class="mcInner">
+        
+        
+        
+<div class="calendarArea">
+  <table class="calFrameTbl">
+    <tr class="yearFrameRow">
+      <th class="calFrameLabel">年</th>
+      <td class="calFrameContents">
+        <table class="yearTbl">
+          <tr>
+            <td class="prev" style="padding:0 8px;"><span style="color:#ffffff;">&laquo;</span></td>
+            <th class="active">2007</th>
+            <td class="next"><a href="?y=2008&amp;m=01&amp;type=month">&raquo;</a></td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+    <tr class="monthFrameRow">
+      <th class="calFrameLabel">月</th>
+      <td class="calFrameContents">
+        <table class="monthTbl">
+          <tr>
+            <td class="active"><a href="?y=2007&amp;m=01&amp;d=1&amp;type=month">1月</a></td>
+            <td><a href="?y=2007&amp;m=02&amp;d=1&amp;type=month">2月</a></td>
+            <td><a href="?y=2007&amp;m=03&amp;d=1&amp;type=month">3月</a></td>
+            <td><a href="?y=2007&amp;m=04&amp;d=1&amp;type=month">4月</a></td>
+            <td><a href="?y=2007&amp;m=05&amp;d=1&amp;type=month">5月</a></td>
+            <td><a href="?y=2007&amp;m=06&amp;d=1&amp;type=month">6月</a></td>
+            <td><a href="?y=2007&amp;m=07&amp;d=1&amp;type=month">7月</a></td>
+            <td><a href="?y=2007&amp;m=08&amp;d=1&amp;type=month">8月</a></td>
+            <td><a href="?y=2007&amp;m=09&amp;d=1&amp;type=month">9月</a></td>
+            <td><a href="?y=2007&amp;m=10&amp;d=1&amp;type=month">10月</a></td>
+            <td><a href="?y=2007&amp;m=11&amp;d=1&amp;type=month">11月</a></td>
+            <td><a href="?y=2007&amp;m=12&amp;d=1&amp;type=month">12月</a></td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+    <tr class="weekFrameRow">
+      <th class="calFrameLabel">週</th>
+      <td class="calFrameContents" rowspan="2">
+        <table class="dayTbl">
+          <tr class="weekRow">
+            <td colspan="7" ><a href="?type=week&amp;y=2007&amp;m=01&amp;d=01">&raquo;</a></td>
+            <td colspan="7" ><a href="?type=week&amp;y=2007&amp;m=01&amp;d=08">&raquo;</a></td>
+            <td colspan="7" ><a href="?type=week&amp;y=2007&amp;m=01&amp;d=15">&raquo;</a></td>
+            <td colspan="7" ><a href="?type=week&amp;y=2007&amp;m=01&amp;d=22">&raquo;</a></td>
+            <td colspan="3" ><a href="?type=week&amp;y=2007&amp;m=01&amp;d=29">&raquo;</a></td>
+          </tr>
+          <tr class="dayRow">
+            <td><a href="index.php?y=2007&amp;m=01&amp;d=01&amp;type=day">1</a></td>
+            <td><a href="index.php?y=2007&amp;m=01&amp;d=02&amp;type=day">2</a></td>
+            <td><a href="index.php?y=2007&amp;m=01&amp;d=03&amp;type=day">3</a></td>
+            <td><a href="index.php?y=2007&amp;m=01&amp;d=04&amp;type=day">4</a></td>
+            <td><a href="index.php?y=2007&amp;m=01&amp;d=05&amp;type=day">5</a></td>
+            <td><a href="index.php?y=2007&amp;m=01&amp;d=06&amp;type=day">6</a></td>
+            <td><a href="index.php?y=2007&amp;m=01&amp;d=07&amp;type=day">7</a></td>
+            <td><a href="index.php?y=2007&amp;m=01&amp;d=08&amp;type=day">8</a></td>
+            <td><a href="index.php?y=2007&amp;m=01&amp;d=09&amp;type=day">9</a></td>
+            <td><a href="index.php?y=2007&amp;m=01&amp;d=10&amp;type=day">10</a></td>
+            <td><a href="index.php?y=2007&amp;m=01&amp;d=11&amp;type=day">11</a></td>
+            <td><a href="index.php?y=2007&amp;m=01&amp;d=12&amp;type=day">12</a></td>
+            <td><a href="index.php?y=2007&amp;m=01&amp;d=13&amp;type=day">13</a></td>
+            <td><a href="index.php?y=2007&amp;m=01&amp;d=14&amp;type=day">14</a></td>
+            <td><a href="index.php?y=2007&amp;m=01&amp;d=15&amp;type=day">15</a></td>
+            <td><a href="index.php?y=2007&amp;m=01&amp;d=16&amp;type=day">16</a></td>
+            <td><a href="index.php?y=2007&amp;m=01&amp;d=17&amp;type=day">17</a></td>
+            <td><a href="index.php?y=2007&amp;m=01&amp;d=18&amp;type=day">18</a></td>
+            <td><a href="index.php?y=2007&amp;m=01&amp;d=19&amp;type=day">19</a></td>
+            <td><a href="index.php?y=2007&amp;m=01&amp;d=20&amp;type=day">20</a></td>
+            <td><a href="index.php?y=2007&amp;m=01&amp;d=21&amp;type=day">21</a></td>
+            <td><a href="index.php?y=2007&amp;m=01&amp;d=22&amp;type=day">22</a></td>
+            <td><a href="index.php?y=2007&amp;m=01&amp;d=23&amp;type=day">23</a></td>
+            <td><a href="index.php?y=2007&amp;m=01&amp;d=24&amp;type=day">24</a></td>
+            <td><a href="index.php?y=2007&amp;m=01&amp;d=25&amp;type=day">25</a></td>
+            <td><a href="index.php?y=2007&amp;m=01&amp;d=26&amp;type=day">26</a></td>
+            <td><a href="index.php?y=2007&amp;m=01&amp;d=27&amp;type=day">27</a></td>
+            <td><a href="index.php?y=2007&amp;m=01&amp;d=28&amp;type=day">28</a></td>
+            <td><a href="index.php?y=2007&amp;m=01&amp;d=29&amp;type=day">29</a></td>
+            <td><a href="index.php?y=2007&amp;m=01&amp;d=30&amp;type=day">30</a></td>
+            <td><a href="index.php?y=2007&amp;m=01&amp;d=31&amp;type=day">31</a></td>
+          </tr>
+          <tr class="dayRow">
+            <td>月</td>
+            <td>火</td>
+            <td>水</td>
+            <td>木</td>
+            <td>金</td>
+            <td><font color="blue">土</font></td>
+            <td><font color="red">日</font></td>
+            <td>月</td>
+            <td>火</td>
+            <td>水</td>
+            <td>木</td>
+            <td>金</td>
+            <td><font color="blue">土</font></td>
+            <td><font color="red">日</font></td>
+            <td>月</td>
+            <td>火</td>
+            <td>水</td>
+            <td>木</td>
+            <td>金</td>
+            <td><font color="blue">土</font></td>
+            <td><font color="red">日</font></td>
+            <td>月</td>
+            <td>火</td>
+            <td>水</td>
+            <td>木</td>
+            <td>金</td>
+            <td><font color="blue">土</font></td>
+            <td><font color="red">日</font></td>
+            <td>月</td>
+            <td>火</td>
+            <td>水</td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+    <tr class="dayFrameRow">
+      <th class="calFrameLabel">日</th>
+    </tr>
+  </table>
+  <p class="unknown"><a href="?type=unknown">発表日や時刻が未定の指標一覧はこちら</a></p>
+</div><!--/class="calendarArea"-->
+
+<div class="containerBox" style="text-align:center">
+<script type="text/javascript"><!--
+google_ad_client = "ca-pub-2631490453976509";
+/* 指標カレンダ上728 */
+google_ad_slot = "4450868893";
+google_ad_width = 728;
+google_ad_height = 90;
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script></div>
+
+<div class="indexTblArea">
+  <div class="length">
+    <span class="prev"><a href="?y=2006&amp;m=12&amp;d=06&amp;type=month">＜＜前</a></span>
+    <span class="now">1月</span>
+    <span class="next"><a href="?y=2007&amp;m=02&amp;d=06&amp;type=month">次＞＞</a></span>
+  </div><!--/class="length"-->
+  <table class="indexTbl" cellspacing="2">
+    <tr class="tHead">
+      <th class="date">日付</th>
+      <th class="time">時刻</th>
+      <th class="target">対象</th>
+      <th class="area">国、地域</th>
+      <th class="index">指標</th>
+      <th class="result">結果</th>
+      <th class="guess">予想</th>
+      <th class="last">前回</th>
+      <th class="revison">改定</th>
+      <th class="recital">備考</th>
+    </tr>
+    <tr >
+      <td class="date">
+1月2日      &nbsp;</td>
+      <td class="time">
+17:15  &nbsp;</td>
+    <td class="target">11月&nbsp;</td>
+    <td class="area"><img src="http://www.klug-data.jp/img/country/11.gif" border="0" alt="" /><br />香港&nbsp;</td>
+    <td class="index">小売売上高-価額(前年比)&nbsp;</td>
+    <td class="result">7.4%&nbsp;</td>
+    <td class="guess">7.2%&nbsp;</td>
+    <td class="last">6.9%&nbsp;</td>
+    <td class="revison">7.0%&nbsp;</td>
+    <td class="recital">&nbsp;</td>
+  </tr>
+    <tr >
+      <td class="date">
+1月2日      &nbsp;</td>
+      <td class="time">
+17:55  &nbsp;</td>
+    <td class="target">12月&nbsp;</td>
+    <td class="area"><img src="http://www.klug-data.jp/img/country/5.gif" border="0" alt="" /><br />ドイツ&nbsp;</td>
+    <td class="index">製造業PMI（購買担当者指数）&nbsp;</td>
+    <td class="result">59.4&nbsp;</td>
+    <td class="guess">58.6&nbsp;</td>
+    <td class="last">58.3&nbsp;</td>
+    <td class="revison">&nbsp;</td>
+    <td class="recital">&nbsp;</td>
+  </tr>
+    <tr >
+      <td class="date">
+1月2日      &nbsp;</td>
+      <td class="time">
+18:00  &nbsp;</td>
+    <td class="target">12月&nbsp;</td>
+    <td class="area"><img src="http://www.klug-data.jp/img/country/3.gif" border="0" alt="" /><br />ユーロ&nbsp;</td>
+    <td class="index">製造業購買担当者指数(BN調査)&nbsp;</td>
+    <td class="result">56.5&nbsp;</td>
+    <td class="guess">56.8&nbsp;</td>
+    <td class="last">56.6&nbsp;</td>
+    <td class="revison">&nbsp;</td>
+    <td class="recital">&nbsp;</td>
+  </tr>
+    <tr >
+      <td class="date">
+1月3日      &nbsp;</td>
+      <td class="time">
+17:30  &nbsp;</td>
+    <td class="target">12月&nbsp;</td>
+    <td class="area"><img src="http://www.klug-data.jp/img/country/6.gif" border="0" alt="" /><br />スイス&nbsp;</td>
+    <td class="index">SVME購買部協会景気指数&nbsp;</td>
+    <td class="result">65&nbsp;</td>
+    <td class="guess">65&nbsp;</td>
+    <td class="last">67&nbsp;</td>
+    <td class="revison">&nbsp;</td>
+    <td class="recital">&nbsp;</td>
+  </tr>
+    <tr >
+      <td class="date">
+1月3日      &nbsp;</td>
+      <td class="time">
+17:55  &nbsp;</td>
+    <td class="target">12月&nbsp;</td>
+    <td class="area"><img src="http://www.klug-data.jp/img/country/5.gif" border="0" alt="" /><br />ドイツ&nbsp;</td>
+    <td class="index">失業者数(千人単位)&nbsp;</td>
+    <td class="result">-108千人&nbsp;</td>
+    <td class="guess">-48千人&nbsp;</td>
+    <td class="last">-86千人&nbsp;</td>
+    <td class="revison">-94千人&nbsp;</td>
+    <td class="recital">&nbsp;</td>
+  </tr>
+    <tr >
+      <td class="date">
+1月3日      &nbsp;</td>
+      <td class="time">
+17:55  &nbsp;</td>
+    <td class="target">12月&nbsp;</td>
+    <td class="area"><img src="http://www.klug-data.jp/img/country/5.gif" border="0" alt="" /><br />ドイツ&nbsp;</td>
+    <td class="index">失業率(季調済)&nbsp;</td>
+    <td class="result">9.8%&nbsp;</td>
+    <td class="guess">10.1%&nbsp;</td>
+    <td class="last">10.2%&nbsp;</td>
+    <td class="revison">10.1%&nbsp;</td>
+    <td class="recital">&nbsp;</td>
+  </tr>
+    <tr >
+      <td class="date">
+1月3日      &nbsp;</td>
+      <td class="time">
+22:15  &nbsp;</td>
+    <td class="target">12月&nbsp;</td>
+    <td class="area"><img src="http://www.klug-data.jp/img/country/1.gif" border="0" alt="" /><br />米国&nbsp;</td>
+    <td class="index">ADP雇用者数（前月比）&nbsp;</td>
+    <td class="result">-40千人&nbsp;</td>
+    <td class="guess">120千人&nbsp;</td>
+    <td class="last">158千人&nbsp;</td>
+    <td class="revison">198千人&nbsp;</td>
+    <td class="recital">&nbsp;</td>
+  </tr>
+    <tr >
+      <td class="date">
+1月4日      &nbsp;</td>
+      <td class="time">
+00:00  &nbsp;</td>
+    <td class="target">11月&nbsp;</td>
+    <td class="area"><img src="http://www.klug-data.jp/img/country/1.gif" border="0" alt="" /><br />米国&nbsp;</td>
+    <td class="index">建設支出（前月比）&nbsp;</td>
+    <td class="result">-0.2%&nbsp;</td>
+    <td class="guess">-0.5%&nbsp;</td>
+    <td class="last">-1%&nbsp;</td>
+    <td class="revison">-1.1%&nbsp;</td>
+    <td class="recital">&nbsp;</td>
+  </tr>
+    <tr >
+      <td class="date">
+1月4日      &nbsp;</td>
+      <td class="time">
+00:00  &nbsp;</td>
+    <td class="target">12月&nbsp;</td>
+    <td class="area"><img src="http://www.klug-data.jp/img/country/1.gif" border="0" alt="" /><br />米国&nbsp;</td>
+    <td class="index">ISM製造業景気指数&nbsp;</td>
+    <td class="result">51.4&nbsp;</td>
+    <td class="guess">50&nbsp;</td>
+    <td class="last">49.5&nbsp;</td>
+    <td class="revison">50.4&nbsp;</td>
+    <td class="recital">&nbsp;</td>
+  </tr>
+    <tr >
+      <td class="date">
+1月4日      &nbsp;</td>
+      <td class="time">
+06:45  &nbsp;</td>
+    <td class="target">11月&nbsp;</td>
+    <td class="area"><img src="http://www.klug-data.jp/img/country/9.gif" border="0" alt="" /><br />ニュージーランド&nbsp;</td>
+    <td class="index">貿易収支&nbsp;</td>
+    <td class="result">-7.85億NZドル&nbsp;</td>
+    <td class="guess">-8.4億NZドル&nbsp;</td>
+    <td class="last">-11.67億NZドル&nbsp;</td>
+    <td class="revison">-11.74億NZドル&nbsp;</td>
+    <td class="recital">&nbsp;</td>
+  </tr>
+    <tr >
+      <td class="date">
+1月4日      &nbsp;</td>
+      <td class="time">
+15:45  &nbsp;</td>
+    <td class="target">12月&nbsp;</td>
+    <td class="area"><img src="http://www.klug-data.jp/img/country/6.gif" border="0" alt="" /><br />スイス&nbsp;</td>
+    <td class="index">消費者物価指数(前月比)&nbsp;</td>
+    <td class="result">0.0%&nbsp;</td>
+    <td class="guess">0.0%&nbsp;</td>
+    <td class="last">0.0%&nbsp;</td>
+    <td class="revison">&nbsp;</td>
+    <td class="recital">&nbsp;</td>
+  </tr>
+    <tr >
+      <td class="date">
+1月4日      &nbsp;</td>
+      <td class="time">
+15:45  &nbsp;</td>
+    <td class="target">12月&nbsp;</td>
+    <td class="area"><img src="http://www.klug-data.jp/img/country/6.gif" border="0" alt="" /><br />スイス&nbsp;</td>
+    <td class="index">消費者物価指数(前年比)&nbsp;</td>
+    <td class="result">0.6%&nbsp;</td>
+    <td class="guess">0.6%&nbsp;</td>
+    <td class="last">0.5%&nbsp;</td>
+    <td class="revison">&nbsp;</td>
+    <td class="recital">&nbsp;</td>
+  </tr>
+    <tr >
+      <td class="date">
+1月4日      &nbsp;</td>
+      <td class="time">
+17:55  &nbsp;</td>
+    <td class="target">12月&nbsp;</td>
+    <td class="area"><img src="http://www.klug-data.jp/img/country/5.gif" border="0" alt="" /><br />ドイツ&nbsp;</td>
+    <td class="index">非製造業PMI(購買担当者指数)&nbsp;</td>
+    <td class="result">57.6&nbsp;</td>
+    <td class="guess">57&nbsp;</td>
+    <td class="last">56.8&nbsp;</td>
+    <td class="revison">&nbsp;</td>
+    <td class="recital">&nbsp;</td>
+  </tr>
+    <tr >
+      <td class="date">
+1月4日      &nbsp;</td>
+      <td class="time">
+18:00  &nbsp;</td>
+    <td class="target">12月&nbsp;</td>
+    <td class="area"><img src="http://www.klug-data.jp/img/country/3.gif" border="0" alt="" /><br />ユーロ&nbsp;</td>
+    <td class="index">ユーロ圏非製造業PMI（購買担当者指数）&nbsp;</td>
+    <td class="result">57.2&nbsp;</td>
+    <td class="guess">57.6&nbsp;</td>
+    <td class="last">57.6&nbsp;</td>
+    <td class="revison">&nbsp;</td>
+    <td class="recital">&nbsp;</td>
+  </tr>
+    <tr >
+      <td class="date">
+1月4日      &nbsp;</td>
+      <td class="time">
+19:00  &nbsp;</td>
+    <td class="target">12月&nbsp;</td>
+    <td class="area"><img src="http://www.klug-data.jp/img/country/3.gif" border="0" alt="" /><br />ユーロ&nbsp;</td>
+    <td class="index">ユーロ圏消費者物価指数（前年比）&nbsp;</td>
+    <td class="result">1.9%&nbsp;</td>
+    <td class="guess">1.9%&nbsp;</td>
+    <td class="last">1.9%&nbsp;</td>
+    <td class="revison">&nbsp;</td>
+    <td class="recital">概算速報値&nbsp;</td>
+  </tr>
+    <tr >
+      <td class="date">
+1月4日      &nbsp;</td>
+      <td class="time">
+19:30  &nbsp;</td>
+    <td class="target">12月&nbsp;</td>
+    <td class="area"><img src="http://www.klug-data.jp/img/country/4.gif" border="0" alt="" /><br />英国&nbsp;</td>
+    <td class="index">GFK消費者信頼感調査&nbsp;</td>
+    <td class="result">-8&nbsp;</td>
+    <td class="guess">-6&nbsp;</td>
+    <td class="last">-7&nbsp;</td>
+    <td class="revison">&nbsp;</td>
+    <td class="recital">&nbsp;</td>
+  </tr>
+    <tr >
+      <td class="date">
+1月4日      &nbsp;</td>
+      <td class="time">
+22:30  &nbsp;</td>
+    <td class="target">11月&nbsp;</td>
+    <td class="area"><img src="http://www.klug-data.jp/img/country/7.gif" border="0" alt="" /><br />カナダ&nbsp;</td>
+    <td class="index">原料価格指数(前月比)&nbsp;</td>
+    <td class="result">0.9%&nbsp;</td>
+    <td class="guess">1.1%&nbsp;</td>
+    <td class="last">-2.8%&nbsp;</td>
+    <td class="revison">-2.7%&nbsp;</td>
+    <td class="recital">&nbsp;</td>
+  </tr>
+    <tr >
+      <td class="date">
+1月4日      &nbsp;</td>
+      <td class="time">
+22:30  &nbsp;</td>
+    <td class="target">11月&nbsp;</td>
+    <td class="area"><img src="http://www.klug-data.jp/img/country/7.gif" border="0" alt="" /><br />カナダ&nbsp;</td>
+    <td class="index">鉱工業製品価格(前月比)&nbsp;</td>
+    <td class="result">0.0%&nbsp;</td>
+    <td class="guess">0.7%&nbsp;</td>
+    <td class="last">-0.1%&nbsp;</td>
+    <td class="revison">0.0%&nbsp;</td>
+    <td class="recital">&nbsp;</td>
+  </tr>
+    <tr >
+      <td class="date">
+1月4日      &nbsp;</td>
+      <td class="time">
+22:30  &nbsp;</td>
+    <td class="target">12/30 - 1/5&nbsp;</td>
+    <td class="area"><img src="http://www.klug-data.jp/img/country/1.gif" border="0" alt="" /><br />米国&nbsp;</td>
+    <td class="index">新規失業保険申請件数&nbsp;</td>
+    <td class="result">329千件&nbsp;</td>
+    <td class="guess">320千件&nbsp;</td>
+    <td class="last">317千件&nbsp;</td>
+    <td class="revison">322千件&nbsp;</td>
+    <td class="recital">&nbsp;</td>
+  </tr>
+    <tr >
+      <td class="date">
+1月5日      &nbsp;</td>
+      <td class="time">
+00:00  &nbsp;</td>
+    <td class="target">12月&nbsp;</td>
+    <td class="area"><img src="http://www.klug-data.jp/img/country/1.gif" border="0" alt="" /><br />米国&nbsp;</td>
+    <td class="index">ISM非製造業景気指数&nbsp;</td>
+    <td class="result">57.1&nbsp;</td>
+    <td class="guess">57&nbsp;</td>
+    <td class="last">58.9&nbsp;</td>
+    <td class="revison">58.6&nbsp;</td>
+    <td class="recital">&nbsp;</td>
+  </tr>
+    <tr >
+      <td class="date">
+1月5日      &nbsp;</td>
+      <td class="time">
+00:00  &nbsp;</td>
+    <td class="target">11月&nbsp;</td>
+    <td class="area"><img src="http://www.klug-data.jp/img/country/1.gif" border="0" alt="" /><br />米国&nbsp;</td>
+    <td class="index">製造業受注指数&nbsp;</td>
+    <td class="result">0.9%&nbsp;</td>
+    <td class="guess">1.3%&nbsp;</td>
+    <td class="last">-4.7%&nbsp;</td>
+    <td class="revison">-4.4%&nbsp;</td>
+    <td class="recital">&nbsp;</td>
+  </tr>
+    <tr >
+      <td class="date">
+1月5日      &nbsp;</td>
+      <td class="time">
+00:00  &nbsp;</td>
+    <td class="target">11月&nbsp;</td>
+    <td class="area"><img src="http://www.klug-data.jp/img/country/1.gif" border="0" alt="" /><br />米国&nbsp;</td>
+    <td class="index">中古住宅販売件数成約指数（前月比）&nbsp;</td>
+    <td class="result">-0.5%&nbsp;</td>
+    <td class="guess">0.7%&nbsp;</td>
+    <td class="last">-1.7%&nbsp;</td>
+    <td class="revison">-1.1%&nbsp;</td>
+    <td class="recital">&nbsp;</td>
+  </tr>
+    <tr >
+      <td class="date">
+1月5日      &nbsp;</td>
+      <td class="time">
+17:00  &nbsp;</td>
+    <td class="target">12月&nbsp;</td>
+    <td class="area"><img src="http://www.klug-data.jp/img/country/4.gif" border="0" alt="" /><br />英国&nbsp;</td>
+    <td class="index">ハリファックス住宅価格（前月比）&nbsp;</td>
+    <td class="result">-1%&nbsp;</td>
+    <td class="guess">1%&nbsp;</td>
+    <td class="last">1.7%&nbsp;</td>
+    <td class="revison">2.1%&nbsp;</td>
+    <td class="recital">&nbsp;</td>
+  </tr>
+    <tr >
+      <td class="date">
+1月5日      &nbsp;</td>
+      <td class="time">
+19:00  &nbsp;</td>
+    <td class="target">11月&nbsp;</td>
+    <td class="area"><img src="http://www.klug-data.jp/img/country/3.gif" border="0" alt="" /><br />ユーロ&nbsp;</td>
+    <td class="index">ユーロ圏 失業率&nbsp;</td>
+    <td class="result">7.6%&nbsp;</td>
+    <td class="guess">7.6%&nbsp;</td>
+    <td class="last">7.7%&nbsp;</td>
+    <td class="revison">&nbsp;</td>
+    <td class="recital">&nbsp;</td>
+  </tr>
+    <tr >
+      <td class="date">
+1月5日      &nbsp;</td>
+      <td class="time">
+19:00  &nbsp;</td>
+    <td class="target">11月&nbsp;</td>
+    <td class="area"><img src="http://www.klug-data.jp/img/country/3.gif" border="0" alt="" /><br />ユーロ&nbsp;</td>
+    <td class="index">ユーロ圏 小売売上高(前月比)&nbsp;</td>
+    <td class="result">0.5%&nbsp;</td>
+    <td class="guess">0.5%&nbsp;</td>
+    <td class="last">0.3%&nbsp;</td>
+    <td class="revison">0.1%&nbsp;</td>
+    <td class="recital">&nbsp;</td>
+  </tr>
+    <tr >
+      <td class="date">
+1月5日      &nbsp;</td>
+      <td class="time">
+19:00  &nbsp;</td>
+    <td class="target">11月&nbsp;</td>
+    <td class="area"><img src="http://www.klug-data.jp/img/country/3.gif" border="0" alt="" /><br />ユーロ&nbsp;</td>
+    <td class="index">ユーロ圏 小売売上高(前年比)&nbsp;</td>
+    <td class="result">1.3%&nbsp;</td>
+    <td class="guess">1.6%&nbsp;</td>
+    <td class="last">1.1%&nbsp;</td>
+    <td class="revison">0.8%&nbsp;</td>
+    <td class="recital">&nbsp;</td>
+  </tr>
+    <tr >
+      <td class="date">
+1月5日      &nbsp;</td>
+      <td class="time">
+19:00  &nbsp;</td>
+    <td class="target">11月&nbsp;</td>
+    <td class="area"><img src="http://www.klug-data.jp/img/country/3.gif" border="0" alt="" /><br />ユーロ&nbsp;</td>
+    <td class="index">ユーロ圏生産者物価指数（PPI）（前月比）&nbsp;</td>
+    <td class="result">0.0%&nbsp;</td>
+    <td class="guess">0.1%&nbsp;</td>
+    <td class="last">0.0%&nbsp;</td>
+    <td class="revison">&nbsp;</td>
+    <td class="recital">&nbsp;</td>
+  </tr>
+    <tr >
+      <td class="date">
+1月5日      &nbsp;</td>
+      <td class="time">
+19:00  &nbsp;</td>
+    <td class="target">11月&nbsp;</td>
+    <td class="area"><img src="http://www.klug-data.jp/img/country/3.gif" border="0" alt="" /><br />ユーロ&nbsp;</td>
+    <td class="index">ユーロ圏生産者物価指数（PPI）（前年比）&nbsp;</td>
+    <td class="result">4.3%&nbsp;</td>
+    <td class="guess">4.3%&nbsp;</td>
+    <td class="last">4.0%&nbsp;</td>
+    <td class="revison">&nbsp;</td>
+    <td class="recital">&nbsp;</td>
+  </tr>
+    <tr >
+      <td class="date">
+1月5日      &nbsp;</td>
+      <td class="time">
+21:00  &nbsp;</td>
+    <td class="target">12月&nbsp;</td>
+    <td class="area"><img src="http://www.klug-data.jp/img/country/7.gif" border="0" alt="" /><br />カナダ&nbsp;</td>
+    <td class="index">雇用ネット変化&nbsp;</td>
+    <td class="result">616千人&nbsp;</td>
+    <td class="guess">150千人&nbsp;</td>
+    <td class="last">224千人&nbsp;</td>
+    <td class="revison">&nbsp;</td>
+    <td class="recital">&nbsp;</td>
+  </tr>
+    <tr >
+      <td class="date">
+1月5日      &nbsp;</td>
+      <td class="time">
+21:00  &nbsp;</td>
+    <td class="target">12月&nbsp;</td>
+    <td class="area"><img src="http://www.klug-data.jp/img/country/7.gif" border="0" alt="" /><br />カナダ&nbsp;</td>
+    <td class="index">失業率&nbsp;</td>
+    <td class="result">6.1%&nbsp;</td>
+    <td class="guess">6.3%&nbsp;</td>
+    <td class="last">6.3%&nbsp;</td>
+    <td class="revison">&nbsp;</td>
+    <td class="recital">&nbsp;</td>
+  </tr>
+    <tr >
+      <td class="date">
+1月5日      &nbsp;</td>
+      <td class="time">
+22:30  &nbsp;</td>
+    <td class="target">12月&nbsp;</td>
+    <td class="area"><img src="http://www.klug-data.jp/img/country/1.gif" border="0" alt="" /><br />米国&nbsp;</td>
+    <td class="index">失業率&nbsp;</td>
+    <td class="result">4.5%&nbsp;</td>
+    <td class="guess">4.5%&nbsp;</td>
+    <td class="last">4.5%&nbsp;</td>
+    <td class="revison">0%&nbsp;</td>
+    <td class="recital">&nbsp;</td>
+  </tr>
+    <tr >
+      <td class="date">
+1月6日      &nbsp;</td>
+      <td class="time">
+00:00  &nbsp;</td>
+    <td class="target">12月&nbsp;</td>
+    <td class="area"><img src="http://www.klug-data.jp/img/country/7.gif" border="0" alt="" /><br />カナダ&nbsp;</td>
+    <td class="index">Ivey購買担当者景況感指数&nbsp;</td>
+    <td class="result">49.4&nbsp;</td>
+    <td class="guess">49.5&nbsp;</td>
+    <td class="last">52.8&nbsp;</td>
+    <td class="revison">&nbsp;</td>
+    <td class="recital">&nbsp;</td>
+  </tr>
+    <tr >
+      <td class="date">
+1月8日      &nbsp;</td>
+      <td class="time">
+15:45  &nbsp;</td>
+    <td class="target">12月&nbsp;</td>
+    <td class="area"><img src="http://www.klug-data.jp/img/country/6.gif" border="0" alt="" /><br />スイス&nbsp;</td>
+    <td class="index">失業率&nbsp;</td>
+    <td class="result">3.3%&nbsp;</td>
+    <td class="guess">3.2%&nbsp;</td>
+    <td class="last">3.1%&nbsp;</td>
+    <td class="revison">&nbsp;</td>
+    <td class="recital">&nbsp;</td>
+  </tr>
+    <tr >
+      <td class="date">
+1月8日      &nbsp;</td>
+      <td class="time">
+15:45  &nbsp;</td>
+    <td class="target">12月&nbsp;</td>
+    <td class="area"><img src="http://www.klug-data.jp/img/country/6.gif" border="0" alt="" /><br />スイス&nbsp;</td>
+    <td class="index">失業率(季調済)&nbsp;</td>
+    <td class="result">3.1%&nbsp;</td>
+    <td class="guess">3.0%&nbsp;</td>
+    <td class="last">3.1%&nbsp;</td>
+    <td class="revison">&nbsp;</td>
+    <td class="recital">&nbsp;</td>
+  </tr>
+    <tr >
+      <td class="date">
+1月8日      &nbsp;</td>
+      <td class="time">
+16:00  &nbsp;</td>
+    <td class="target">11月&nbsp;</td>
+    <td class="area"><img src="http://www.klug-data.jp/img/country/5.gif" border="0" alt="" /><br />ドイツ&nbsp;</td>
+    <td class="index">小売売上高指数(前月比)&nbsp;</td>
+    <td class="result">-0.3%&nbsp;</td>
+    <td class="guess">1.0%&nbsp;</td>
+    <td class="last">-0.5%&nbsp;</td>
+    <td class="revison">&nbsp;</td>
+    <td class="recital">&nbsp;</td>
+  </tr>
+    <tr >
+      <td class="date">
+1月8日      &nbsp;</td>
+      <td class="time">
+16:00  &nbsp;</td>
+    <td class="target">11月&nbsp;</td>
+    <td class="area"><img src="http://www.klug-data.jp/img/country/5.gif" border="0" alt="" /><br />ドイツ&nbsp;</td>
+    <td class="index">小売売上高指数(前年比)&nbsp;</td>
+    <td class="result">-0.5%&nbsp;</td>
+    <td class="guess">0.3%&nbsp;</td>
+    <td class="last">-0.8%&nbsp;</td>
+    <td class="revison">-0.5%&nbsp;</td>
+    <td class="recital">&nbsp;</td>
+  </tr>
+    <tr >
+      <td class="date">
+1月8日      &nbsp;</td>
+      <td class="time">
+20:00  &nbsp;</td>
+    <td class="target">11月&nbsp;</td>
+    <td class="area"><img src="http://www.klug-data.jp/img/country/5.gif" border="0" alt="" /><br />ドイツ&nbsp;</td>
+    <td class="index">製造業受注(前月比/季調済)&nbsp;</td>
+    <td class="result">1.5%&nbsp;</td>
+    <td class="guess">1.5%&nbsp;</td>
+    <td class="last">-1.1%&nbsp;</td>
+    <td class="revison">-0.7%&nbsp;</td>
+    <td class="recital">&nbsp;</td>
+  </tr>
+    <tr >
+      <td class="date">
+1月8日      &nbsp;</td>
+      <td class="time">
+20:00  &nbsp;</td>
+    <td class="target">11月&nbsp;</td>
+    <td class="area"><img src="http://www.klug-data.jp/img/country/5.gif" border="0" alt="" /><br />ドイツ&nbsp;</td>
+    <td class="index">製造業受注(前年比/季調前)&nbsp;</td>
+    <td class="result">6.1%&nbsp;</td>
+    <td class="guess">5.6%&nbsp;</td>
+    <td class="last">10.0%&nbsp;</td>
+    <td class="revison">10.6%&nbsp;</td>
+    <td class="recital">&nbsp;</td>
+  </tr>
+    <tr >
+      <td class="date">
+1月9日      &nbsp;</td>
+      <td class="time">
+09:30  &nbsp;</td>
+    <td class="target">11月&nbsp;</td>
+    <td class="area"><img src="http://www.klug-data.jp/img/country/8.gif" border="0" alt="" /><br />オーストラリア&nbsp;</td>
+    <td class="index">小売売上高&nbsp;</td>
+    <td class="result">0.2%&nbsp;</td>
+    <td class="guess">0.3%&nbsp;</td>
+    <td class="last">0.8%&nbsp;</td>
+    <td class="revison">0.9%&nbsp;</td>
+    <td class="recital">&nbsp;</td>
+  </tr>
+    <tr >
+      <td class="date">
+1月9日      &nbsp;</td>
+      <td class="time">
+16:00  &nbsp;</td>
+    <td class="target">11月&nbsp;</td>
+    <td class="area"><img src="http://www.klug-data.jp/img/country/5.gif" border="0" alt="" /><br />ドイツ&nbsp;</td>
+    <td class="index">経常収支(ﾕｰﾛ)&nbsp;</td>
+    <td class="result">125億ユーロ&nbsp;</td>
+    <td class="guess">110億ユーロ&nbsp;</td>
+    <td class="last">116億ユーロ&nbsp;</td>
+    <td class="revison">117億ユーロ&nbsp;</td>
+    <td class="recital">&nbsp;</td>
+  </tr>
+    <tr >
+      <td class="date">
+1月9日      &nbsp;</td>
+      <td class="time">
+16:00  &nbsp;</td>
+    <td class="target">11月&nbsp;</td>
+    <td class="area"><img src="http://www.klug-data.jp/img/country/5.gif" border="0" alt="" /><br />ドイツ&nbsp;</td>
+    <td class="index">貿易収支&nbsp;</td>
+    <td class="result">185億ユーロ&nbsp;</td>
+    <td class="guess">159億ユーロ&nbsp;</td>
+    <td class="last">173億ユーロ&nbsp;</td>
+    <td class="revison">174億ユーロ&nbsp;</td>
+    <td class="recital">&nbsp;</td>
+  </tr>
+    <tr >
+      <td class="date">
+1月9日      &nbsp;</td>
+      <td class="time">
+20:00  &nbsp;</td>
+    <td class="target">11月&nbsp;</td>
+    <td class="area"><img src="http://www.klug-data.jp/img/country/5.gif" border="0" alt="" /><br />ドイツ&nbsp;</td>
+    <td class="index">鉱工業生産(前月比/季調済)&nbsp;</td>
+    <td class="result">1.8%&nbsp;</td>
+    <td class="guess">1.0%&nbsp;</td>
+    <td class="last">-1.4%&nbsp;</td>
+    <td class="revison">-0.8%&nbsp;</td>
+    <td class="recital">&nbsp;</td>
+  </tr>
+    <tr >
+      <td class="date">
+1月9日      &nbsp;</td>
+      <td class="time">
+20:00  &nbsp;</td>
+    <td class="target">11月&nbsp;</td>
+    <td class="area"><img src="http://www.klug-data.jp/img/country/5.gif" border="0" alt="" /><br />ドイツ&nbsp;</td>
+    <td class="index">鉱工業生産(年比/季調前/労働日数調整)&nbsp;</td>
+    <td class="result">6.0%&nbsp;</td>
+    <td class="guess">4.6%&nbsp;</td>
+    <td class="last">3.4%&nbsp;</td>
+    <td class="revison">3.5%&nbsp;</td>
+    <td class="recital">&nbsp;</td>
+  </tr>
+    <tr >
+      <td class="date">
+1月9日      &nbsp;</td>
+      <td class="time">
+22:15  &nbsp;</td>
+    <td class="target">12月&nbsp;</td>
+    <td class="area"><img src="http://www.klug-data.jp/img/country/7.gif" border="0" alt="" /><br />カナダ&nbsp;</td>
+    <td class="index">住宅着工件数&nbsp;</td>
+    <td class="result">211.5千件&nbsp;</td>
+    <td class="guess">226.0千件&nbsp;</td>
+    <td class="last">225.0千件&nbsp;</td>
+    <td class="revison">229.3千件&nbsp;</td>
+    <td class="recital">&nbsp;</td>
+  </tr>
+    <tr >
+      <td class="date">
+1月10日      &nbsp;</td>
+      <td class="time">
+09:30  &nbsp;</td>
+    <td class="target">11月&nbsp;</td>
+    <td class="area"><img src="http://www.klug-data.jp/img/country/8.gif" border="0" alt="" /><br />オーストラリア&nbsp;</td>
+    <td class="index">貿易収支&nbsp;</td>
+    <td class="result">-843百万豪ドル&nbsp;</td>
+    <td class="guess">-775百万豪ドル&nbsp;</td>
+    <td class="last">-1263百万豪ドル&nbsp;</td>
+    <td class="revison">-1508百万豪ドル&nbsp;</td>
+    <td class="recital">&nbsp;</td>
+  </tr>
+    <tr >
+      <td class="date">
+1月10日      &nbsp;</td>
+      <td class="time">
+16:00  &nbsp;</td>
+    <td class="target">12月&nbsp;</td>
+    <td class="area"><img src="http://www.klug-data.jp/img/country/5.gif" border="0" alt="" /><br />ドイツ&nbsp;</td>
+    <td class="index">卸売物価指数(前月比)&nbsp;</td>
+    <td class="result">0.0%&nbsp;</td>
+    <td class="guess">&nbsp;</td>
+    <td class="last">0.1%&nbsp;</td>
+    <td class="revison">&nbsp;</td>
+    <td class="recital">&nbsp;</td>
+  </tr>
+    <tr >
+      <td class="date">
+1月10日      &nbsp;</td>
+      <td class="time">
+16:00  &nbsp;</td>
+    <td class="target">12月&nbsp;</td>
+    <td class="area"><img src="http://www.klug-data.jp/img/country/5.gif" border="0" alt="" /><br />ドイツ&nbsp;</td>
+    <td class="index">卸売物価指数(前年比)&nbsp;</td>
+    <td class="result">3.7%&nbsp;</td>
+    <td class="guess">&nbsp;</td>
+    <td class="last">3.7%&nbsp;</td>
+    <td class="revison">&nbsp;</td>
+    <td class="recital">&nbsp;</td>
+  </tr>
+    <tr >
+      <td class="date">
+1月10日      &nbsp;</td>
+      <td class="time">
+18:30  &nbsp;</td>
+    <td class="target">11月&nbsp;</td>
+    <td class="area"><img src="http://www.klug-data.jp/img/country/4.gif" border="0" alt="" /><br />英国&nbsp;</td>
+    <td class="index">商品貿易収支&nbsp;</td>
+    <td class="result">-7193百万ポンド&nbsp;</td>
+    <td class="guess">-6450百万ポンド&nbsp;</td>
+    <td class="last">-6326百万ポンド&nbsp;</td>
+    <td class="revison">-6567百万ポンド&nbsp;</td>
+    <td class="recital">&nbsp;</td>
+  </tr>
+    <tr >
+      <td class="date">
+1月10日      &nbsp;</td>
+      <td class="time">
+22:30  &nbsp;</td>
+    <td class="target">11月&nbsp;</td>
+    <td class="area"><img src="http://www.klug-data.jp/img/country/7.gif" border="0" alt="" /><br />カナダ&nbsp;</td>
+    <td class="index">国際商品貿易&nbsp;</td>
+    <td class="result">47億加ドル&nbsp;</td>
+    <td class="guess">4億加ドル&nbsp;</td>
+    <td class="last">38億加ドル&nbsp;</td>
+    <td class="revison">38億加ドル&nbsp;</td>
+    <td class="recital">&nbsp;</td>
+  </tr>
+    <tr >
+      <td class="date">
+1月10日      &nbsp;</td>
+      <td class="time">
+22:30  &nbsp;</td>
+    <td class="target">11月&nbsp;</td>
+    <td class="area"><img src="http://www.klug-data.jp/img/country/7.gif" border="0" alt="" /><br />カナダ&nbsp;</td>
+    <td class="index">住宅建設許可(前月比)&nbsp;</td>
+    <td class="result">3.0%&nbsp;</td>
+    <td class="guess">-2.5%&nbsp;</td>
+    <td class="last">6.1%&nbsp;</td>
+    <td class="revison">7.8%&nbsp;</td>
+    <td class="recital">&nbsp;</td>
+  </tr>
+    <tr >
+      <td class="date">
+1月10日      &nbsp;</td>
+      <td class="time">
+22:30  &nbsp;</td>
+    <td class="target">11月&nbsp;</td>
+    <td class="area"><img src="http://www.klug-data.jp/img/country/1.gif" border="0" alt="" /><br />米国&nbsp;</td>
+    <td class="index">貿易収支&nbsp;</td>
+    <td class="result">-58.2十億&nbsp;</td>
+    <td class="guess">-60十億&nbsp;</td>
+    <td class="last">-58.9十億&nbsp;</td>
+    <td class="revison">-58.7十億&nbsp;</td>
+    <td class="recital">&nbsp;</td>
+  </tr>
+    <tr >
+      <td class="date">
+1月11日      &nbsp;</td>
+      <td class="time">
+00:00  &nbsp;</td>
+    <td class="target">11月&nbsp;</td>
+    <td class="area"><img src="http://www.klug-data.jp/img/country/1.gif" border="0" alt="" /><br />米国&nbsp;</td>
+    <td class="index">卸売在庫（前月比）&nbsp;</td>
+    <td class="result">1.3%&nbsp;</td>
+    <td class="guess">0.5%&nbsp;</td>
+    <td class="last">0.8%&nbsp;</td>
+    <td class="revison">0.4%&nbsp;</td>
+    <td class="recital">&nbsp;</td>
+  </tr>
+    <tr >
+      <td class="date">
+1月11日      &nbsp;</td>
+      <td class="time">
+09:30  &nbsp;</td>
+    <td class="target">12月&nbsp;</td>
+    <td class="area"><img src="http://www.klug-data.jp/img/country/8.gif" border="0" alt="" /><br />オーストラリア&nbsp;</td>
+    <td class="index">失業率&nbsp;</td>
+    <td class="result">4.6%&nbsp;</td>
+    <td class="guess">4.7%&nbsp;</td>
+    <td class="last">4.6%&nbsp;</td>
+    <td class="revison">&nbsp;</td>
+    <td class="recital">&nbsp;</td>
+  </tr>
+    <tr >
+      <td class="date">
+1月11日      &nbsp;</td>
+      <td class="time">
+09:30  &nbsp;</td>
+    <td class="target">12月&nbsp;</td>
+    <td class="area"><img src="http://www.klug-data.jp/img/country/8.gif" border="0" alt="" /><br />オーストラリア&nbsp;</td>
+    <td class="index">新規雇用者数&nbsp;</td>
+    <td class="result">44.6千人&nbsp;</td>
+    <td class="guess">15.0千人&nbsp;</td>
+    <td class="last">36.2千人&nbsp;</td>
+    <td class="revison">43.0千人&nbsp;</td>
+    <td class="recital">&nbsp;</td>
+  </tr>
+    <tr >
+      <td class="date">
+1月11日      &nbsp;</td>
+      <td class="time">
+14:00  &nbsp;</td>
+    <td class="target">11月&nbsp;</td>
+    <td class="area"><img src="http://www.klug-data.jp/img/country/2.gif" border="0" alt="" /><br />日本&nbsp;</td>
+    <td class="index">景気一致指数&nbsp;</td>
+    <td class="result">50.0%&nbsp;</td>
+    <td class="guess">50.0%&nbsp;</td>
+    <td class="last">75.0%&nbsp;</td>
+    <td class="revison">&nbsp;</td>
+    <td class="recital">速報値&nbsp;</td>
+  </tr>
+    <tr >
+      <td class="date">
+1月11日      &nbsp;</td>
+      <td class="time">
+14:00  &nbsp;</td>
+    <td class="target">11月&nbsp;</td>
+    <td class="area"><img src="http://www.klug-data.jp/img/country/2.gif" border="0" alt="" /><br />日本&nbsp;</td>
+    <td class="index">景気先行指数&nbsp;</td>
+    <td class="result">20.0%&nbsp;</td>
+    <td class="guess">20.0%&nbsp;</td>
+    <td class="last">54.5%&nbsp;</td>
+    <td class="revison">&nbsp;</td>
+    <td class="recital">速報値&nbsp;</td>
+  </tr>
+    <tr >
+      <td class="date">
+1月11日      &nbsp;</td>
+      <td class="time">
+18:30  &nbsp;</td>
+    <td class="target">11月&nbsp;</td>
+    <td class="area"><img src="http://www.klug-data.jp/img/country/4.gif" border="0" alt="" /><br />英国&nbsp;</td>
+    <td class="index">鉱工業生産（前月比）&nbsp;</td>
+    <td class="result">0.5%&nbsp;</td>
+    <td class="guess">0.3%&nbsp;</td>
+    <td class="last">-0.8%&nbsp;</td>
+    <td class="revison">-0.3%&nbsp;</td>
+    <td class="recital">&nbsp;</td>
+  </tr>
+    <tr >
+      <td class="date">
+1月11日      &nbsp;</td>
+      <td class="time">
+18:30  &nbsp;</td>
+    <td class="target">11月&nbsp;</td>
+    <td class="area"><img src="http://www.klug-data.jp/img/country/4.gif" border="0" alt="" /><br />英国&nbsp;</td>
+    <td class="index">鉱工業生産（前年比）&nbsp;</td>
+    <td class="result">0.8%&nbsp;</td>
+    <td class="guess">0.4%&nbsp;</td>
+    <td class="last">0.6%&nbsp;</td>
+    <td class="revison">1.6%&nbsp;</td>
+    <td class="recital">&nbsp;</td>
+  </tr>
+    <tr >
+      <td class="date">
+1月11日      &nbsp;</td>
+      <td class="time">
+18:30  &nbsp;</td>
+    <td class="target">11月&nbsp;</td>
+    <td class="area"><img src="http://www.klug-data.jp/img/country/4.gif" border="0" alt="" /><br />英国&nbsp;</td>
+    <td class="index">製造業生産高（前月比）&nbsp;</td>
+    <td class="result">0.3%&nbsp;</td>
+    <td class="guess">0.3%&nbsp;</td>
+    <td class="last">-0.4%&nbsp;</td>
+    <td class="revison">0.4%&nbsp;</td>
+    <td class="recital">&nbsp;</td>
+  </tr>
+    <tr >
+      <td class="date">
+1月11日      &nbsp;</td>
+      <td class="time">
+18:30  &nbsp;</td>
+    <td class="target">11月&nbsp;</td>
+    <td class="area"><img src="http://www.klug-data.jp/img/country/4.gif" border="0" alt="" /><br />英国&nbsp;</td>
+    <td class="index">製造業生産高（前年比）&nbsp;</td>
+    <td class="result">2.4%&nbsp;</td>
+    <td class="guess">2.3%&nbsp;</td>
+    <td class="last">2.5%&nbsp;</td>
+    <td class="revison">3.9%&nbsp;</td>
+    <td class="recital">&nbsp;</td>
+  </tr>
+    <tr >
+      <td class="date">
+1月11日      &nbsp;</td>
+      <td class="time">
+19:00  &nbsp;</td>
+    <td class="target">2006年<br>第4四半期&nbsp;</td>
+    <td class="area"><img src="http://www.klug-data.jp/img/country/3.gif" border="0" alt="" /><br />ユーロ&nbsp;</td>
+    <td class="index">ユーロ圏GDP季調済(前期比)&nbsp;</td>
+    <td class="result">0.50%&nbsp;</td>
+    <td class="guess">0.50%&nbsp;</td>
+    <td class="last">0.50%&nbsp;</td>
+    <td class="revison">&nbsp;</td>
+    <td class="recital">確報値&nbsp;</td>
+  </tr>
+    <tr >
+      <td class="date">
+1月11日      &nbsp;</td>
+      <td class="time">
+20:00  &nbsp;</td>
+    <td class="target">11月&nbsp;</td>
+    <td class="area"><img src="http://www.klug-data.jp/img/country/12.gif" border="0" alt="" /><br />南アフリカ&nbsp;</td>
+    <td class="index">製造業生産高（前年比・季調前）&nbsp;</td>
+    <td class="result">5.4%&nbsp;</td>
+    <td class="guess">&nbsp;</td>
+    <td class="last">7.5%&nbsp;</td>
+    <td class="revison">7.7%&nbsp;</td>
+    <td class="recital">&nbsp;</td>
+  </tr>
+    <tr >
+      <td class="date">
+1月11日      &nbsp;</td>
+      <td class="time">
+20:00  &nbsp;</td>
+    <td class="target">11月&nbsp;</td>
+    <td class="area"><img src="http://www.klug-data.jp/img/country/12.gif" border="0" alt="" /><br />南アフリカ&nbsp;</td>
+    <td class="index">製造業生産高（前月比･季調済）&nbsp;</td>
+    <td class="result">-0.2%&nbsp;</td>
+    <td class="guess">&nbsp;</td>
+    <td class="last">0.2%&nbsp;</td>
+    <td class="revison">0.3%&nbsp;</td>
+    <td class="recital">&nbsp;</td>
+  </tr>
+    <tr >
+      <td class="date">
+1月11日      &nbsp;</td>
+      <td class="time">
+21:00  &nbsp;</td>
+    <td class="target">2007-1-11&nbsp;</td>
+    <td class="area"><img src="http://www.klug-data.jp/img/country/4.gif" border="0" alt="" /><br />英国&nbsp;</td>
+    <td class="index">英中銀政策金利&nbsp;</td>
+    <td class="result">5.25%&nbsp;</td>
+    <td class="guess">5%&nbsp;</td>
+    <td class="last">5%&nbsp;</td>
+    <td class="revison">&nbsp;</td>
+    <td class="recital">&nbsp;</td>
+  </tr>
+    <tr >
+      <td class="date">
+1月11日      &nbsp;</td>
+      <td class="time">
+21:45  &nbsp;</td>
+    <td class="target">1月&nbsp;</td>
+    <td class="area"><img src="http://www.klug-data.jp/img/country/3.gif" border="0" alt="" /><br />ユーロ&nbsp;</td>
+    <td class="index">ECB政策金利&nbsp;</td>
+    <td class="result">3.50%&nbsp;</td>
+    <td class="guess">3.50%&nbsp;</td>
+    <td class="last">3.50%&nbsp;</td>
+    <td class="revison">&nbsp;</td>
+    <td class="recital">&nbsp;</td>
+  </tr>
+    <tr >
+      <td class="date">
+1月11日      &nbsp;</td>
+      <td class="time">
+22:30  &nbsp;</td>
+    <td class="target">1/6 - 1/12&nbsp;</td>
+    <td class="area"><img src="http://www.klug-data.jp/img/country/1.gif" border="0" alt="" /><br />米国&nbsp;</td>
+    <td class="index">新規失業保険申請件数&nbsp;</td>
+    <td class="result">299千件&nbsp;</td>
+    <td class="guess">320千件&nbsp;</td>
+    <td class="last">329千件&nbsp;</td>
+    <td class="revison">339千件&nbsp;</td>
+    <td class="recital">&nbsp;</td>
+  </tr>
+    <tr >
+      <td class="date">
+1月12日      &nbsp;</td>
+      <td class="time">
+22:30  &nbsp;</td>
+    <td class="target">12月&nbsp;</td>
+    <td class="area"><img src="http://www.klug-data.jp/img/country/1.gif" border="0" alt="" /><br />米国&nbsp;</td>
+    <td class="index">小売売上高（前月比）&nbsp;</td>
+    <td class="result">0.9%&nbsp;</td>
+    <td class="guess">0.7%&nbsp;</td>
+    <td class="last">1%&nbsp;</td>
+    <td class="revison">0.4%&nbsp;</td>
+    <td class="recital">&nbsp;</td>
+  </tr>
+    <tr >
+      <td class="date">
+1月12日      &nbsp;</td>
+      <td class="time">
+22:30  &nbsp;</td>
+    <td class="target">12月&nbsp;</td>
+    <td class="area"><img src="http://www.klug-data.jp/img/country/1.gif" border="0" alt="" /><br />米国&nbsp;</td>
+    <td class="index">小売売上高（自動車除くコア）（前月比）&nbsp;</td>
+    <td class="result">1%&nbsp;</td>
+    <td class="guess">0.5%&nbsp;</td>
+    <td class="last">1.1%&nbsp;</td>
+    <td class="revison">0.3%&nbsp;</td>
+    <td class="recital">&nbsp;</td>
+  </tr>
+    <tr >
+      <td class="date">
+1月13日      &nbsp;</td>
+      <td class="time">
+00:00  &nbsp;</td>
+    <td class="target">11月&nbsp;</td>
+    <td class="area"><img src="http://www.klug-data.jp/img/country/1.gif" border="0" alt="" /><br />米国&nbsp;</td>
+    <td class="index">企業在庫（前月比）&nbsp;</td>
+    <td class="result">0.4%&nbsp;</td>
+    <td class="guess">0.4%&nbsp;</td>
+    <td class="last">0.4%&nbsp;</td>
+    <td class="revison">0.3%&nbsp;</td>
+    <td class="recital">&nbsp;</td>
+  </tr>
+    <tr >
+      <td class="date">
+1月15日      &nbsp;</td>
+      <td class="time">
+08:50  &nbsp;</td>
+    <td class="target">11月&nbsp;</td>
+    <td class="area"><img src="http://www.klug-data.jp/img/country/2.gif" border="0" alt="" /><br />日本&nbsp;</td>
+    <td class="index">機械受注(前月比)&nbsp;</td>
+    <td class="result">3.8%&nbsp;</td>
+    <td class="guess">3.5%&nbsp;</td>
+    <td class="last">2.8%&nbsp;</td>
+    <td class="revison">&nbsp;</td>
+    <td class="recital">&nbsp;</td>
+  </tr>
+    <tr >
+      <td class="date">
+1月15日      &nbsp;</td>
+      <td class="time">
+08:50  &nbsp;</td>
+    <td class="target">11月&nbsp;</td>
+    <td class="area"><img src="http://www.klug-data.jp/img/country/2.gif" border="0" alt="" /><br />日本&nbsp;</td>
+    <td class="index">機械受注(前年比)&nbsp;</td>
+    <td class="result">0.7%&nbsp;</td>
+    <td class="guess">0.4%&nbsp;</td>
+    <td class="last">-1.2%&nbsp;</td>
+    <td class="revison">&nbsp;</td>
+    <td class="recital">&nbsp;</td>
+  </tr>
+    <tr >
+      <td class="date">
+1月15日      &nbsp;</td>
+      <td class="time">
+18:30  &nbsp;</td>
+    <td class="target">12月&nbsp;</td>
+    <td class="area"><img src="http://www.klug-data.jp/img/country/4.gif" border="0" alt="" /><br />英国&nbsp;</td>
+    <td class="index">生産者物価指数（PPI）（仕入）（前月比）&nbsp;</td>
+    <td class="result">0.1%&nbsp;</td>
+    <td class="guess">0.2%&nbsp;</td>
+    <td class="last">0.1%&nbsp;</td>
+    <td class="revison">0.6%&nbsp;</td>
+    <td class="recital">&nbsp;</td>
+  </tr>
+    <tr >
+      <td class="date">
+1月15日      &nbsp;</td>
+      <td class="time">
+18:30  &nbsp;</td>
+    <td class="target">12月&nbsp;</td>
+    <td class="area"><img src="http://www.klug-data.jp/img/country/4.gif" border="0" alt="" /><br />英国&nbsp;</td>
+    <td class="index">生産者物価指数（PPI）（仕入）（前年比）&nbsp;</td>
+    <td class="result">2%&nbsp;</td>
+    <td class="guess">1.4%&nbsp;</td>
+    <td class="last">2.8%&nbsp;</td>
+    <td class="revison">2.9%&nbsp;</td>
+    <td class="recital">&nbsp;</td>
+  </tr>
+    <tr >
+      <td class="date">
+1月15日      &nbsp;</td>
+      <td class="time">
+18:30  &nbsp;</td>
+    <td class="target">12月&nbsp;</td>
+    <td class="area"><img src="http://www.klug-data.jp/img/country/4.gif" border="0" alt="" /><br />英国&nbsp;</td>
+    <td class="index">生産者物価指数（PPI）（出荷）（前月比）&nbsp;</td>
+    <td class="result">0.2%&nbsp;</td>
+    <td class="guess">0.1%&nbsp;</td>
+    <td class="last">0%&nbsp;</td>
+    <td class="revison">-0.1%&nbsp;</td>
+    <td class="recital">&nbsp;</td>
+  </tr>
+    <tr >
+      <td class="date">
+1月15日      &nbsp;</td>
+      <td class="time">
+18:30  &nbsp;</td>
+    <td class="target">12月&nbsp;</td>
+    <td class="area"><img src="http://www.klug-data.jp/img/country/4.gif" border="0" alt="" /><br />英国&nbsp;</td>
+    <td class="index">生産者物価指数（PPI）（出荷）（前年比）&nbsp;</td>
+    <td class="result">2.2%&nbsp;</td>
+    <td class="guess">2.2%&nbsp;</td>
+    <td class="last">1.8%&nbsp;</td>
+    <td class="revison">1.4%&nbsp;</td>
+    <td class="recital">&nbsp;</td>
+  </tr>
+    <tr >
+      <td class="date">
+1月15日      &nbsp;</td>
+      <td class="time">
+18:30  &nbsp;</td>
+    <td class="target">12月&nbsp;</td>
+    <td class="area"><img src="http://www.klug-data.jp/img/country/4.gif" border="0" alt="" /><br />英国&nbsp;</td>
+    <td class="index">生産者物価指数（PPI）（出荷・コア）（前年比）&nbsp;</td>
+    <td class="result">2.3%&nbsp;</td>
+    <td class="guess">2.5%&nbsp;</td>
+    <td class="last">2.2%&nbsp;</td>
+    <td class="revison">1.5%&nbsp;</td>
+    <td class="recital">&nbsp;</td>
+  </tr>
+    <tr >
+      <td class="date">
+1月15日      &nbsp;</td>
+      <td class="time">
+19:00  &nbsp;</td>
+    <td class="target">11月&nbsp;</td>
+    <td class="area"><img src="http://www.klug-data.jp/img/country/3.gif" border="0" alt="" /><br />ユーロ&nbsp;</td>
+    <td class="index">ユーロ圏 鉱工業生産(季調済/前月比)&nbsp;</td>
+    <td class="result">0.2%&nbsp;</td>
+    <td class="guess">0.7%&nbsp;</td>
+    <td class="last">-0.1%&nbsp;</td>
+    <td class="revison">&nbsp;</td>
+    <td class="recital">&nbsp;</td>
+  </tr>
+    <tr >
+      <td class="date">
+1月15日      &nbsp;</td>
+      <td class="time">
+19:00  &nbsp;</td>
+    <td class="target">11月&nbsp;</td>
+    <td class="area"><img src="http://www.klug-data.jp/img/country/3.gif" border="0" alt="" /><br />ユーロ&nbsp;</td>
+    <td class="index">ユーロ圏 鉱工業生産(季調前/前年比)&nbsp;</td>
+    <td class="result">2.5%&nbsp;</td>
+    <td class="guess">3.1%&nbsp;</td>
+    <td class="last">3.6%&nbsp;</td>
+    <td class="revison">&nbsp;</td>
+    <td class="recital">&nbsp;</td>
+  </tr>
+    <tr >
+      <td class="date">
+1月16日      &nbsp;</td>
+      <td class="time">
+08:50  &nbsp;</td>
+    <td class="target">12月&nbsp;</td>
+    <td class="area"><img src="http://www.klug-data.jp/img/country/2.gif" border="0" alt="" /><br />日本&nbsp;</td>
+    <td class="index">国内企業物価指数(前月比)&nbsp;</td>
+    <td class="result">0.0%&nbsp;</td>
+    <td class="guess">0.0%&nbsp;</td>
+    <td class="last">-0.1%&nbsp;</td>
+    <td class="revison">&nbsp;</td>
+    <td class="recital">&nbsp;</td>
+  </tr>
+    <tr >
+      <td class="date">
+1月16日      &nbsp;</td>
+      <td class="time">
+08:50  &nbsp;</td>
+    <td class="target">12月&nbsp;</td>
+    <td class="area"><img src="http://www.klug-data.jp/img/country/2.gif" border="0" alt="" /><br />日本&nbsp;</td>
+    <td class="index">国内企業物価指数(前年比)&nbsp;</td>
+    <td class="result">2.5%&nbsp;</td>
+    <td class="guess">2.5%&nbsp;</td>
+    <td class="last">2.7%&nbsp;</td>
+    <td class="revison">&nbsp;</td>
+    <td class="recital">&nbsp;</td>
+  </tr>
+    <tr >
+      <td class="date">
+1月16日      &nbsp;</td>
+      <td class="time">
+09:01  &nbsp;</td>
+    <td class="target">12月&nbsp;</td>
+    <td class="area"><img src="http://www.klug-data.jp/img/country/4.gif" border="0" alt="" /><br />英国&nbsp;</td>
+    <td class="index">RICS住宅価格指数&nbsp;</td>
+    <td class="result">37%&nbsp;</td>
+    <td class="guess">45%&nbsp;</td>
+    <td class="last">47%&nbsp;</td>
+    <td class="revison">&nbsp;</td>
+    <td class="recital">&nbsp;</td>
+  </tr>
+    <tr >
+      <td class="date">
+1月16日      &nbsp;</td>
+      <td class="time">
+13:30  &nbsp;</td>
+    <td class="target">11月&nbsp;</td>
+    <td class="area"><img src="http://www.klug-data.jp/img/country/2.gif" border="0" alt="" /><br />日本&nbsp;</td>
+    <td class="index">鉱工業生産(前月比)&nbsp;</td>
+    <td class="result">0.8%&nbsp;</td>
+    <td class="guess">0.7%&nbsp;</td>
+    <td class="last">0.7%&nbsp;</td>
+    <td class="revison">&nbsp;</td>
+    <td class="recital">速報値&nbsp;</td>
+  </tr>
+    <tr >
+      <td class="date">
+1月16日      &nbsp;</td>
+      <td class="time">
+13:30  &nbsp;</td>
+    <td class="target">11月&nbsp;</td>
+    <td class="area"><img src="http://www.klug-data.jp/img/country/2.gif" border="0" alt="" /><br />日本&nbsp;</td>
+    <td class="index">鉱工業生産(前年比)&nbsp;</td>
+    <td class="result">4.9%&nbsp;</td>
+    <td class="guess">4.8%&nbsp;</td>
+    <td class="last">4.8%&nbsp;</td>
+    <td class="revison">&nbsp;</td>
+    <td class="recital">速報値&nbsp;</td>
+  </tr>
+    <tr >
+      <td class="date">
+1月16日      &nbsp;</td>
+      <td class="time">
+13:30  &nbsp;</td>
+    <td class="target">11月&nbsp;</td>
+    <td class="area"><img src="http://www.klug-data.jp/img/country/2.gif" border="0" alt="" /><br />日本&nbsp;</td>
+    <td class="index">設備稼働率&nbsp;</td>
+    <td class="result">107.5&nbsp;</td>
+    <td class="guess">&nbsp;</td>
+    <td class="last">107.2&nbsp;</td>
+    <td class="revison">&nbsp;</td>
+    <td class="recital">確報値&nbsp;</td>
+  </tr>
+    <tr >
+      <td class="date">
+1月16日      &nbsp;</td>
+      <td class="time">
+18:30  &nbsp;</td>
+    <td class="target">12月&nbsp;</td>
+    <td class="area"><img src="http://www.klug-data.jp/img/country/4.gif" border="0" alt="" /><br />英国&nbsp;</td>
+    <td class="index">消費者物価指数（CPI）（前月比）&nbsp;</td>
+    <td class="result">0.6%&nbsp;</td>
+    <td class="guess">0.4%&nbsp;</td>
+    <td class="last">0.3%&nbsp;</td>
+    <td class="revison">&nbsp;</td>
+    <td class="recital">&nbsp;</td>
+  </tr>
+    <tr >
+      <td class="date">
+1月16日      &nbsp;</td>
+      <td class="time">
+18:30  &nbsp;</td>
+    <td class="target">12月&nbsp;</td>
+    <td class="area"><img src="http://www.klug-data.jp/img/country/4.gif" border="0" alt="" /><br />英国&nbsp;</td>
+    <td class="index">消費者物価指数（CPI）（前年比）&nbsp;</td>
+    <td class="result">3%&nbsp;</td>
+    <td class="guess">2.9%&nbsp;</td>
+    <td class="last">2.7%&nbsp;</td>
+    <td class="revison">&nbsp;</td>
+    <td class="recital">&nbsp;</td>
+  </tr>
+    <tr >
+      <td class="date">
+1月16日      &nbsp;</td>
+      <td class="time">
+18:30  &nbsp;</td>
+    <td class="target">12月&nbsp;</td>
+    <td class="area"><img src="http://www.klug-data.jp/img/country/4.gif" border="0" alt="" /><br />英国&nbsp;</td>
+    <td class="index">消費者物価指数（CPI）（コア）（前年比）&nbsp;</td>
+    <td class="result">1.8%&nbsp;</td>
+    <td class="guess">1.7%&nbsp;</td>
+    <td class="last">&nbsp;</td>
+    <td class="revison">&nbsp;</td>
+    <td class="recital">&nbsp;</td>
+  </tr>
+    <tr >
+      <td class="date">
+1月16日      &nbsp;</td>
+      <td class="time">
+18:30  &nbsp;</td>
+    <td class="target">12月&nbsp;</td>
+    <td class="area"><img src="http://www.klug-data.jp/img/country/4.gif" border="0" alt="" /><br />英国&nbsp;</td>
+    <td class="index">小売物価指数（RPI）（前月比）&nbsp;</td>
+    <td class="result">0.8%&nbsp;</td>
+    <td class="guess">0.6%&nbsp;</td>
+    <td class="last">0.3%&nbsp;</td>
+    <td class="revison">&nbsp;</td>
+    <td class="recital">&nbsp;</td>
+  </tr>
+    <tr >
+      <td class="date">
+1月16日      &nbsp;</td>
+      <td class="time">
+18:30  &nbsp;</td>
+    <td class="target">12月&nbsp;</td>
+    <td class="area"><img src="http://www.klug-data.jp/img/country/4.gif" border="0" alt="" /><br />英国&nbsp;</td>
+    <td class="index">小売物価指数（RPI）（前年比）&nbsp;</td>
+    <td class="result">4.4%&nbsp;</td>
+    <td class="guess">4.3%&nbsp;</td>
+    <td class="last">3.9%&nbsp;</td>
+    <td class="revison">&nbsp;</td>
+    <td class="recital">&nbsp;</td>
+  </tr>
+    <tr >
+      <td class="date">
+1月16日      &nbsp;</td>
+      <td class="time">
+18:30  &nbsp;</td>
+    <td class="target">12月&nbsp;</td>
+    <td class="area"><img src="http://www.klug-data.jp/img/country/4.gif" border="0" alt="" /><br />英国&nbsp;</td>
+    <td class="index">小売物価指数（RPIX）（除くモーゲージ利払い）&nbsp;</td>
+    <td class="result">3.8%&nbsp;</td>
+    <td class="guess">3.6%&nbsp;</td>
+    <td class="last">3.4%&nbsp;</td>
+    <td class="revison">&nbsp;</td>
+    <td class="recital">&nbsp;</td>
+  </tr>
+    <tr >
+      <td class="date">
+1月16日      &nbsp;</td>
+      <td class="time">
+19:00  &nbsp;</td>
+    <td class="target">1月&nbsp;</td>
+    <td class="area"><img src="http://www.klug-data.jp/img/country/5.gif" border="0" alt="" /><br />ドイツ&nbsp;</td>
+    <td class="index">ZEW景況感調査&nbsp;</td>
+    <td class="result">-3.6&nbsp;</td>
+    <td class="guess">-10&nbsp;</td>
+    <td class="last">-19&nbsp;</td>
+    <td class="revison">&nbsp;</td>
+    <td class="recital">&nbsp;</td>
+  </tr>
+    <tr >
+      <td class="date">
+1月16日      &nbsp;</td>
+      <td class="time">
+22:30  &nbsp;</td>
+    <td class="target">1月&nbsp;</td>
+    <td class="area"><img src="http://www.klug-data.jp/img/country/1.gif" border="0" alt="" /><br />米国&nbsp;</td>
+    <td class="index">ニューヨーク連銀製造業景気指数&nbsp;</td>
+    <td class="result">9.1&nbsp;</td>
+    <td class="guess">19.3&nbsp;</td>
+    <td class="last">23.1&nbsp;</td>
+    <td class="revison">20.1&nbsp;</td>
+    <td class="recital">&nbsp;</td>
+  </tr>
+    <tr >
+      <td class="date">
+1月16日      &nbsp;</td>
+      <td class="time">
+23:00  &nbsp;</td>
+    <td class="target">1月&nbsp;</td>
+    <td class="area"><img src="http://www.klug-data.jp/img/country/7.gif" border="0" alt="" /><br />カナダ&nbsp;</td>
+    <td class="index">カナダ政策金利&nbsp;</td>
+    <td class="result">4.25%&nbsp;</td>
+    <td class="guess">4.25%&nbsp;</td>
+    <td class="last">4.25%&nbsp;</td>
+    <td class="revison">&nbsp;</td>
+    <td class="recital">&nbsp;</td>
+  </tr>
+    <tr >
+      <td class="date">
+1月17日      &nbsp;</td>
+      <td class="time">
+06:45  &nbsp;</td>
+    <td class="target">2006年<br>第4四半期&nbsp;</td>
+    <td class="area"><img src="http://www.klug-data.jp/img/country/9.gif" border="0" alt="" /><br />ニュージーランド&nbsp;</td>
+    <td class="index">消費者価格(前年比)&nbsp;</td>
+    <td class="result">2.6%&nbsp;</td>
+    <td class="guess">2.8%&nbsp;</td>
+    <td class="last">3.5%&nbsp;</td>
+    <td class="revison">&nbsp;</td>
+    <td class="recital">&nbsp;</td>
+  </tr>
+    <tr >
+      <td class="date">
+1月17日      &nbsp;</td>
+      <td class="time">
+06:45  &nbsp;</td>
+    <td class="target">2006年<br>第4四半期&nbsp;</td>
+    <td class="area"><img src="http://www.klug-data.jp/img/country/9.gif" border="0" alt="" /><br />ニュージーランド&nbsp;</td>
+    <td class="index">消費者物価(前期比)&nbsp;</td>
+    <td class="result">-0.2%&nbsp;</td>
+    <td class="guess">-0.1%&nbsp;</td>
+    <td class="last">0.7%&nbsp;</td>
+    <td class="revison">&nbsp;</td>
+    <td class="recital">&nbsp;</td>
+  </tr>
+    <tr >
+      <td class="date">
+1月17日      &nbsp;</td>
+      <td class="time">
+16:00  &nbsp;</td>
+    <td class="target">12月&nbsp;</td>
+    <td class="area"><img src="http://www.klug-data.jp/img/country/5.gif" border="0" alt="" /><br />ドイツ&nbsp;</td>
+    <td class="index">消費者物価指数(前月比)&nbsp;</td>
+    <td class="result">0.8%&nbsp;</td>
+    <td class="guess">0.8%&nbsp;</td>
+    <td class="last">0.8%&nbsp;</td>
+    <td class="revison">&nbsp;</td>
+    <td class="recital">速報値&nbsp;</td>
+  </tr>
+    <tr >
+      <td class="date">
+1月17日      &nbsp;</td>
+      <td class="time">
+16:00  &nbsp;</td>
+    <td class="target">12月&nbsp;</td>
+    <td class="area"><img src="http://www.klug-data.jp/img/country/5.gif" border="0" alt="" /><br />ドイツ&nbsp;</td>
+    <td class="index">消費者物価指数(前年比)&nbsp;</td>
+    <td class="result">1.4%&nbsp;</td>
+    <td class="guess">1.4%&nbsp;</td>
+    <td class="last">1.4%&nbsp;</td>
+    <td class="revison">&nbsp;</td>
+    <td class="recital">確報値&nbsp;</td>
+  </tr>
+    <tr >
+      <td class="date">
+1月17日      &nbsp;</td>
+      <td class="time">
+16:00  &nbsp;</td>
+    <td class="target">12月&nbsp;</td>
+    <td class="area"><img src="http://www.klug-data.jp/img/country/5.gif" border="0" alt="" /><br />ドイツ&nbsp;</td>
+    <td class="index">調和消費者物価指数（HICP）（前月比）&nbsp;</td>
+    <td class="result">0.9%&nbsp;</td>
+    <td class="guess">1.0%&nbsp;</td>
+    <td class="last">1.0%&nbsp;</td>
+    <td class="revison">&nbsp;</td>
+    <td class="recital">確報値&nbsp;</td>
+  </tr>
+    <tr >
+      <td class="date">
+1月17日      &nbsp;</td>
+      <td class="time">
+16:00  &nbsp;</td>
+    <td class="target">12月&nbsp;</td>
+    <td class="area"><img src="http://www.klug-data.jp/img/country/5.gif" border="0" alt="" /><br />ドイツ&nbsp;</td>
+    <td class="index">調和消費者物価指数（HICP）（前年比）&nbsp;</td>
+    <td class="result">1.4%&nbsp;</td>
+    <td class="guess">1.5%&nbsp;</td>
+    <td class="last">1.5%&nbsp;</td>
+    <td class="revison">&nbsp;</td>
+    <td class="recital">確報値&nbsp;</td>
+  </tr>
+    <tr >
+      <td class="date">
+1月17日      &nbsp;</td>
+      <td class="time">
+18:00  &nbsp;</td>
+    <td class="target">11月&nbsp;</td>
+    <td class="area"><img src="http://www.klug-data.jp/img/country/12.gif" border="0" alt="" /><br />南アフリカ&nbsp;</td>
+    <td class="index">実質小売売上(前年比)&nbsp;</td>
+    <td class="result">12.3%&nbsp;</td>
+    <td class="guess">&nbsp;</td>
+    <td class="last">8.8%&nbsp;</td>
+    <td class="revison">8.7%&nbsp;</td>
+    <td class="recital">&nbsp;</td>
+  </tr>
+    <tr >
+      <td class="date">
+1月17日      &nbsp;</td>
+      <td class="time">
+18:30  &nbsp;</td>
+    <td class="target">12月&nbsp;</td>
+    <td class="area"><img src="http://www.klug-data.jp/img/country/4.gif" border="0" alt="" /><br />英国&nbsp;</td>
+    <td class="index">失業率&nbsp;</td>
+    <td class="result">3%&nbsp;</td>
+    <td class="guess">3%&nbsp;</td>
+    <td class="last">3%&nbsp;</td>
+    <td class="revison">&nbsp;</td>
+    <td class="recital">&nbsp;</td>
+  </tr>
+    <tr >
+      <td class="date">
+1月17日      &nbsp;</td>
+      <td class="time">
+19:00  &nbsp;</td>
+    <td class="target">12月&nbsp;</td>
+    <td class="area"><img src="http://www.klug-data.jp/img/country/3.gif" border="0" alt="" /><br />ユーロ&nbsp;</td>
+    <td class="index">ユーロ圏消費者物価指数（CPI）（前月比）&nbsp;</td>
+    <td class="result">0.4%&nbsp;</td>
+    <td class="guess">0.4%&nbsp;</td>
+    <td class="last">0.0%&nbsp;</td>
+    <td class="revison">&nbsp;</td>
+    <td class="recital">&nbsp;</td>
+  </tr>
+    <tr >
+      <td class="date">
+1月17日      &nbsp;</td>
+      <td class="time">
+19:00  &nbsp;</td>
+    <td class="target">12月&nbsp;</td>
+    <td class="area"><img src="http://www.klug-data.jp/img/country/3.gif" border="0" alt="" /><br />ユーロ&nbsp;</td>
+    <td class="index">ユーロ圏消費者物価指数（CPI）（前年比）&nbsp;</td>
+    <td class="result">1.9%&nbsp;</td>
+    <td class="guess">1.9%&nbsp;</td>
+    <td class="last">1.9%&nbsp;</td>
+    <td class="revison">&nbsp;</td>
+    <td class="recital">&nbsp;</td>
+  </tr>
+    <tr >
+      <td class="date">
+1月17日      &nbsp;</td>
+      <td class="time">
+19:00  &nbsp;</td>
+    <td class="target">12月&nbsp;</td>
+    <td class="area"><img src="http://www.klug-data.jp/img/country/3.gif" border="0" alt="" /><br />ユーロ&nbsp;</td>
+    <td class="index">ユーロ圏消費者物価指数（コア）（前年比）&nbsp;</td>
+    <td class="result">1.5%&nbsp;</td>
+    <td class="guess">1.6%&nbsp;</td>
+    <td class="last">1.5%&nbsp;</td>
+    <td class="revison">&nbsp;</td>
+    <td class="recital">&nbsp;</td>
+  </tr>
+    <tr >
+      <td class="date">
+1月17日      &nbsp;</td>
+      <td class="time">
+19:00  &nbsp;</td>
+    <td class="target">11月&nbsp;</td>
+    <td class="area"><img src="http://www.klug-data.jp/img/country/3.gif" border="0" alt="" /><br />ユーロ&nbsp;</td>
+    <td class="index">ユーロ圏貿易収支&nbsp;</td>
+    <td class="result">31億ユーロ&nbsp;</td>
+    <td class="guess">39億ユーロ&nbsp;</td>
+    <td class="last">24億ユーロ&nbsp;</td>
+    <td class="revison">30億ユーロ&nbsp;</td>
+    <td class="recital">&nbsp;</td>
+  </tr>
+    <tr >
+      <td class="date">
+1月17日      &nbsp;</td>
+      <td class="time">
+19:00  &nbsp;</td>
+    <td class="target">11月&nbsp;</td>
+    <td class="area"><img src="http://www.klug-data.jp/img/country/3.gif" border="0" alt="" /><br />ユーロ&nbsp;</td>
+    <td class="index">ユーロ圏貿易収支(季調済)&nbsp;</td>
+    <td class="result">45億ユーロ&nbsp;</td>
+    <td class="guess">29億ユーロ&nbsp;</td>
+    <td class="last">17億ユーロ&nbsp;</td>
+    <td class="revison">24億ユーロ&nbsp;</td>
+    <td class="recital">&nbsp;</td>
+  </tr>
+    <tr >
+      <td class="date">
+1月17日      &nbsp;</td>
+      <td class="time">
+22:30  &nbsp;</td>
+    <td class="target">12月&nbsp;</td>
+    <td class="area"><img src="http://www.klug-data.jp/img/country/1.gif" border="0" alt="" /><br />米国&nbsp;</td>
+    <td class="index">生産者物価指数（PPI）（前月比）&nbsp;</td>
+    <td class="result">0.9%&nbsp;</td>
+    <td class="guess">0.5%&nbsp;</td>
+    <td class="last">2%&nbsp;</td>
+    <td class="revison">0.9%&nbsp;</td>
+    <td class="recital">&nbsp;</td>
+  </tr>
+    <tr >
+      <td class="date">
+1月17日      &nbsp;</td>
+      <td class="time">
+22:30  &nbsp;</td>
+    <td class="target">12月&nbsp;</td>
+    <td class="area"><img src="http://www.klug-data.jp/img/country/1.gif" border="0" alt="" /><br />米国&nbsp;</td>
+    <td class="index">生産者物価指数（食品・エネルギー除くコア）（前月比）&nbsp;</td>
+    <td class="result">0.2%&nbsp;</td>
+    <td class="guess">0.1%&nbsp;</td>
+    <td class="last">1.3%&nbsp;</td>
+    <td class="revison">0.9%&nbsp;</td>
+    <td class="recital">&nbsp;</td>
+  </tr>
+    <tr >
+      <td class="date">
+1月17日      &nbsp;</td>
+      <td class="time">
+22:30  &nbsp;</td>
+    <td class="target">12月&nbsp;</td>
+    <td class="area"><img src="http://www.klug-data.jp/img/country/1.gif" border="0" alt="" /><br />米国&nbsp;</td>
+    <td class="index">生産者物価指数（PPI）（前年比）&nbsp;</td>
+    <td class="result">1.1%&nbsp;</td>
+    <td class="guess">0.7%&nbsp;</td>
+    <td class="last">0.9%&nbsp;</td>
+    <td class="revison">&nbsp;</td>
+    <td class="recital">&nbsp;</td>
+  </tr>
+    <tr >
+      <td class="date">
+1月17日      &nbsp;</td>
+      <td class="time">
+22:30  &nbsp;</td>
+    <td class="target">12月&nbsp;</td>
+    <td class="area"><img src="http://www.klug-data.jp/img/country/1.gif" border="0" alt="" /><br />米国&nbsp;</td>
+    <td class="index">生産者物価指数（PPI）（前年比）&nbsp;</td>
+    <td class="result">2%&nbsp;</td>
+    <td class="guess">2%&nbsp;</td>
+    <td class="last">1.8%&nbsp;</td>
+    <td class="revison">1.9%&nbsp;</td>
+    <td class="recital">&nbsp;</td>
+  </tr>
+    <tr >
+      <td class="date">
+1月17日      &nbsp;</td>
+      <td class="time">
+23:00  &nbsp;</td>
+    <td class="target">11月&nbsp;</td>
+    <td class="area"><img src="http://www.klug-data.jp/img/country/1.gif" border="0" alt="" /><br />米国&nbsp;</td>
+    <td class="index">対米証券投資&nbsp;</td>
+    <td class="result">68.4十億&nbsp;</td>
+    <td class="guess">75十億&nbsp;</td>
+    <td class="last">82.3十億&nbsp;</td>
+    <td class="revison">89.3十億&nbsp;</td>
+    <td class="recital">&nbsp;</td>
+  </tr>
+    <tr >
+      <td class="date">
+1月17日      &nbsp;</td>
+      <td class="time">
+23:15  &nbsp;</td>
+    <td class="target">12月&nbsp;</td>
+    <td class="area"><img src="http://www.klug-data.jp/img/country/1.gif" border="0" alt="" /><br />米国&nbsp;</td>
+    <td class="index">鉱工業生産指数（前月比）&nbsp;</td>
+    <td class="result">0.4%&nbsp;</td>
+    <td class="guess">0.1%&nbsp;</td>
+    <td class="last">0.2%&nbsp;</td>
+    <td class="revison">-0.2%&nbsp;</td>
+    <td class="recital">&nbsp;</td>
+  </tr>
+    <tr >
+      <td class="date">
+1月17日      &nbsp;</td>
+      <td class="time">
+23:15  &nbsp;</td>
+    <td class="target">12月&nbsp;</td>
+    <td class="area"><img src="http://www.klug-data.jp/img/country/1.gif" border="0" alt="" /><br />米国&nbsp;</td>
+    <td class="index">設備稼働率&nbsp;</td>
+    <td class="result">81.8%&nbsp;</td>
+    <td class="guess">81.7%&nbsp;</td>
+    <td class="last">81.8%&nbsp;</td>
+    <td class="revison">80.3%&nbsp;</td>
+    <td class="recital">&nbsp;</td>
+  </tr>
+    <tr >
+      <td class="date">
+1月18日      &nbsp;</td>
+      <td class="time">
+08:50  &nbsp;</td>
+    <td class="target">11月&nbsp;</td>
+    <td class="area"><img src="http://www.klug-data.jp/img/country/2.gif" border="0" alt="" /><br />日本&nbsp;</td>
+    <td class="index">第三次産業活動指数(前月比)&nbsp;</td>
+    <td class="result">-0.3%&nbsp;</td>
+    <td class="guess">-0.1%&nbsp;</td>
+    <td class="last">2.1%&nbsp;</td>
+    <td class="revison">&nbsp;</td>
+    <td class="recital">&nbsp;</td>
+  </tr>
+    <tr >
+      <td class="date">
+1月18日      &nbsp;</td>
+      <td class="time">
+14:00  &nbsp;</td>
+    <td class="target">11月&nbsp;</td>
+    <td class="area"><img src="http://www.klug-data.jp/img/country/2.gif" border="0" alt="" /><br />日本&nbsp;</td>
+    <td class="index">景気一致指数&nbsp;</td>
+    <td class="result">65.0%&nbsp;</td>
+    <td class="guess">&nbsp;</td>
+    <td class="last">50.0%&nbsp;</td>
+    <td class="revison">&nbsp;</td>
+    <td class="recital">改定値&nbsp;</td>
+  </tr>
+    <tr >
+      <td class="date">
+1月18日      &nbsp;</td>
+      <td class="time">
+14:00  &nbsp;</td>
+    <td class="target">11月&nbsp;</td>
+    <td class="area"><img src="http://www.klug-data.jp/img/country/2.gif" border="0" alt="" /><br />日本&nbsp;</td>
+    <td class="index">景気先行指数&nbsp;</td>
+    <td class="result">18.2%&nbsp;</td>
+    <td class="guess">&nbsp;</td>
+    <td class="last">20.0%&nbsp;</td>
+    <td class="revison">&nbsp;</td>
+    <td class="recital">改定値&nbsp;</td>
+  </tr>
+    <tr >
+      <td class="date">
+1月18日      &nbsp;</td>
+      <td class="time">
+17:15  &nbsp;</td>
+    <td class="target">12月&nbsp;</td>
+    <td class="area"><img src="http://www.klug-data.jp/img/country/11.gif" border="0" alt="" /><br />香港&nbsp;</td>
+    <td class="index">失業率(季調済)&nbsp;</td>
+    <td class="result">4.4%&nbsp;</td>
+    <td class="guess">4.4%&nbsp;</td>
+    <td class="last">4.4%&nbsp;</td>
+    <td class="revison">&nbsp;</td>
+    <td class="recital">&nbsp;</td>
+  </tr>
+    <tr >
+      <td class="date">
+1月18日      &nbsp;</td>
+      <td class="time">
+22:30  &nbsp;</td>
+    <td class="target">12月&nbsp;</td>
+    <td class="area"><img src="http://www.klug-data.jp/img/country/1.gif" border="0" alt="" /><br />米国&nbsp;</td>
+    <td class="index">消費者物価指数（CPI）（前月比）&nbsp;</td>
+    <td class="result">0.5%&nbsp;</td>
+    <td class="guess">0.4%&nbsp;</td>
+    <td class="last">&nbsp;</td>
+    <td class="revison">0.1%&nbsp;</td>
+    <td class="recital">&nbsp;</td>
+  </tr>
+    <tr >
+      <td class="date">
+1月18日      &nbsp;</td>
+      <td class="time">
+22:30  &nbsp;</td>
+    <td class="target">12月&nbsp;</td>
+    <td class="area"><img src="http://www.klug-data.jp/img/country/1.gif" border="0" alt="" /><br />米国&nbsp;</td>
+    <td class="index">消費者物価指数（CPI）（食品・エネルギー除くコア）（前月比）&nbsp;</td>
+    <td class="result">0.2%&nbsp;</td>
+    <td class="guess">0.2%&nbsp;</td>
+    <td class="last">&nbsp;</td>
+    <td class="revison">0.1%&nbsp;</td>
+    <td class="recital">&nbsp;</td>
+  </tr>
+    <tr >
+      <td class="date">
+1月18日      &nbsp;</td>
+      <td class="time">
+22:30  &nbsp;</td>
+    <td class="target">12月&nbsp;</td>
+    <td class="area"><img src="http://www.klug-data.jp/img/country/1.gif" border="0" alt="" /><br />米国&nbsp;</td>
+    <td class="index">消費者物価指数（CPI）（前年比）&nbsp;</td>
+    <td class="result">2.5%&nbsp;</td>
+    <td class="guess">2.4%&nbsp;</td>
+    <td class="last">&nbsp;</td>
+    <td class="revison">&nbsp;</td>
+    <td class="recital">&nbsp;</td>
+  </tr>
+    <tr >
+      <td class="date">
+1月18日      &nbsp;</td>
+      <td class="time">
+22:30  &nbsp;</td>
+    <td class="target">12月&nbsp;</td>
+    <td class="area"><img src="http://www.klug-data.jp/img/country/1.gif" border="0" alt="" /><br />米国&nbsp;</td>
+    <td class="index">消費者物価指数（CPI）（食品・エネルギー除くコア）（前年比）&nbsp;</td>
+    <td class="result">2.6%&nbsp;</td>
+    <td class="guess">2.6%&nbsp;</td>
+    <td class="last">2.6%&nbsp;</td>
+    <td class="revison">&nbsp;</td>
+    <td class="recital">&nbsp;</td>
+  </tr>
+    <tr >
+      <td class="date">
+1月18日      &nbsp;</td>
+      <td class="time">
+22:30  &nbsp;</td>
+    <td class="target">1/13 - 1/19&nbsp;</td>
+    <td class="area"><img src="http://www.klug-data.jp/img/country/1.gif" border="0" alt="" /><br />米国&nbsp;</td>
+    <td class="index">新規失業保険申請件数&nbsp;</td>
+    <td class="result">290千件&nbsp;</td>
+    <td class="guess">314千件&nbsp;</td>
+    <td class="last">299千件&nbsp;</td>
+    <td class="revison">331千件&nbsp;</td>
+    <td class="recital">&nbsp;</td>
+  </tr>
+    <tr >
+      <td class="date">
+1月18日      &nbsp;</td>
+      <td class="time">
+22:30  &nbsp;</td>
+    <td class="target">12月&nbsp;</td>
+    <td class="area"><img src="http://www.klug-data.jp/img/country/1.gif" border="0" alt="" /><br />米国&nbsp;</td>
+    <td class="index">住宅着工件数&nbsp;</td>
+    <td class="result">1642千件&nbsp;</td>
+    <td class="guess">1565千件&nbsp;</td>
+    <td class="last">1588千件&nbsp;</td>
+    <td class="revison">1570千件&nbsp;</td>
+    <td class="recital">&nbsp;</td>
+  </tr>
+    <tr >
+      <td class="date">
+1月18日      &nbsp;</td>
+      <td class="time">
+22:30  &nbsp;</td>
+    <td class="target">12月&nbsp;</td>
+    <td class="area"><img src="http://www.klug-data.jp/img/country/1.gif" border="0" alt="" /><br />米国&nbsp;</td>
+    <td class="index">住宅建築許可件数&nbsp;</td>
+    <td class="result">1596千件&nbsp;</td>
+    <td class="guess">1505千件&nbsp;</td>
+    <td class="last">1506千件&nbsp;</td>
+    <td class="revison">1535千件&nbsp;</td>
+    <td class="recital">&nbsp;</td>
+  </tr>
+    <tr >
+      <td class="date">
+1月19日      &nbsp;</td>
+      <td class="time">
+02:00  &nbsp;</td>
+    <td class="target">1月&nbsp;</td>
+    <td class="area"><img src="http://www.klug-data.jp/img/country/1.gif" border="0" alt="" /><br />米国&nbsp;</td>
+    <td class="index">フィラデルフィア連銀景況指数&nbsp;</td>
+    <td class="result">8.3&nbsp;</td>
+    <td class="guess">3.1&nbsp;</td>
+    <td class="last">-4.3&nbsp;</td>
+    <td class="revison">-1.4&nbsp;</td>
+    <td class="recital">&nbsp;</td>
+  </tr>
+    <tr >
+      <td class="date">
+1月19日      &nbsp;</td>
+      <td class="time">
+06:45  &nbsp;</td>
+    <td class="target">11月&nbsp;</td>
+    <td class="area"><img src="http://www.klug-data.jp/img/country/9.gif" border="0" alt="" /><br />ニュージーランド&nbsp;</td>
+    <td class="index">小売売上高指数(前月比)&nbsp;</td>
+    <td class="result">-0.2%&nbsp;</td>
+    <td class="guess">-0.1%&nbsp;</td>
+    <td class="last">0.3%&nbsp;</td>
+    <td class="revison">&nbsp;</td>
+    <td class="recital">&nbsp;</td>
+  </tr>
+    <tr >
+      <td class="date">
+1月19日      &nbsp;</td>
+      <td class="time">
+18:30  &nbsp;</td>
+    <td class="target">12月&nbsp;</td>
+    <td class="area"><img src="http://www.klug-data.jp/img/country/4.gif" border="0" alt="" /><br />英国&nbsp;</td>
+    <td class="index">小売売上高（前月比）&nbsp;</td>
+    <td class="result">1.1%&nbsp;</td>
+    <td class="guess">0.6%&nbsp;</td>
+    <td class="last">0.3%&nbsp;</td>
+    <td class="revison">0.6%&nbsp;</td>
+    <td class="recital">&nbsp;</td>
+  </tr>
+    <tr >
+      <td class="date">
+1月19日      &nbsp;</td>
+      <td class="time">
+18:30  &nbsp;</td>
+    <td class="target">12月&nbsp;</td>
+    <td class="area"><img src="http://www.klug-data.jp/img/country/4.gif" border="0" alt="" /><br />英国&nbsp;</td>
+    <td class="index">小売売上高（前年比）&nbsp;</td>
+    <td class="result">3.7%&nbsp;</td>
+    <td class="guess">3.2%&nbsp;</td>
+    <td class="last">3.2%&nbsp;</td>
+    <td class="revison">2.9%&nbsp;</td>
+    <td class="recital">&nbsp;</td>
+  </tr>
+    <tr >
+      <td class="date">
+1月19日      &nbsp;</td>
+      <td class="time">
+18:30  &nbsp;</td>
+    <td class="target">12月&nbsp;</td>
+    <td class="area"><img src="http://www.klug-data.jp/img/country/4.gif" border="0" alt="" /><br />英国&nbsp;</td>
+    <td class="index">公共部門ネット負債&nbsp;</td>
+    <td class="result">7.2十億ポンド&nbsp;</td>
+    <td class="guess">7.6十億ポンド&nbsp;</td>
+    <td class="last">9.9十億ポンド&nbsp;</td>
+    <td class="revison">9.2十億ポンド&nbsp;</td>
+    <td class="recital">&nbsp;</td>
+  </tr>
+    <tr >
+      <td class="date">
+1月19日      &nbsp;</td>
+      <td class="time">
+22:30  &nbsp;</td>
+    <td class="target">11月&nbsp;</td>
+    <td class="area"><img src="http://www.klug-data.jp/img/country/7.gif" border="0" alt="" /><br />カナダ&nbsp;</td>
+    <td class="index">卸売売上高(前月比)&nbsp;</td>
+    <td class="result">0.1%&nbsp;</td>
+    <td class="guess">0.6%&nbsp;</td>
+    <td class="last">-0.2%&nbsp;</td>
+    <td class="revison">-0.4%&nbsp;</td>
+    <td class="recital">&nbsp;</td>
+  </tr>
+    <tr >
+      <td class="date">
+1月20日      &nbsp;</td>
+      <td class="time">
+00:00  &nbsp;</td>
+    <td class="target">1月&nbsp;</td>
+    <td class="area"><img src="http://www.klug-data.jp/img/country/1.gif" border="0" alt="" /><br />米国&nbsp;</td>
+    <td class="index">ミシガン大学消費者信頼感指数&nbsp;</td>
+    <td class="result">98&nbsp;</td>
+    <td class="guess">92.2&nbsp;</td>
+    <td class="last">91.7&nbsp;</td>
+    <td class="revison">&nbsp;</td>
+    <td class="recital">確報&nbsp;</td>
+  </tr>
+    <tr >
+      <td class="date">
+1月22日      &nbsp;</td>
+      <td class="time">
+09:30  &nbsp;</td>
+    <td class="target">2006年<br>第4四半期&nbsp;</td>
+    <td class="area"><img src="http://www.klug-data.jp/img/country/8.gif" border="0" alt="" /><br />オーストラリア&nbsp;</td>
+    <td class="index">生産者物価指数(前期比)&nbsp;</td>
+    <td class="result">0.2%&nbsp;</td>
+    <td class="guess">0.2%&nbsp;</td>
+    <td class="last">1.0%&nbsp;</td>
+    <td class="revison">&nbsp;</td>
+    <td class="recital">&nbsp;</td>
+  </tr>
+    <tr >
+      <td class="date">
+1月22日      &nbsp;</td>
+      <td class="time">
+09:30  &nbsp;</td>
+    <td class="target">2006年<br>第4四半期&nbsp;</td>
+    <td class="area"><img src="http://www.klug-data.jp/img/country/8.gif" border="0" alt="" /><br />オーストラリア&nbsp;</td>
+    <td class="index">生産者物価指数(前年比)&nbsp;</td>
+    <td class="result">3.5%&nbsp;</td>
+    <td class="guess">&nbsp;</td>
+    <td class="last">4.0%&nbsp;</td>
+    <td class="revison">&nbsp;</td>
+    <td class="recital">&nbsp;</td>
+  </tr>
+    <tr >
+      <td class="date">
+1月22日      &nbsp;</td>
+      <td class="time">
+16:00  &nbsp;</td>
+    <td class="target">12月&nbsp;</td>
+    <td class="area"><img src="http://www.klug-data.jp/img/country/5.gif" border="0" alt="" /><br />ドイツ&nbsp;</td>
+    <td class="index">生産者物価指数(前月比)&nbsp;</td>
+    <td class="result">0.0%&nbsp;</td>
+    <td class="guess">0.1%&nbsp;</td>
+    <td class="last">0.0%&nbsp;</td>
+    <td class="revison">&nbsp;</td>
+    <td class="recital">&nbsp;</td>
+  </tr>
+    <tr >
+      <td class="date">
+1月22日      &nbsp;</td>
+      <td class="time">
+16:00  &nbsp;</td>
+    <td class="target">12月&nbsp;</td>
+    <td class="area"><img src="http://www.klug-data.jp/img/country/5.gif" border="0" alt="" /><br />ドイツ&nbsp;</td>
+    <td class="index">生産者物価指数(前年比)&nbsp;</td>
+    <td class="result">4.4%&nbsp;</td>
+    <td class="guess">4.6%&nbsp;</td>
+    <td class="last">4.7%&nbsp;</td>
+    <td class="revison">&nbsp;</td>
+    <td class="recital">&nbsp;</td>
+  </tr>
+    <tr >
+      <td class="date">
+1月22日      &nbsp;</td>
+      <td class="time">
+17:15  &nbsp;</td>
+    <td class="target">12月&nbsp;</td>
+    <td class="area"><img src="http://www.klug-data.jp/img/country/11.gif" border="0" alt="" /><br />香港&nbsp;</td>
+    <td class="index">消費者物価指数 総合(前年比)&nbsp;</td>
+    <td class="result">2.3%&nbsp;</td>
+    <td class="guess">2.2%&nbsp;</td>
+    <td class="last">2.2%&nbsp;</td>
+    <td class="revison">&nbsp;</td>
+    <td class="recital">&nbsp;</td>
+  </tr>
+    <tr >
+      <td class="date">
+1月23日      &nbsp;</td>
+      <td class="time">
+19:00  &nbsp;</td>
+    <td class="target">11月&nbsp;</td>
+    <td class="area"><img src="http://www.klug-data.jp/img/country/3.gif" border="0" alt="" /><br />ユーロ&nbsp;</td>
+    <td class="index">製造業新規受注（季調済・前月比）&nbsp;</td>
+    <td class="result">1.4%&nbsp;</td>
+    <td class="guess">1.1%&nbsp;</td>
+    <td class="last">-0.6%&nbsp;</td>
+    <td class="revison">-0.5%&nbsp;</td>
+    <td class="recital">&nbsp;</td>
+  </tr>
+    <tr >
+      <td class="date">
+1月23日      &nbsp;</td>
+      <td class="time">
+19:00  &nbsp;</td>
+    <td class="target">11月&nbsp;</td>
+    <td class="area"><img src="http://www.klug-data.jp/img/country/3.gif" border="0" alt="" /><br />ユーロ&nbsp;</td>
+    <td class="index">製造業新規受注（前年比）&nbsp;</td>
+    <td class="result">6.2%&nbsp;</td>
+    <td class="guess">5.7%&nbsp;</td>
+    <td class="last">12.5%&nbsp;</td>
+    <td class="revison">12.8%&nbsp;</td>
+    <td class="recital">&nbsp;</td>
+  </tr>
+    <tr >
+      <td class="date">
+1月23日      &nbsp;</td>
+      <td class="time">
+21:00  &nbsp;</td>
+    <td class="target">12月&nbsp;</td>
+    <td class="area"><img src="http://www.klug-data.jp/img/country/7.gif" border="0" alt="" /><br />カナダ&nbsp;</td>
+    <td class="index">消費者物価指数（CPI）（変動8品目除コア）（前月比）&nbsp;</td>
+    <td class="result">-0.2%&nbsp;</td>
+    <td class="guess">0.0%&nbsp;</td>
+    <td class="last">0.3%&nbsp;</td>
+    <td class="revison">&nbsp;</td>
+    <td class="recital">&nbsp;</td>
+  </tr>
+    <tr >
+      <td class="date">
+1月23日      &nbsp;</td>
+      <td class="time">
+21:00  &nbsp;</td>
+    <td class="target">12月&nbsp;</td>
+    <td class="area"><img src="http://www.klug-data.jp/img/country/7.gif" border="0" alt="" /><br />カナダ&nbsp;</td>
+    <td class="index">消費者物価指数（CPI）（変動8品目除コア）（前年比）&nbsp;</td>
+    <td class="result">2.0%&nbsp;</td>
+    <td class="guess">2.3%&nbsp;</td>
+    <td class="last">2.2%&nbsp;</td>
+    <td class="revison">&nbsp;</td>
+    <td class="recital">&nbsp;</td>
+  </tr>
+    <tr >
+      <td class="date">
+1月23日      &nbsp;</td>
+      <td class="time">
+21:00  &nbsp;</td>
+    <td class="target">12月&nbsp;</td>
+    <td class="area"><img src="http://www.klug-data.jp/img/country/7.gif" border="0" alt="" /><br />カナダ&nbsp;</td>
+    <td class="index">消費者物価指数(前月比)&nbsp;</td>
+    <td class="result">0.2%&nbsp;</td>
+    <td class="guess">0.2%&nbsp;</td>
+    <td class="last">0.2%&nbsp;</td>
+    <td class="revison">&nbsp;</td>
+    <td class="recital">&nbsp;</td>
+  </tr>
+    <tr >
+      <td class="date">
+1月23日      &nbsp;</td>
+      <td class="time">
+21:00  &nbsp;</td>
+    <td class="target">12月&nbsp;</td>
+    <td class="area"><img src="http://www.klug-data.jp/img/country/7.gif" border="0" alt="" /><br />カナダ&nbsp;</td>
+    <td class="index">消費者物価指数(前年比)&nbsp;</td>
+    <td class="result">1.6%&nbsp;</td>
+    <td class="guess">1.7%&nbsp;</td>
+    <td class="last">1.4%&nbsp;</td>
+    <td class="revison">&nbsp;</td>
+    <td class="recital">&nbsp;</td>
+  </tr>
+    <tr >
+      <td class="date">
+1月23日      &nbsp;</td>
+      <td class="time">
+22:30  &nbsp;</td>
+    <td class="target">12月&nbsp;</td>
+    <td class="area"><img src="http://www.klug-data.jp/img/country/7.gif" border="0" alt="" /><br />カナダ&nbsp;</td>
+    <td class="index">景気先行指標指数(前月比)&nbsp;</td>
+    <td class="result">0.3%&nbsp;</td>
+    <td class="guess">0.4%&nbsp;</td>
+    <td class="last">0.5%&nbsp;</td>
+    <td class="revison">&nbsp;</td>
+    <td class="recital">&nbsp;</td>
+  </tr>
+    <tr >
+      <td class="date">
+1月23日      &nbsp;</td>
+      <td class="time">
+22:30  &nbsp;</td>
+    <td class="target">11月&nbsp;</td>
+    <td class="area"><img src="http://www.klug-data.jp/img/country/7.gif" border="0" alt="" /><br />カナダ&nbsp;</td>
+    <td class="index">小売売上高(除自動車/前月比)&nbsp;</td>
+    <td class="result">0.1%&nbsp;</td>
+    <td class="guess">0.5%&nbsp;</td>
+    <td class="last">-0.7%&nbsp;</td>
+    <td class="revison">-0.8%&nbsp;</td>
+    <td class="recital">&nbsp;</td>
+  </tr>
+    <tr >
+      <td class="date">
+1月23日      &nbsp;</td>
+      <td class="time">
+22:30  &nbsp;</td>
+    <td class="target">11月&nbsp;</td>
+    <td class="area"><img src="http://www.klug-data.jp/img/country/7.gif" border="0" alt="" /><br />カナダ&nbsp;</td>
+    <td class="index">小売売上高(前月比)&nbsp;</td>
+    <td class="result">0.2%&nbsp;</td>
+    <td class="guess">0.8%&nbsp;</td>
+    <td class="last">-0.7%&nbsp;</td>
+    <td class="revison">-0.8%&nbsp;</td>
+    <td class="recital">&nbsp;</td>
+  </tr>
+    <tr >
+      <td class="date">
+1月24日      &nbsp;</td>
+      <td class="time">
+00:00  &nbsp;</td>
+    <td class="target">12月&nbsp;</td>
+    <td class="area"><img src="http://www.klug-data.jp/img/country/1.gif" border="0" alt="" /><br />米国&nbsp;</td>
+    <td class="index">景気先行指数&nbsp;</td>
+    <td class="result">0.3%&nbsp;</td>
+    <td class="guess">0.2%&nbsp;</td>
+    <td class="last">0.1%&nbsp;</td>
+    <td class="revison">0.1%&nbsp;</td>
+    <td class="recital">&nbsp;</td>
+  </tr>
+    <tr >
+      <td class="date">
+1月24日      &nbsp;</td>
+      <td class="time">
+08:50  &nbsp;</td>
+    <td class="target">11月&nbsp;</td>
+    <td class="area"><img src="http://www.klug-data.jp/img/country/2.gif" border="0" alt="" /><br />日本&nbsp;</td>
+    <td class="index">全産業活動指数(前月比)&nbsp;</td>
+    <td class="result">-0.2%&nbsp;</td>
+    <td class="guess">0.0%&nbsp;</td>
+    <td class="last">1.7%&nbsp;</td>
+    <td class="revison">&nbsp;</td>
+    <td class="recital">&nbsp;</td>
+  </tr>
+    <tr >
+      <td class="date">
+1月24日      &nbsp;</td>
+      <td class="time">
+09:30  &nbsp;</td>
+    <td class="target">2006年<br>第4四半期&nbsp;</td>
+    <td class="area"><img src="http://www.klug-data.jp/img/country/8.gif" border="0" alt="" /><br />オーストラリア&nbsp;</td>
+    <td class="index">消費者価格(前年比)&nbsp;</td>
+    <td class="result">3.3%&nbsp;</td>
+    <td class="guess">3.6%&nbsp;</td>
+    <td class="last">3.9%&nbsp;</td>
+    <td class="revison">&nbsp;</td>
+    <td class="recital">&nbsp;</td>
+  </tr>
+    <tr >
+      <td class="date">
+1月24日      &nbsp;</td>
+      <td class="time">
+09:30  &nbsp;</td>
+    <td class="target">2006年<br>第4四半期&nbsp;</td>
+    <td class="area"><img src="http://www.klug-data.jp/img/country/8.gif" border="0" alt="" /><br />オーストラリア&nbsp;</td>
+    <td class="index">消費者物価(前期比)&nbsp;</td>
+    <td class="result">-0.1%&nbsp;</td>
+    <td class="guess">0.2%&nbsp;</td>
+    <td class="last">0.9%&nbsp;</td>
+    <td class="revison">&nbsp;</td>
+    <td class="recital">&nbsp;</td>
+  </tr>
+    <tr >
+      <td class="date">
+1月24日      &nbsp;</td>
+      <td class="time">
+18:30  &nbsp;</td>
+    <td class="target">12月&nbsp;</td>
+    <td class="area"><img src="http://www.klug-data.jp/img/country/12.gif" border="0" alt="" /><br />南アフリカ&nbsp;</td>
+    <td class="index">消費者物価指数(ｺｱ/前年比)&nbsp;</td>
+    <td class="result">3.8%&nbsp;</td>
+    <td class="guess">3.9%&nbsp;</td>
+    <td class="last">3.4%&nbsp;</td>
+    <td class="revison">&nbsp;</td>
+    <td class="recital">&nbsp;</td>
+  </tr>
+    <tr >
+      <td class="date">
+1月24日      &nbsp;</td>
+      <td class="time">
+18:30  &nbsp;</td>
+    <td class="target">12月&nbsp;</td>
+    <td class="area"><img src="http://www.klug-data.jp/img/country/12.gif" border="0" alt="" /><br />南アフリカ&nbsp;</td>
+    <td class="index">消費者物価指数（前年比）&nbsp;</td>
+    <td class="result">5.8%&nbsp;</td>
+    <td class="guess">5.9%&nbsp;</td>
+    <td class="last">5.4%&nbsp;</td>
+    <td class="revison">&nbsp;</td>
+    <td class="recital">&nbsp;</td>
+  </tr>
+    <tr >
+      <td class="date">
+1月24日      &nbsp;</td>
+      <td class="time">
+18:30  &nbsp;</td>
+    <td class="target">12月&nbsp;</td>
+    <td class="area"><img src="http://www.klug-data.jp/img/country/12.gif" border="0" alt="" /><br />南アフリカ&nbsp;</td>
+    <td class="index">消費者物価指数（前月比）&nbsp;</td>
+    <td class="result">0.4%&nbsp;</td>
+    <td class="guess">0.5%&nbsp;</td>
+    <td class="last">-0.1%&nbsp;</td>
+    <td class="revison">&nbsp;</td>
+    <td class="recital">&nbsp;</td>
+  </tr>
+    <tr >
+      <td class="date">
+1月24日      &nbsp;</td>
+      <td class="time">
+18:30  &nbsp;</td>
+    <td class="target">2006年<br>第4四半期&nbsp;</td>
+    <td class="area"><img src="http://www.klug-data.jp/img/country/4.gif" border="0" alt="" /><br />英国&nbsp;</td>
+    <td class="index">GDP（前期比）&nbsp;</td>
+    <td class="result">0.8%&nbsp;</td>
+    <td class="guess">0.7%&nbsp;</td>
+    <td class="last">0.7%&nbsp;</td>
+    <td class="revison">&nbsp;</td>
+    <td class="recital">速報値&nbsp;</td>
+  </tr>
+    <tr >
+      <td class="date">
+1月24日      &nbsp;</td>
+      <td class="time">
+18:30  &nbsp;</td>
+    <td class="target">2006年<br>第4四半期&nbsp;</td>
+    <td class="area"><img src="http://www.klug-data.jp/img/country/4.gif" border="0" alt="" /><br />英国&nbsp;</td>
+    <td class="index">GDP（前年比）&nbsp;</td>
+    <td class="result">3%&nbsp;</td>
+    <td class="guess">2.9%&nbsp;</td>
+    <td class="last">2.9%&nbsp;</td>
+    <td class="revison">&nbsp;</td>
+    <td class="recital">速報値&nbsp;</td>
+  </tr>
+    <tr >
+      <td class="date">
+1月25日      &nbsp;</td>
+      <td class="time">
+05:00  &nbsp;</td>
+    <td class="target">1月&nbsp;</td>
+    <td class="area"><img src="http://www.klug-data.jp/img/country/9.gif" border="0" alt="" /><br />ニュージーランド&nbsp;</td>
+    <td class="index">RBNZオフィシャルキャッシュレート&nbsp;</td>
+    <td class="result">7.25%&nbsp;</td>
+    <td class="guess">7.25%&nbsp;</td>
+    <td class="last">7.25%&nbsp;</td>
+    <td class="revison">&nbsp;</td>
+    <td class="recital">&nbsp;</td>
+  </tr>
+    <tr >
+      <td class="date">
+1月25日      &nbsp;</td>
+      <td class="time">
+08:50  &nbsp;</td>
+    <td class="target">12月&nbsp;</td>
+    <td class="area"><img src="http://www.klug-data.jp/img/country/2.gif" border="0" alt="" /><br />日本&nbsp;</td>
+    <td class="index">通関ﾍﾞｰｽ貿易収支&nbsp;</td>
+    <td class="result">11150億円&nbsp;</td>
+    <td class="guess">11947億円&nbsp;</td>
+    <td class="last">9159億円&nbsp;</td>
+    <td class="revison">9112億円&nbsp;</td>
+    <td class="recital">&nbsp;</td>
+  </tr>
+    <tr >
+      <td class="date">
+1月25日      &nbsp;</td>
+      <td class="time">
+08:50  &nbsp;</td>
+    <td class="target">12月&nbsp;</td>
+    <td class="area"><img src="http://www.klug-data.jp/img/country/2.gif" border="0" alt="" /><br />日本&nbsp;</td>
+    <td class="index">通関ﾍﾞｰｽ貿易収支(季調済)&nbsp;</td>
+    <td class="result">6581億円&nbsp;</td>
+    <td class="guess">8708億円&nbsp;</td>
+    <td class="last">9911億円&nbsp;</td>
+    <td class="revison">9769億円&nbsp;</td>
+    <td class="recital">&nbsp;</td>
+  </tr>
+    <tr >
+      <td class="date">
+1月25日      &nbsp;</td>
+      <td class="time">
+16:10  &nbsp;</td>
+    <td class="target">2月&nbsp;</td>
+    <td class="area"><img src="http://www.klug-data.jp/img/country/5.gif" border="0" alt="" /><br />ドイツ&nbsp;</td>
+    <td class="index">GFK消費者信頼感調査&nbsp;</td>
+    <td class="result">4.8&nbsp;</td>
+    <td class="guess">8.4&nbsp;</td>
+    <td class="last">8.7&nbsp;</td>
+    <td class="revison">8.5&nbsp;</td>
+    <td class="recital">&nbsp;</td>
+  </tr>
+    <tr >
+      <td class="date">
+1月25日      &nbsp;</td>
+      <td class="time">
+17:15  &nbsp;</td>
+    <td class="target">12月&nbsp;</td>
+    <td class="area"><img src="http://www.klug-data.jp/img/country/11.gif" border="0" alt="" /><br />香港&nbsp;</td>
+    <td class="index">貿易収支&nbsp;</td>
+    <td class="result">-208億香港ドル&nbsp;</td>
+    <td class="guess">&nbsp;</td>
+    <td class="last">-89億香港ドル&nbsp;</td>
+    <td class="revison">&nbsp;</td>
+    <td class="recital">&nbsp;</td>
+  </tr>
+    <tr >
+      <td class="date">
+1月25日      &nbsp;</td>
+      <td class="time">
+18:00  &nbsp;</td>
+    <td class="target">11月&nbsp;</td>
+    <td class="area"><img src="http://www.klug-data.jp/img/country/3.gif" border="0" alt="" /><br />ユーロ&nbsp;</td>
+    <td class="index">ユーロ圏 経常収支(季調前)&nbsp;</td>
+    <td class="result">17億ユーロ&nbsp;</td>
+    <td class="guess">8億ユーロ&nbsp;</td>
+    <td class="last">-4億ユーロ&nbsp;</td>
+    <td class="revison">15億ユーロ&nbsp;</td>
+    <td class="recital">&nbsp;</td>
+  </tr>
+    <tr >
+      <td class="date">
+1月25日      &nbsp;</td>
+      <td class="time">
+18:00  &nbsp;</td>
+    <td class="target">1月&nbsp;</td>
+    <td class="area"><img src="http://www.klug-data.jp/img/country/5.gif" border="0" alt="" /><br />ドイツ&nbsp;</td>
+    <td class="index">Ifo景況感指数&nbsp;</td>
+    <td class="result">107.9&nbsp;</td>
+    <td class="guess">109&nbsp;</td>
+    <td class="last">108.7&nbsp;</td>
+    <td class="revison">&nbsp;</td>
+    <td class="recital">&nbsp;</td>
+  </tr>
+    <tr >
+      <td class="date">
+1月25日      &nbsp;</td>
+      <td class="time">
+18:30  &nbsp;</td>
+    <td class="target">12月&nbsp;</td>
+    <td class="area"><img src="http://www.klug-data.jp/img/country/12.gif" border="0" alt="" /><br />南アフリカ&nbsp;</td>
+    <td class="index">生産者物価指数(前月比)&nbsp;</td>
+    <td class="result">-0.6%&nbsp;</td>
+    <td class="guess">0.3%&nbsp;</td>
+    <td class="last">0.5%&nbsp;</td>
+    <td class="revison">&nbsp;</td>
+    <td class="recital">&nbsp;</td>
+  </tr>
+    <tr >
+      <td class="date">
+1月25日      &nbsp;</td>
+      <td class="time">
+18:30  &nbsp;</td>
+    <td class="target">12月&nbsp;</td>
+    <td class="area"><img src="http://www.klug-data.jp/img/country/12.gif" border="0" alt="" /><br />南アフリカ&nbsp;</td>
+    <td class="index">生産者物価指数(前年比)&nbsp;</td>
+    <td class="result">9.3%&nbsp;</td>
+    <td class="guess">10.2%&nbsp;</td>
+    <td class="last">10.0%&nbsp;</td>
+    <td class="revison">&nbsp;</td>
+    <td class="recital">&nbsp;</td>
+  </tr>
+    <tr >
+      <td class="date">
+1月25日      &nbsp;</td>
+      <td class="time">
+22:30  &nbsp;</td>
+    <td class="target">1/20 - 1/26&nbsp;</td>
+    <td class="area"><img src="http://www.klug-data.jp/img/country/1.gif" border="0" alt="" /><br />米国&nbsp;</td>
+    <td class="index">新規失業保険申請件数&nbsp;</td>
+    <td class="result">325千件&nbsp;</td>
+    <td class="guess">310千件&nbsp;</td>
+    <td class="last">290千件&nbsp;</td>
+    <td class="revison">296千件&nbsp;</td>
+    <td class="recital">&nbsp;</td>
+  </tr>
+    <tr >
+      <td class="date">
+1月26日      &nbsp;</td>
+      <td class="time">
+00:00  &nbsp;</td>
+    <td class="target">12月&nbsp;</td>
+    <td class="area"><img src="http://www.klug-data.jp/img/country/1.gif" border="0" alt="" /><br />米国&nbsp;</td>
+    <td class="index">中古住宅販売件数&nbsp;</td>
+    <td class="result">6.22百万件&nbsp;</td>
+    <td class="guess">6.25百万件&nbsp;</td>
+    <td class="last">6.28百万件&nbsp;</td>
+    <td class="revison">&nbsp;</td>
+    <td class="recital">&nbsp;</td>
+  </tr>
+    <tr >
+      <td class="date">
+1月26日      &nbsp;</td>
+      <td class="time">
+08:30  &nbsp;</td>
+    <td class="target">12月&nbsp;</td>
+    <td class="area"><img src="http://www.klug-data.jp/img/country/2.gif" border="0" alt="" /><br />日本&nbsp;</td>
+    <td class="index">全国消費者物価指数（CPI）(季調済/除生鮮/前月比)&nbsp;</td>
+    <td class="result">-0.1%&nbsp;</td>
+    <td class="guess">0.0%&nbsp;</td>
+    <td class="last">0.0%&nbsp;</td>
+    <td class="revison">&nbsp;</td>
+    <td class="recital">&nbsp;</td>
+  </tr>
+    <tr >
+      <td class="date">
+1月26日      &nbsp;</td>
+      <td class="time">
+08:30  &nbsp;</td>
+    <td class="target">12月&nbsp;</td>
+    <td class="area"><img src="http://www.klug-data.jp/img/country/2.gif" border="0" alt="" /><br />日本&nbsp;</td>
+    <td class="index">全国消費者物価指数（CPI）(季調済/前月比)&nbsp;</td>
+    <td class="result">0.0%&nbsp;</td>
+    <td class="guess">0.0%&nbsp;</td>
+    <td class="last">-0.1%&nbsp;</td>
+    <td class="revison">0.0%&nbsp;</td>
+    <td class="recital">&nbsp;</td>
+  </tr>
+    <tr >
+      <td class="date">
+1月26日      &nbsp;</td>
+      <td class="time">
+08:30  &nbsp;</td>
+    <td class="target">12月&nbsp;</td>
+    <td class="area"><img src="http://www.klug-data.jp/img/country/2.gif" border="0" alt="" /><br />日本&nbsp;</td>
+    <td class="index">全国消費者物価指数（CPI）(除生鮮/前年比)&nbsp;</td>
+    <td class="result">0.1%&nbsp;</td>
+    <td class="guess">0.2%&nbsp;</td>
+    <td class="last">0.2%&nbsp;</td>
+    <td class="revison">&nbsp;</td>
+    <td class="recital">&nbsp;</td>
+  </tr>
+    <tr >
+      <td class="date">
+1月26日      &nbsp;</td>
+      <td class="time">
+08:30  &nbsp;</td>
+    <td class="target">12月&nbsp;</td>
+    <td class="area"><img src="http://www.klug-data.jp/img/country/2.gif" border="0" alt="" /><br />日本&nbsp;</td>
+    <td class="index">全国消費者物価指数（CPI）(前年比)&nbsp;</td>
+    <td class="result">0.3%&nbsp;</td>
+    <td class="guess">0.3%&nbsp;</td>
+    <td class="last">0.3%&nbsp;</td>
+    <td class="revison">&nbsp;</td>
+    <td class="recital">&nbsp;</td>
+  </tr>
+    <tr >
+      <td class="date">
+1月26日      &nbsp;</td>
+      <td class="time">
+18:00  &nbsp;</td>
+    <td class="target">12月&nbsp;</td>
+    <td class="area"><img src="http://www.klug-data.jp/img/country/3.gif" border="0" alt="" /><br />ユーロ&nbsp;</td>
+    <td class="index">ユーロ圏M3(季調済/前年比)&nbsp;</td>
+    <td class="result">9.7%&nbsp;</td>
+    <td class="guess">9.2%&nbsp;</td>
+    <td class="last">9.3%&nbsp;</td>
+    <td class="revison">&nbsp;</td>
+    <td class="recital">&nbsp;</td>
+  </tr>
+    <tr >
+      <td class="date">
+1月26日      &nbsp;</td>
+      <td class="time">
+18:00  &nbsp;</td>
+    <td class="target">12月&nbsp;</td>
+    <td class="area"><img src="http://www.klug-data.jp/img/country/3.gif" border="0" alt="" /><br />ユーロ&nbsp;</td>
+    <td class="index">ユーロ圏M3(季調済3カ月平均)&nbsp;</td>
+    <td class="result">9.2%&nbsp;</td>
+    <td class="guess">9.0%&nbsp;</td>
+    <td class="last">8.8%&nbsp;</td>
+    <td class="revison">&nbsp;</td>
+    <td class="recital">&nbsp;</td>
+  </tr>
+    <tr >
+      <td class="date">
+1月26日      &nbsp;</td>
+      <td class="time">
+22:30  &nbsp;</td>
+    <td class="target">12月&nbsp;</td>
+    <td class="area"><img src="http://www.klug-data.jp/img/country/1.gif" border="0" alt="" /><br />米国&nbsp;</td>
+    <td class="index">耐久財受注（前月比）&nbsp;</td>
+    <td class="result">3.1%&nbsp;</td>
+    <td class="guess">3%&nbsp;</td>
+    <td class="last">1.9%&nbsp;</td>
+    <td class="revison">4%&nbsp;</td>
+    <td class="recital">&nbsp;</td>
+  </tr>
+    <tr >
+      <td class="date">
+1月26日      &nbsp;</td>
+      <td class="time">
+22:30  &nbsp;</td>
+    <td class="target">12月&nbsp;</td>
+    <td class="area"><img src="http://www.klug-data.jp/img/country/1.gif" border="0" alt="" /><br />米国&nbsp;</td>
+    <td class="index">耐久財受注（輸送除くコア）（前月比）&nbsp;</td>
+    <td class="result">2.3%&nbsp;</td>
+    <td class="guess">0.5%&nbsp;</td>
+    <td class="last">-1.1%&nbsp;</td>
+    <td class="revison">0.6%&nbsp;</td>
+    <td class="recital">&nbsp;</td>
+  </tr>
+    <tr >
+      <td class="date">
+1月27日      &nbsp;</td>
+      <td class="time">
+00:00  &nbsp;</td>
+    <td class="target">12月&nbsp;</td>
+    <td class="area"><img src="http://www.klug-data.jp/img/country/1.gif" border="0" alt="" /><br />米国&nbsp;</td>
+    <td class="index">新築住宅販売件数&nbsp;</td>
+    <td class="result">1120千件&nbsp;</td>
+    <td class="guess">1052千件&nbsp;</td>
+    <td class="last">1047千件&nbsp;</td>
+    <td class="revison">1003千件&nbsp;</td>
+    <td class="recital">&nbsp;</td>
+  </tr>
+    <tr >
+      <td class="date">
+1月30日      &nbsp;</td>
+      <td class="time">
+08:30  &nbsp;</td>
+    <td class="target">12月&nbsp;</td>
+    <td class="area"><img src="http://www.klug-data.jp/img/country/2.gif" border="0" alt="" /><br />日本&nbsp;</td>
+    <td class="index">失業率&nbsp;</td>
+    <td class="result">4.1%&nbsp;</td>
+    <td class="guess">4.0%&nbsp;</td>
+    <td class="last">4.0%&nbsp;</td>
+    <td class="revison">&nbsp;</td>
+    <td class="recital">&nbsp;</td>
+  </tr>
+    <tr >
+      <td class="date">
+1月30日      &nbsp;</td>
+      <td class="time">
+08:50  &nbsp;</td>
+    <td class="target">12月&nbsp;</td>
+    <td class="area"><img src="http://www.klug-data.jp/img/country/2.gif" border="0" alt="" /><br />日本&nbsp;</td>
+    <td class="index">鉱工業生産(前月比)&nbsp;</td>
+    <td class="result">0.7%&nbsp;</td>
+    <td class="guess">0.4%&nbsp;</td>
+    <td class="last">0.8%&nbsp;</td>
+    <td class="revison">&nbsp;</td>
+    <td class="recital">確報値&nbsp;</td>
+  </tr>
+    <tr >
+      <td class="date">
+1月30日      &nbsp;</td>
+      <td class="time">
+08:50  &nbsp;</td>
+    <td class="target">12月&nbsp;</td>
+    <td class="area"><img src="http://www.klug-data.jp/img/country/2.gif" border="0" alt="" /><br />日本&nbsp;</td>
+    <td class="index">鉱工業生産(前年比)&nbsp;</td>
+    <td class="result">4.6%&nbsp;</td>
+    <td class="guess">4.3%&nbsp;</td>
+    <td class="last">4.9%&nbsp;</td>
+    <td class="revison">&nbsp;</td>
+    <td class="recital">確報値&nbsp;</td>
+  </tr>
+    <tr >
+      <td class="date">
+1月30日      &nbsp;</td>
+      <td class="time">
+16:00  &nbsp;</td>
+    <td class="target">1月&nbsp;</td>
+    <td class="area"><img src="http://www.klug-data.jp/img/country/4.gif" border="0" alt="" /><br />英国&nbsp;</td>
+    <td class="index">ネーションワイド住宅価格（前月比）&nbsp;</td>
+    <td class="result">0.3%&nbsp;</td>
+    <td class="guess">0.8%&nbsp;</td>
+    <td class="last">1.2%&nbsp;</td>
+    <td class="revison">1.6%&nbsp;</td>
+    <td class="recital">&nbsp;</td>
+  </tr>
+    <tr >
+      <td class="date">
+1月30日      &nbsp;</td>
+      <td class="time">
+16:00  &nbsp;</td>
+    <td class="target">1月&nbsp;</td>
+    <td class="area"><img src="http://www.klug-data.jp/img/country/4.gif" border="0" alt="" /><br />英国&nbsp;</td>
+    <td class="index">ネーションワイド住宅価格（前年比）&nbsp;</td>
+    <td class="result">9.3%&nbsp;</td>
+    <td class="guess">9.9%&nbsp;</td>
+    <td class="last">10.5%&nbsp;</td>
+    <td class="revison">&nbsp;</td>
+    <td class="recital">&nbsp;</td>
+  </tr>
+    <tr >
+      <td class="date">
+1月30日      &nbsp;</td>
+      <td class="time">
+22:30  &nbsp;</td>
+    <td class="target">12月&nbsp;</td>
+    <td class="area"><img src="http://www.klug-data.jp/img/country/7.gif" border="0" alt="" /><br />カナダ&nbsp;</td>
+    <td class="index">原料価格指数(前月比)&nbsp;</td>
+    <td class="result">5.2%&nbsp;</td>
+    <td class="guess">0.5%&nbsp;</td>
+    <td class="last">0.9%&nbsp;</td>
+    <td class="revison">1.0%&nbsp;</td>
+    <td class="recital">&nbsp;</td>
+  </tr>
+    <tr >
+      <td class="date">
+1月30日      &nbsp;</td>
+      <td class="time">
+22:30  &nbsp;</td>
+    <td class="target">12月&nbsp;</td>
+    <td class="area"><img src="http://www.klug-data.jp/img/country/7.gif" border="0" alt="" /><br />カナダ&nbsp;</td>
+    <td class="index">鉱工業製品価格(前月比)&nbsp;</td>
+    <td class="result">1.4%&nbsp;</td>
+    <td class="guess">0.6%&nbsp;</td>
+    <td class="last">0.0%&nbsp;</td>
+    <td class="revison">0.1%&nbsp;</td>
+    <td class="recital">&nbsp;</td>
+  </tr>
+    <tr >
+      <td class="date">
+1月31日      &nbsp;</td>
+      <td class="time">
+01:30  &nbsp;</td>
+    <td class="target">1月&nbsp;</td>
+    <td class="area"><img src="http://www.klug-data.jp/img/country/5.gif" border="0" alt="" /><br />ドイツ&nbsp;</td>
+    <td class="index">消費者物価指数(前月比)&nbsp;</td>
+    <td class="result">-0.2%&nbsp;</td>
+    <td class="guess">0.2%&nbsp;</td>
+    <td class="last">-0.2%&nbsp;</td>
+    <td class="revison">&nbsp;</td>
+    <td class="recital">確報値&nbsp;</td>
+  </tr>
+    <tr >
+      <td class="date">
+1月31日      &nbsp;</td>
+      <td class="time">
+01:30  &nbsp;</td>
+    <td class="target">1月&nbsp;</td>
+    <td class="area"><img src="http://www.klug-data.jp/img/country/5.gif" border="0" alt="" /><br />ドイツ&nbsp;</td>
+    <td class="index">消費者物価指数(前年比)&nbsp;</td>
+    <td class="result">1.6%&nbsp;</td>
+    <td class="guess">2.0%&nbsp;</td>
+    <td class="last">1.4%&nbsp;</td>
+    <td class="revison">&nbsp;</td>
+    <td class="recital">速報値&nbsp;</td>
+  </tr>
+    <tr >
+      <td class="date">
+1月31日      &nbsp;</td>
+      <td class="time">
+01:30  &nbsp;</td>
+    <td class="target">1月&nbsp;</td>
+    <td class="area"><img src="http://www.klug-data.jp/img/country/5.gif" border="0" alt="" /><br />ドイツ&nbsp;</td>
+    <td class="index">調和消費者物価指数（HICP）（前月比）&nbsp;</td>
+    <td class="result">-0.2%&nbsp;</td>
+    <td class="guess">0.2%&nbsp;</td>
+    <td class="last">0.9%&nbsp;</td>
+    <td class="revison">&nbsp;</td>
+    <td class="recital">速報値&nbsp;</td>
+  </tr>
+    <tr >
+      <td class="date">
+1月31日      &nbsp;</td>
+      <td class="time">
+01:30  &nbsp;</td>
+    <td class="target">1月&nbsp;</td>
+    <td class="area"><img src="http://www.klug-data.jp/img/country/5.gif" border="0" alt="" /><br />ドイツ&nbsp;</td>
+    <td class="index">調和消費者物価指数（HICP）（前年比）&nbsp;</td>
+    <td class="result">1.8%&nbsp;</td>
+    <td class="guess">2.2%&nbsp;</td>
+    <td class="last">1.4%&nbsp;</td>
+    <td class="revison">&nbsp;</td>
+    <td class="recital">速報値&nbsp;</td>
+  </tr>
+    <tr >
+      <td class="date">
+1月31日      &nbsp;</td>
+      <td class="time">
+06:45  &nbsp;</td>
+    <td class="target">12月&nbsp;</td>
+    <td class="area"><img src="http://www.klug-data.jp/img/country/9.gif" border="0" alt="" /><br />ニュージーランド&nbsp;</td>
+    <td class="index">貿易収支&nbsp;</td>
+    <td class="result">-4.33億NZドル&nbsp;</td>
+    <td class="guess">-5億NZドル&nbsp;</td>
+    <td class="last">-7.85億NZドル&nbsp;</td>
+    <td class="revison">-8.06億NZドル&nbsp;</td>
+    <td class="recital">&nbsp;</td>
+  </tr>
+    <tr >
+      <td class="date">
+1月31日      &nbsp;</td>
+      <td class="time">
+16:00  &nbsp;</td>
+    <td class="target">12月&nbsp;</td>
+    <td class="area"><img src="http://www.klug-data.jp/img/country/5.gif" border="0" alt="" /><br />ドイツ&nbsp;</td>
+    <td class="index">小売売上高指数(前月比)&nbsp;</td>
+    <td class="result">2.4%&nbsp;</td>
+    <td class="guess">1.2%&nbsp;</td>
+    <td class="last">-0.7%&nbsp;</td>
+    <td class="revison">-0.7%&nbsp;</td>
+    <td class="recital">&nbsp;</td>
+  </tr>
+    <tr >
+      <td class="date">
+1月31日      &nbsp;</td>
+      <td class="time">
+16:00  &nbsp;</td>
+    <td class="target">12月&nbsp;</td>
+    <td class="area"><img src="http://www.klug-data.jp/img/country/5.gif" border="0" alt="" /><br />ドイツ&nbsp;</td>
+    <td class="index">小売売上高指数(前年比)&nbsp;</td>
+    <td class="result">-0.2%&nbsp;</td>
+    <td class="guess">0.8%&nbsp;</td>
+    <td class="last">-0.5%&nbsp;</td>
+    <td class="revison">-0.4%&nbsp;</td>
+    <td class="recital">&nbsp;</td>
+  </tr>
+    <tr >
+      <td class="date">
+1月31日      &nbsp;</td>
+      <td class="time">
+17:55  &nbsp;</td>
+    <td class="target">1月&nbsp;</td>
+    <td class="area"><img src="http://www.klug-data.jp/img/country/5.gif" border="0" alt="" /><br />ドイツ&nbsp;</td>
+    <td class="index">失業者数(千人単位)&nbsp;</td>
+    <td class="result">-106千人&nbsp;</td>
+    <td class="guess">-40千人&nbsp;</td>
+    <td class="last">-108千人&nbsp;</td>
+    <td class="revison">&nbsp;</td>
+    <td class="recital">&nbsp;</td>
+  </tr>
+    <tr >
+      <td class="date">
+1月31日      &nbsp;</td>
+      <td class="time">
+17:55  &nbsp;</td>
+    <td class="target">1月&nbsp;</td>
+    <td class="area"><img src="http://www.klug-data.jp/img/country/5.gif" border="0" alt="" /><br />ドイツ&nbsp;</td>
+    <td class="index">失業率(季調済)&nbsp;</td>
+    <td class="result">9.5%&nbsp;</td>
+    <td class="guess">9.7%&nbsp;</td>
+    <td class="last">9.8%&nbsp;</td>
+    <td class="revison">&nbsp;</td>
+    <td class="recital">&nbsp;</td>
+  </tr>
+    <tr >
+      <td class="date">
+1月31日      &nbsp;</td>
+      <td class="time">
+19:00  &nbsp;</td>
+    <td class="target">12月&nbsp;</td>
+    <td class="area"><img src="http://www.klug-data.jp/img/country/3.gif" border="0" alt="" /><br />ユーロ&nbsp;</td>
+    <td class="index">ユーロ圏 失業率&nbsp;</td>
+    <td class="result">7.5%&nbsp;</td>
+    <td class="guess">7.6%&nbsp;</td>
+    <td class="last">7.6%&nbsp;</td>
+    <td class="revison">&nbsp;</td>
+    <td class="recital">&nbsp;</td>
+  </tr>
+    <tr >
+      <td class="date">
+1月31日      &nbsp;</td>
+      <td class="time">
+19:00  &nbsp;</td>
+    <td class="target">1月&nbsp;</td>
+    <td class="area"><img src="http://www.klug-data.jp/img/country/3.gif" border="0" alt="" /><br />ユーロ&nbsp;</td>
+    <td class="index">ユーロ圏消費者物価指数（前年比）&nbsp;</td>
+    <td class="result">1.9%&nbsp;</td>
+    <td class="guess">2.1%&nbsp;</td>
+    <td class="last">1.9%&nbsp;</td>
+    <td class="revison">&nbsp;</td>
+    <td class="recital">概算速報値&nbsp;</td>
+  </tr>
+    <tr >
+      <td class="date">
+1月31日      &nbsp;</td>
+      <td class="time">
+19:30  &nbsp;</td>
+    <td class="target">1月&nbsp;</td>
+    <td class="area"><img src="http://www.klug-data.jp/img/country/6.gif" border="0" alt="" /><br />スイス&nbsp;</td>
+    <td class="index">KOFスイス先行指数&nbsp;</td>
+    <td class="result">1.71&nbsp;</td>
+    <td class="guess">1.54&nbsp;</td>
+    <td class="last">1.6&nbsp;</td>
+    <td class="revison">1.75&nbsp;</td>
+    <td class="recital">&nbsp;</td>
+  </tr>
+    <tr >
+      <td class="date">
+1月31日      &nbsp;</td>
+      <td class="time">
+19:30  &nbsp;</td>
+    <td class="target">1月&nbsp;</td>
+    <td class="area"><img src="http://www.klug-data.jp/img/country/4.gif" border="0" alt="" /><br />英国&nbsp;</td>
+    <td class="index">GFK消費者信頼感調査&nbsp;</td>
+    <td class="result">-7&nbsp;</td>
+    <td class="guess">-9&nbsp;</td>
+    <td class="last">-8&nbsp;</td>
+    <td class="revison">&nbsp;</td>
+    <td class="recital">&nbsp;</td>
+  </tr>
+    <tr >
+      <td class="date">
+1月31日      &nbsp;</td>
+      <td class="time">
+22:30  &nbsp;</td>
+    <td class="target">11月&nbsp;</td>
+    <td class="area"><img src="http://www.klug-data.jp/img/country/7.gif" border="0" alt="" /><br />カナダ&nbsp;</td>
+    <td class="index">GDP(前月比)&nbsp;</td>
+    <td class="result">0.2%&nbsp;</td>
+    <td class="guess">0.3%&nbsp;</td>
+    <td class="last">0.0%&nbsp;</td>
+    <td class="revison">&nbsp;</td>
+    <td class="recital">&nbsp;</td>
+  </tr>
+</table>
+    </div><!--/class="indexTblArea"-->
+        
+        
+<div class="containerBox mainAdsBox mainAdsBox02">
+	<h2 class="boxTitle_a"><span>PR / Ad Space</span></h2>
+	<div class="contentsBox">
+		<script type="text/javascript">
+			overture.init();
+		</script>
+		<script type="text/javascript">
+			overture.write_html({type: 'listStyle01', limit: 3});
+		</script>
+	</div><!--/class="contentsBox"-->
+	<div class="overture_footer">インタレストマッチ - <a href="http://ov.yahoo.co.jp/service/int/index.html?o=IM0028" target="_blank">広告の掲載について</a></div>
+</div><!--/class="containerBox"-->
+        
+        
+      </div><!--/class="mcInner"-->
+      
+      
+<div class="toPageTop"><a href="#"><img src="/_common/img/btn_toPageTop.gif" width="114" height="30" alt="ページトップへ戻る" /></a></div>
+      
+      
+    </div><!--/class="mainContents"-->
+    
+    
+  </div><!--/class="container"-->
+  
+  
+	<div class="footer">
+    <div class="ftrLinksArea">
+      <table class="layout"><tr>
+        <td style="border-left:none;"><h3 class="classTitle">ニュース</h3>
+          <ul>
+            <li><a href="/fxnews/">為替ニュース</a></li>
+            <li><a href="/yucasee/">Klug Prestige</a></li>
+            <li><a href="/fxnews/ranking.php">為替ニュースランキング</a></li>
+            <li><a href="/press/">Klug Press</a></li>
+            <li><a href="/news/">Klugクルークからのお知らせ</a></li>
+          </ul>
+        </td>
+        <td><h3 class="classTitle">レポート</h3>
+          <ul>
+            <li><a href="/fxreview/">為替市場レビュー</a></li>
+            <li><a href="/fxreport/">山岡和雅の視点</a></li>
+            <li><a href="/commodity/">平山順のコモディティレポート</a></li>
+            <li><a href="/au/">ABN Newswireオーストラリア市場レポート</a></li>
+          </ul>
+        </td>
+        <td><h3 class="classTitle">為替ブログ</h3>
+          <ul>
+            <li><a href="/yamaoka/">山岡和雅のダックビル為替研究所</a></li>
+            <li><a href="/matsuki/">松木秀明のニュースに書けないFXのハナシ</a></li>
+            <li><a href="/kanai/">金井京子のFXで優雅なニート生活</a></li>
+            <li><a href="/takano/">高野やすのりののりのりFX</a></li>
+            <li><a href="/president/">THE PRESIDENTS</a></li>
+            <li><a href="/wolf/">ホワイトウルフのＦＸ取引実況ブログ</a></li>
+            <li><a href="/forecast/">今週の為替見通し紹介</a></li>
+          </ul>
+        </td>
+        <td><h3 class="classTitle">経済ブログ</h3>
+          <ul>
+            <li><a href="/mitsuhashi/">三橋貴明の「経済記事にはもうだまされない！」</a></li>
+            <li><a href="/ogasawara/">小笠原誠治の経済ニュースに異議あり！</a></li>
+            <li><a href="/goodway/">グッドウェイの志「金融・IT業界の潮流」～Keep Moving Forward～</a></li>
+          </ul>
+        </td>
+        <td><h3 class="classTitle">チャート・カレンダー</h3>
+          <ul>
+            <li><a href="/chart/fx.php">FX株マップ.comチャート</a></li>
+            <li><a href="/chart/fx2.php">為替チャート-クロス円</a></li>
+            <li><a href="/chart/sc.php">株・商品チャート</a></li>
+            <li><a href="/indexcal/">経済指標カレンダー</a></li>
+            <li><a href="/holiday/">金融市場休日カレンダー</a></li>
+          </ul>
+        </td>
+        <td><h3 class="classTitle">投資ツール・セミナー</h3>
+          <ul>
+            <li><a href="/seminar/">Klugセミナーインフォメーション</a></li>
+            <li><a href="/guide/">Klugクルークの使い方ガイド</a></li>
+            <li><a href="/video/">Klugビデオ</a></li>
+          </ul>
+        </td>
+        <td><h3 class="classTitle">データ集</h3>
+          <ul>
+            <li><a href="/interestrate/">政策金利一覧表</a></li>
+            <li><a href="/member/">中央銀行ボードメンバー</a></li>
+            <li><a href="/member/detail.php?country_id=1">金融政策の変遷</a></li>
+            <li><a href="/book/">書籍紹介</a></li>
+            <li><a href="/glossary/">用語集</a></li>
+            <li><a href="/enquete/">クルクるアンケート</a></li>
+          </ul>
+        </td>
+        <td><h3 class="classTitle">比較コンテンツ</h3>
+          <ul>
+            <li><a href="/otc/">FX会社ランキングBEST5！（Klug調べ）</a></li>
+            <li><a href="/fxcompany/">企業力で選ぶ！FX会社比較</a></li>
+            <li><a href="/swappoint/">スワップポイント比較表</a></li>
+            <li><a href="http://zai.diamond.jp/zaiklug">ZaiKlug! ザイクル！</a></li>
+          </ul>
+        </td>
+      </tr></table>
+    </div><!--/class="ftrLinksArea"-->
+    <div class="ftrBar floatClear">
+      <div class="ftrNav" id="ftrNav">
+        <ul class="float imgList">
+          <li id="ftrNav01"><a href="/etc/company.php"><!--会社案内--></a></li>
+          <li id="ftrNav02"><a href="/etc/about.php"><!--Klugとは--></a></li>
+          <li id="ftrNav03"><a href="/guide/"><!--Klugクルークの使い方ガイド--></a></li>
+          <li id="ftrNav04"><a href="/etc/sitemap.php"><!--サイトマップ--></a></li>
+          <li id="ftrNav05"><a href="/etc/contact.php"><!--お問い合わせ--></a></li>
+        </ul>
+      </div>
+      <div class="copyright" id="copyright"><a href="http://www.gcic.jp/" target="_blank"><!--GCI CAPITAL  Copyright &copy; 2010 GCI CAPITAL Co., Ltd. All Rights reserved--></a></div>
+    </div><!--/class="ftrBar"-->
+		<div class="disclaimer">
+			<p>本サイトに掲載されている情報は、情報提供を目的としたものであり、特定商品や投資の勧誘を目的としたものではありません。<br />
+			最終的な投資判断はお客様ご自身の判断と責任によってなされるものであり、この情報に基づいて被ったいかなる損害について株式会社ＧＣＩキャピタルは責任を負いません。<br />
+			株式会社ＧＣＩキャピタルは、信頼できる情報をもとに本資料を作成しておりますが、正確性・完全性について株式会社ＧＣＩキャピタルが責任を負うものではありません。<br />
+			本サイトに記載されている情報は、作成時点のものであり、市場環境の変化等によって予告なく変更または廃止することがあります。<br />
+			本サイトに掲載されている情報の著作権は株式会社ＧＣＩキャピタルに帰属し、本サイトに記載されている情報を株式会社ＧＣＩキャピタルの許可無しに転用、複製、複写することはできません。<br />
+			</p>
+		</div><!--/class="disclaimer"-->
+
+
+	</div><!--/class="footer"-->
+  
+  
+</div><!--/class="wrapper"-->
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-2032863-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+<script type="text/javascript">
+function recordOutboundLink(link, category, action) {
+  try {
+    var myTracker=_gat._getTrackerByName();
+    myTracker._trackEvent(category, action);
+    setTimeout('document.location = "' + link.href + '"', 100)
+  }catch(err){}
+}
+</script>
+</body>
+</html>

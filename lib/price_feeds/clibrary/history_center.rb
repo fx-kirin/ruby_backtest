@@ -30,7 +30,6 @@ class HistoryCenter
   
   def get_data(symbol, bar, type)
     raise OutOfRangeException, "Out of range." if bar >= @max_bars[symbol]
-    
     pos = 268 + bar * 44
     case(type)
     when :time

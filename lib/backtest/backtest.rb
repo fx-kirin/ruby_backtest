@@ -2,7 +2,7 @@ require_relative "../trader/trader"
 require_relative "../backtest_order_manager/backtest_order_manager"
 require_relative "../price_feeds/clibrary/price_feeds"
 class Backtest
-  def initialize(trader, set_params = nil)
+  def initialize(trader, set_params = [])
     @feeds = PriceFeeds.new
     @manager = BacktestOrderManager.new
     @trader = trader.new(@feeds, @manager)
@@ -21,9 +21,9 @@ class Backtest
     }
     month = 0
     while(@feeds.time(symbol, 0) < end_date)
-      now_month = @feeds.time(symbol, 0).month
-      print("backtest is working " + @feeds.time(symbol, 0).to_s + "\r") unless month == now_month
-      month = now_month
+      #now_month = @feeds.time(symbol, 0).month
+      #print("backtest is working " + @feeds.time(symbol, 0).to_s + "\r") unless month == now_month
+      #month = now_month
       @trader.run
       begin
         @feeds.go_forward

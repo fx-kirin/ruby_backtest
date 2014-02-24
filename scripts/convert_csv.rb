@@ -13,13 +13,17 @@ path = File.expand_path("../../data/hst/" + file_name + ".hst", __FILE__)
 file = File.open(path, "wb")
 
 # symbol
-file.write(["USDJPY60"].pack("Z256"))
+file.write([file_name].pack("Z256"))
 # digits
 file.write([digits.to_i].pack("L"))
+size_pos = file.pos
 File.open(csv){|f|
   file.write([f.readlines.size].pack("Q"))
 }
+size_count = 0
 CSV.foreach(csv){|row|
+  next if row[6].to_i == 0
+  next if row[0] == ""
   time = Time.parse(row[0] + " " + row[1])
   file.write([time.to_i].pack("l"))
   file.write([time.usec].pack("l"))
@@ -28,6 +32,10 @@ CSV.foreach(csv){|row|
   file.write([row[4].to_f].pack("d"))
   file.write([row[5].to_f].pack("d"))
   file.write([row[6].to_i].pack("l"))
+  size_count += 1
 }
+
+file.pos = size_pos
+file.write([size_count].pack("Q"))
 
 file.close
