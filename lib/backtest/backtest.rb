@@ -19,7 +19,7 @@ class Backtest
     spread_list.each{|sym, spread|
       @trader.set_spread(sym, spread)
     }
-    month = 0
+    #month = 0
     while(@feeds.time(symbol, 0) < end_date)
       #now_month = @feeds.time(symbol, 0).month
       #print("backtest is working " + @feeds.time(symbol, 0).to_s + "\r") unless month == now_month

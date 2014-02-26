@@ -196,5 +196,6 @@ end
 traders_path = File.expand_path("../../../traders", __FILE__)
 Dir::foreach(traders_path) do |v|
   next if v == "." or v == ".."
+  next if File::ftype("%s/%s"%[traders_path, v]) == "directory"
   require_relative "%s/%s"%[traders_path, v]
 end

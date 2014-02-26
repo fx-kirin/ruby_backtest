@@ -62,6 +62,10 @@ class PriceFeeds
   def set_base_symbol(symbol, date)
     @base_symbol = symbol
     set_bar_from_date(symbol, date)
+    @bar.keys.each{|sym|
+      next if sym == @base_symbol
+      set_bar_from_date(sym, get_real_chart_data(@base_symbol, :time, @bar[@base_symbol]))
+    }
   end
 
   def get_base_symbol
