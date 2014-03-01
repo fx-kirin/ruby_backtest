@@ -55,12 +55,16 @@ class PriceFeeds
   def set_data(symbol)
     @history.load(symbol)
     @max_bars = @history.max_bars
-    @bar[symbol] = 0
+    @bar[symbol] = 200
   end
   
   # Backtest will proceed on base pair basis.
   def set_base_symbol(symbol, date)
     @base_symbol = symbol
+    if(time(symbol, 0) >= date)
+      date = time(symbol, 0)
+    end
+    
     set_bar_from_date(symbol, date)
     @bar.keys.each{|sym|
       next if sym == @base_symbol

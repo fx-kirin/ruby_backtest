@@ -69,9 +69,9 @@ class Trader
     @total_trades += 1
     case order_type
     when OrderLong
-      open_price = ask
+      open_price = @spread.has_key?(symbol) ? i_open(symbol, 0) + @spread[symbol] : i_open(symbol, 0)
     when OrderShort
-      open_price = bid
+      open_price = i_open(symbol, 0)
     end
     open_time = @feeds.time(symbol, 0)
     @manager.open_order(symbol, order_type, open_price, lots, take_profit, stop_loss, magic_number, open_time)
@@ -80,9 +80,9 @@ class Trader
   def close_order(order)
     case order.order_type
     when OrderShort
-      close_price = ask
+      close_price = @spread.has_key?(order.symbol) ? i_open(order.symbol, 0) + @spread[order.symbol] : i_open(order.symbol, 0)
     when OrderLong
-      close_price = bid
+      close_price = i_open(order.symbol, 0)
     end
     close_time = @feeds.time(order.symbol, 0)
     order = @manager.close_order(order.order_number, close_price, close_time)

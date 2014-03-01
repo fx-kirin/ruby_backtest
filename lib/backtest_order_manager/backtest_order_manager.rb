@@ -35,7 +35,7 @@ class BacktestOrderManager
       order.profit = order.open_price - order.close_price
     end
     order.profit *= order.lots
-    order.profit = order.profit.round(8)
+    order.profit = order.profit.round(8) / close_price
     @list.save(order)
     order
   end
