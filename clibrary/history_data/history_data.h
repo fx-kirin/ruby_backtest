@@ -18,5 +18,5 @@ public:
   double moving_average(int index, unsigned long pos, int period);
 
   int symbol_amount;
-  char *bar_data[256];
+  char *bar_data[10000];
 };

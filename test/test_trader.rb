@@ -55,4 +55,36 @@ class TestTrader < TestMaster
     }
     puts @feeds.time(:USDJPY60, 0)
   end
+  
+  def test_close_price_order
+    base_date = Time.parse("2011.01.10 07:00")
+    @trader.setup
+    @trader.set_base_symbol(:USDJPY60, base_date)
+    @trader.set_spread(:USDJPY60, 0.003)
+    
+    [:open, :close].each{|price_type|
+      case(price_type)
+      when :open
+        bar = 0
+      when :close
+        bar = 1
+      end
+      
+      @trader.open_order(:USDJPY60, Trader::OrderLong, 1, 0, 0, 123, price_type)
+      order = @trader.get_order(123)
+      assert_equal(order.open_price, @trader.send(price_type, bar) + 0.003, "Has to be #{price_type.to_s} price.")
+      
+      order = @trader.close_order(order, price_type)
+      assert_equal(order.close_price, @trader.send(price_type, bar), "Has to be #{price_type.to_s} price.")
+
+      @trader.open_order(:USDJPY60, Trader::OrderShort, 1, 0, 0, 123, price_type)
+      order = @trader.get_order(123)
+      assert_equal(order.open_price, @trader.send(price_type, bar), "Has to be #{price_type.to_s} price.")
+      
+      order = @trader.close_order(order, price_type)
+      assert_equal(order.close_price, @trader.send(price_type, bar) + 0.003, "Has to be #{price_type.to_s} price.")
+    }
+    
+    
+  end
 end

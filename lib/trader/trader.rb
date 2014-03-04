@@ -65,24 +65,44 @@ class Trader
     @manager.get_open_positions(magic_number)
   end
   
-  def open_order(symbol, order_type, lots, take_profit, stop_loss, magic_number)
+  def open_order(symbol, order_type, lots, take_profit, stop_loss, magic_number, base_price = :open)
     @total_trades += 1
     case order_type
     when OrderLong
-      open_price = @spread.has_key?(symbol) ? i_open(symbol, 0) + @spread[symbol] : i_open(symbol, 0)
+      case(base_price)
+      when :open
+        open_price = @spread.has_key?(symbol) ? i_open(symbol, 0) + @spread[symbol] : i_open(symbol, 0)
+      when :close
+        open_price = @spread.has_key?(symbol) ? i_close(symbol, 1) + @spread[symbol] : i_close(symbol, 1)
+      end
     when OrderShort
-      open_price = i_open(symbol, 0)
+      case(base_price)
+      when :open
+        open_price = i_open(symbol, 0)
+      when :close
+        open_price = i_close(symbol, 1)
+      end
     end
     open_time = @feeds.time(symbol, 0)
     @manager.open_order(symbol, order_type, open_price, lots, take_profit, stop_loss, magic_number, open_time)
   end
   
-  def close_order(order)
+  def close_order(order, base_price = :open)
     case order.order_type
     when OrderShort
-      close_price = @spread.has_key?(order.symbol) ? i_open(order.symbol, 0) + @spread[order.symbol] : i_open(order.symbol, 0)
+      case(base_price)
+      when :open
+        close_price = @spread.has_key?(order.symbol) ? i_open(order.symbol, 0) + @spread[order.symbol] : i_open(order.symbol, 0)
+      when :close
+        close_price = @spread.has_key?(order.symbol) ? i_close(order.symbol, 1) + @spread[order.symbol] : i_close(order.symbol, 1)
+      end
     when OrderLong
-      close_price = i_open(order.symbol, 0)
+      case(base_price)
+      when :open
+        close_price = i_open(order.symbol, 0)
+      when :close
+        close_price = i_close(order.symbol, 1)
+      end
     end
     close_time = @feeds.time(order.symbol, 0)
     order = @manager.close_order(order.order_number, close_price, close_time)
@@ -95,6 +115,7 @@ class Trader
     @profit += order.profit
     @maximum_profit = @profit if(@maximum_profit < @profit)
     @drawdown = @maximum_profit - @profit if @drawdown < @maximum_profit - @profit
+    order
   end
   
   def order_exists?(magic_number=0)

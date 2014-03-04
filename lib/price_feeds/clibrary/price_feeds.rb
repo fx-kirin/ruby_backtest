@@ -55,7 +55,7 @@ class PriceFeeds
   def set_data(symbol)
     @history.load(symbol)
     @max_bars = @history.max_bars
-    @bar[symbol] = 200
+    @bar[symbol] = 1
   end
   
   # Backtest will proceed on base pair basis.

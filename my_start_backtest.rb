@@ -13,7 +13,7 @@ puts Benchmark.measure {
         puts symbol
         spread = {symbol => 0.000}
         @backtest = Backtest.new(trader)
-        start_date = Time.parse("2007.01.10 00:00")
+        start_date = Time.parse("2007.01.01 00:00")
         end_date = Time.parse("2014.01.30 00:00")
         @backtest.run(symbol, start_date, end_date, spread)
       rescue
